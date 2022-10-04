@@ -12,3 +12,7 @@
 .productBrandContainer .productBrandName{
     border-bottom:1px solid #BBBBBC ;
 }
+
+.clearLink {
+    text-decoration: none;
+}
