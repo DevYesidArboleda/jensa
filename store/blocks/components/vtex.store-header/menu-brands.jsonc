@@ -1,0 +1,270 @@
+{
+    "vtex.menu@2.x:menu#MenuDespl-brands": {
+        "children": ["menu-item#MenuDespl-brands"],
+        "props": {
+            "blockClass": "MenuDesplegable"
+        }
+    },
+    "menu-item#MenuDespl-brands": {
+        "props": {
+            "id": "menu-item-section-1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "MenuDesplegable-Opcion",
+            "fullWidth": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/marcas",
+                "noFollow": false,
+                "tagTitle": "TODAS LAS MARCAS",
+                "text": "TODAS LAS MARCAS"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#MenuDespl-brands"]
+    },
+    "vtex.menu@2.x:submenu#MenuDespl-brands": {
+        "children": [
+            "flex-layout.col#desktop-brands-col"
+        ],
+        "props": {
+            "blockClass": "MenuDesplegable-Opcion",
+            "fullWidth": true,
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#desktop-brands-col": {
+        "props": {
+            "blockClass": "brands-col",
+            "horizontalAlign": "right",
+            "verticalAlign": "right",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.row#desktop-brands-text",
+            "flex-layout.row#desktop-brands-row-one",
+            "flex-layout.row#desktop-brands-row-two"
+        ]
+    },
+    "flex-layout.row#desktop-brands-row-one": {
+        "props": {
+            "blockClass": "brands-row-one",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "paddingTop": 3,
+            "paddingBottom": 3
+        },
+        "children": [
+            "list-context.image-list#image-brands"
+        ]
+    },
+    "list-context.image-list#image-brands": {
+        "children": ["slider-layout#image-brands"],
+        "props": {
+            "height": 174,
+            "images": [{
+                    "image": "/arquivos/brandsImageOne.png",
+                    "height": "132px",
+                    "mobileImage": "/arquivos/brandsImageOne.png"
+                },
+                {
+                    "image": "/arquivos/brandsImageTwo.png",
+                    "height": "132px",
+                    "mobileImage": "/arquivos/brandsImageTwo.png"
+                },
+                {
+                    "image": "/arquivos/brandsImageThree.png",
+                    "height": "132px",
+                    "mobileImage": "/arquivos/brandsImageThree.png"
+                },
+                {
+                    "image": "/arquivos/brandsImageFour.png",
+                    "height": "132px",
+                    "mobileImage": "/arquivos/brandsImageFour.png"
+                },
+                {
+                    "image": "/arquivos/brandsImageFive.png",
+                    "height": "132px",
+                    "mobileImage": "/arquivos/brandsImageFive.png"
+                },
+                {
+                    "image": "/arquivos/brandsImageSix.png",
+                    "height": "132px",
+                    "mobileImage": "/arquivos/brandsImageSix.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#image-brands": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": "image-brands"
+        }
+    },
+    "flex-layout.row#desktop-brands-row-two": {
+        "props": {
+            "blockClass": "brands-row-two",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "paddingTop": 4,
+            "paddingBottom": 4
+        },
+        "children": [
+            "image#brands-header"
+        ]
+    },
+    "image#brands-header": {
+        "props": {
+            "src": "/arquivos/bannerBrands.png",
+            "alt": "Logo Header",
+            "heigth": "150px",
+            "blockClass": "brands-header",
+            "link": {
+                "url": "/",
+                "openNewTab": true,
+                "title": ""
+            }
+        }
+    },
+    "flex-layout.row#desktop-brands-text": {
+        "props": {
+            "blockClass": "brands-text",
+            "horizontalAlign": "right",
+            "verticalAlign": "right",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "paddingTop": 2,
+            "paddingBottom": 2
+        },
+        "children": [
+            "rich-text#bannerTextBrands"
+        ]
+    },
+    "rich-text#bannerTextBrands": {
+        "props": {
+          "text": "[VER TODO](/marcas)",
+          "blockClass": "bannerTextSearch",
+          "textAlignment": "RIGHT",
+          "textPosition": "RIGHT"
+        }
+      },
+
+      //Menú Desplegado hogar
+
+  "drawer#brands": {
+    "children": ["menu#drawerbrands"],
+    "blocks": ["drawer-trigger#brands"],
+    "props": {
+      "blockClass": "menuDespl"
+    }
+  },
+  "drawer-trigger#brands": {
+    "children": ["rich-text#LinkMenuDepl-brands"]
+  },
+  "rich-text#LinkMenuDepl-brands": {
+    "props": {
+      "text": "MARCAS",
+      "blockClass": "LinkMenuDespl",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  
+  "menu#drawerbrands": {
+    "children": [
+    "rich-text#verTodo-brands",
+      "flex-layout.row#drawerbrands"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ["drawerMobile", "subdrawer"]
+    }
+  },
+  "flex-layout.row#drawerbrands": {
+    "children": ["list-context.image-list#imagen-brands"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "drawerbrands",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "list-context.image-list#imagen-brands": {
+    "children": ["slider-layout#imagen-brands"],
+    "props": {
+      "images": [
+        {
+            "image": "/arquivos/brandsImageOne.png",
+            "height": "132px",
+            "mobileImage": "/arquivos/brandsImageOne.png"
+        },
+        {
+            "image": "/arquivos/brandsImageTwo.png",
+            "height": "132px",
+            "mobileImage": "/arquivos/brandsImageTwo.png"
+        },
+        {
+            "image": "/arquivos/brandsImageThree.png",
+            "height": "132px",
+            "mobileImage": "/arquivos/brandsImageThree.png"
+        },
+        {
+            "image": "/arquivos/brandsImageFour.png",
+            "height": "132px",
+            "mobileImage": "/arquivos/brandsImageFour.png"
+        },
+        {
+            "image": "/arquivos/brandsImageFive.png",
+            "height": "132px",
+            "mobileImage": "/arquivos/brandsImageFive.png"
+        },
+        {
+            "image": "/arquivos/brandsImageSix.png",
+            "height": "132px",
+            "mobileImage": "/arquivos/brandsImageSix.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#imagen-brands": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 6,
+        "phone": 6
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": [
+        "imagen-brands"
+    ],
+      "arrowSize": 20
+    }
+  },
+  "rich-text#verTodo-brands": {
+    "props": {
+      "text": "VER TODO",
+      "blockClass": "verTodo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

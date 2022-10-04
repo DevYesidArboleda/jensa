@@ -1,0 +1,26 @@
+{
+    "vtex.menu@2.x:menu#MenuDespl-ofertas": {
+        "children": ["menu-item#MenuDespl-ofertas"],
+        "props": {
+            "blockClass": "MenuDesplegable"
+        }
+    },
+    "menu-item#MenuDespl-ofertas": {
+        "props": {
+            "id": "menu-item-section-1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "MenuDesplegable-Opcion",
+            "fullWidth": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/marcas",
+                "noFollow": false,
+                "tagTitle": "OFERTAS",
+                "text": "OFERTAS"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#MenuDespl-brands"]
+    }
+}

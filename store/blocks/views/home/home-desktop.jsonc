@@ -1,0 +1,397 @@
+{
+    "responsive-layout.desktop#home": {
+        "children": [
+          "flex-layout.row#Slider-Main",
+          "flex-layout.row#Slider-brands",
+          "flex-layout.row#Slider-and-Text",
+          "flex-layout.row#container-tab-shelf",
+          "flex-layout.row#shelf", 
+          "flex-layout.row#Slider-and-Text2",
+          "flex-layout.row#FourImage"
+        ]
+      },
+      "flex-layout.row#Slider-Main": {
+        "children": [
+          "list-context.image-list#sliderPrincipal"
+        ],
+        "props": {
+          "blockClass": "slider-main-carrousel",
+          "fulwidth": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "paddingTop": 0,
+          "paddingBottom": 6
+        }
+      },    
+      "list-context.image-list#sliderPrincipal": {
+        "children": ["slider-layout#sliderPrincipal-images"],
+        "props": {
+          "height": 405,
+          "images": [{
+              "image": "/arquivos/BannerPrincipalNew.png",
+              "mobileImage": "/arquivos/BannerPrincipalNew.png"
+            },
+            {
+              "image": "/arquivos/BannerPrincipalNew.png",
+              "mobileImage": "/arquivos/BannerPrincipalNew.png"
+            }
+          ]
+        }
+      },
+      "slider-layout#sliderPrincipal-images": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "never",
+          "blockClass": "carousel"
+        }
+      },
+      "flex-layout.row#Slider-brands": {
+        "children": [
+          "list-context.image-list#sliderBrands"
+        ],
+        "props": {
+          "blockClass": "slider-main-brands",
+          "fulwidth": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "paddingTop": 6,
+          "paddingBottom": 6
+        }
+      },    
+      "list-context.image-list#sliderBrands": {
+        "children": ["slider-layout#sliderBrands-images"],
+        "props": {
+          "height": 71,
+          "images": [
+            {
+              "image": "/arquivos/brands1.png",
+              "mobileImage": "/arquivos/brands1.png"
+            },
+            {
+              "image": "/arquivos/brands2.png",
+              "mobileImage": "/arquivos/brands2.png"
+            },
+            {
+              "image": "/arquivos/brands3.png",
+              "mobileImage": "/arquivos/brands3.png"
+            },
+            {
+              "image": "/arquivos/brands4.png",
+              "mobileImage": "/arquivos/brands4.png"
+            },
+            {
+              "image": "/arquivos/brands5.png",
+              "mobileImage": "/arquivos/brands5.png"
+            },
+            {
+              "image": "/arquivos/brands6.png",
+              "mobileImage": "/arquivos/brands6.png"
+            },
+            {
+              "image": "/arquivos/brands7.png",
+              "mobileImage": "/arquivos/brands7.png"
+            },
+            {
+              "image": "/arquivos/brands1.png",
+              "mobileImage": "/arquivos/brands1.png"
+            },
+            {
+              "image": "/arquivos/brands2.png",
+              "mobileImage": "/arquivos/brands2.png"
+            },
+            {
+              "image": "/arquivos/brands3.png",
+              "mobileImage": "/arquivos/brands3.png"
+            },
+            {
+              "image": "/arquivos/brands4.png",
+              "mobileImage": "/arquivos/brands4.png"
+            }
+          ]
+        }
+      },
+      "slider-layout#sliderBrands-images": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 7,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots" :"never",
+          "blockClass": "sliderBrands"
+        }
+      },
+      "flex-layout.row#Slider-and-Text": {
+        "children": [
+          "flex-layout.col#Slider-and-Text-colA",
+          "flex-layout.col#Slider-and-Text-colB"
+        ],
+        "props": {
+          "blockClass": "Slider-and-Text",
+          "fulwidth": true,
+          //"preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "paddingTop": 5,
+          "paddingBottom": 5
+        }
+      },
+      "flex-layout.col#Slider-and-Text-colA": {
+        "children": [
+          "rich-text#TextoSliderHome"
+        ],
+        "props": {
+          "blockClass": "",
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "preserveLayoutOnMobile": true,
+          "fullwidth": false,
+          "width": "20%"
+        }
+      },
+      "flex-layout.col#Slider-and-Text-colB": {
+        "children": [
+          "image#TextoSliderHome"
+        ],
+        "props": {
+          "blockClass": "image",
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "preserveLayoutOnMobile": true,
+          "fullwidth": false,
+          "width": "80%"
+        }
+      },
+      "rich-text#TextoSliderHome": {
+        "props": {
+          "text": "**Lorem ipsum** \n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla ",
+          "blockClass": "TextoSliderHome",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "image#TextoSliderHome": {
+        "props": {
+          "src": "/arquivos/TextoBanner1.png",
+          "mobileImage":"/arquivos/TextoBanner1.png",
+          "alt": "",
+          "blockClass": "TextoSliderHome"
+        }
+      },
+      "flex-layout.row#Slider-and-Text2": {
+        "children": [
+        "flex-layout.col#Slider-and-Text-colB2",
+          "flex-layout.col#Slider-and-Text-colA2"
+        ],
+        "props": {
+          "blockClass": "Slider-and-Text",
+          "fulwidth": true,
+          //"preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "paddingTop": 5,
+          "paddingBottom": 5
+        }
+      },
+      "flex-layout.col#Slider-and-Text-colA2": {
+        "children": [
+          "rich-text#TextoSliderHome2"
+        ],
+        "props": {
+          "blockClass": "",
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "preserveLayoutOnMobile": true,
+          "fullwidth": false,
+          "width": "20%"
+        }
+      },
+      "flex-layout.col#Slider-and-Text-colB2": {
+        "children": [
+          "image#TextoSliderHome2"
+        ],
+        "props": {
+          "blockClass": "image2",
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": false,
+          "preserveLayoutOnMobile": true,
+          "fullwidth": false,
+          "width": "80%"
+        }
+      },
+      "rich-text#TextoSliderHome2": {
+        "props": {
+          "text": "**Lorem ipsum** \n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.",
+          "blockClass": "TextoSliderHome2",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+      "image#TextoSliderHome2": {
+        "props": {
+          "src": "/arquivos/TextoBanner2.png",
+          "mobileImage":"/arquivos/TextoBanner2.png",
+          "alt": "",
+          "blockClass": "TextoSliderHome"
+        }
+      },
+      "list-context.info-card-list#accesories": {
+        "children": [
+          "slider-layout#accesories"
+        ],
+        "props": {
+          "infoCards": [{
+              "id": "info-card-example",
+              "isFullModeStyle": false,
+              "textPosition": "center",
+              "imageUrl": "/arquivos/tab1.png",
+              "headline": "Lorem ipsum",
+              "callToActionUrl": "/sale/d",
+              "blockClass": "info-card-slider",
+              "textAlignment": "center"
+            },
+            {
+              "id": "info-card-example",
+              "isFullModeStyle": false,
+              "textPosition": "left",
+              "imageUrl": "/arquivos/tab2.png",
+              "headline": "Lorem ipsum",
+              "callToActionUrl": "/sale/d",
+              "blockClass": "info-card-slider",
+              "textAlignment": "center"
+            },
+            {
+              "id": "info-card-example",
+              "isFullModeStyle": false,
+              "textPosition": "left",
+              "imageUrl": "/arquivos/tab3.png",
+              "headline": "Lorem ipsum",
+              "callToActionUrl": "/sale/d",
+              "blockClass": "info-card-slider",
+              "textAlignment": "center"
+            },
+            {
+              "id": "info-card-example",
+              "isFullModeStyle": false,
+              "textPosition": "left",
+              "imageUrl": "/arquivos/tab4.png",
+              "headline": "Lorem ipsum",
+              "callToActionUrl": "/sale/d",
+              "blockClass": "info-card-slider",
+              "textAlignment": "center"
+            },
+            {
+              "id": "info-card-example",
+              "isFullModeStyle": false,
+              "textPosition": "left",
+              "imageUrl": "/arquivos/tab5.png",
+              "headline": "Lorem ipsum",
+              "callToActionUrl": "/sale/d",
+              "blockClass": "info-card-slider",
+              "textAlignment": "center"
+            },
+            {
+              "id": "info-card-example",
+              "isFullModeStyle": false,
+              "textPosition": "left",
+              "imageUrl": "/arquivos/tab6.png",
+              "headline": "Lorem ipsum",
+              "callToActionUrl": "/sale/d",
+              "blockClass": "info-card-slider",
+              "textAlignment": "center"
+            },
+            {
+              "id": "info-card-example",
+              "isFullModeStyle": false,
+              "textPosition": "left",
+              "imageUrl": "/arquivos/tab7.png",
+              "headline": "Lorem ipsum",
+              "callToActionUrl": "/sale/d",
+              "blockClass": "info-card-slider",
+              "textAlignment": "center"
+            }
+          ]
+        }
+      },
+      "slider-layout#accesories": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 7,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "blockClass": "accesories",
+          "showNavigationArrows": "always",
+          "showPaginationDots": "never"
+        }
+      },
+      "flex-layout.row#FourImage": {
+        "children": [
+          "list-context.image-list#FourImage"
+        ],
+        "props": {
+          "blockClass": "FourImage",
+          "fulwidth": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "paddingTop": 6,
+          "paddingBottom": 6
+        }
+      },    
+      "list-context.image-list#FourImage": {
+        "children": ["slider-layout#FourImage"],
+        "props": {
+          "height": 195,
+          "images": [{
+              "image": "/arquivos/FourImage1.png",
+              "mobileImage": "/arquivos/FourImage1.png"
+            },
+            {
+              "image": "/arquivos/FourImage2.png",
+              "mobileImage": "/arquivos/FourImage2.png"
+            },
+            {
+              "image": "/arquivos/FourImage3.png",
+              "mobileImage": "/arquivos/FourImage3.png"
+            },
+            {
+              "image": "/arquivos/FourImage4.png",
+              "mobileImage": "/arquivos/FourImage4.png"
+            }
+          ]
+        }
+      },
+      "slider-layout#FourImage": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "never",
+          "blockClass": "FourImage"
+        }
+      }
+}

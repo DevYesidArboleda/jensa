@@ -1,0 +1,182 @@
+.styledLinkContent--MenuDesplegable-Opcion{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.menuContainerNav--MenuDesplegable{
+    display: flex;
+    align-items: center;
+}
+.menuContainerNav--subMenuItems{
+    padding: 0 10px;
+}
+.styledLinkContainer--submenu-footer{
+    margin: 0 auto;
+    padding: 5px 0px;
+    text-align: center;
+    width: fit-content;
+}
+.menuContainer--subMenuItems {
+    flex-direction: column;
+    padding: 0 10px;
+}
+.styledLinkContent--subMenuItems{
+    font-size: 14px;
+    padding-left: 10px;
+    color: #000;
+    transition: .5s all ease;
+}
+.styledLinkContent--subMenuItems:hover{    
+    font-weight: bold;
+}
+.styledLinkContainer--subMenuItems {
+    padding: 5px 0;
+    margin: 0;
+}
+.styledLinkContainer--MenuDesplegable-Opcion {
+    padding: 5px;
+}
+.submenuWrapper--MenuDesplegable-Opcion {
+    padding: 0;
+    border: none;
+    box-shadow: 0 10px 10px -6px grey;
+}
+.submenu--submenuDpto {
+    border-top: 1px solid #fff;
+    background-color: #2d4f88;
+}
+.submenu--MenuDesplegable-Opcion {
+    justify-content: flex-start;
+    padding: 20px 10px;
+    max-width: 1140px;
+    margin: auto;
+}
+.styledLinkContainer--MenuDesplegable-subMenu{
+    margin: 0;
+    padding: 5px 10px 5px 20px;
+    font-size: 1em;
+}
+.styledLinkContent--MenuDesplegable-subMenu{
+    font-size: .9em;
+    color: grey;
+    padding-left: 10px;
+    transition: .5s all ease;
+}
+.styledLinkContent--MenuDesplegable-subMenu:hover{
+    color: #55a6bc;
+    font-weight: bold;
+}
+.styledLinkContainer--LinkFooter{
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+.styledLinkContent--LinkFooter{
+    font-size: 12px;
+    padding: 3px 0;
+    transition: .5s all ease;
+    font-weight: 400;
+}
+
+.menuContainerNav--drawerMobile {
+    width: 100%;
+}
+.menuContainer--drawerMobile{
+    margin: auto;
+}
+
+.submenu--MenuDesplegable-Opcion :global(.vtex-flex-layout-0-x-flexRow--VitrinaMenuHeader){
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 1100px) {
+
+    .menuContainerNav--drawerMobile {
+        width: 100%;
+        margin: auto;
+    }
+    .styledLinkContent--menuDrawer {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .menuItem--subMenuItems {
+        margin: auto;
+        width: 100%;
+    }
+
+    .styledLinkContent--LinkFooter,
+    .submenuAccordion--AcordionInterno,
+    .submenuAccordion--SobreBellapiel
+    {
+        justify-content: center;
+    }
+
+    .styledLinkContainer--subMenuItems {
+        padding: 5px 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .styledLinkContent--subMenuItems {
+        color: #2d4f88;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .styledLinkContent--submenu-footer {
+        padding-left: 20px;
+      }
+
+    .styledLinkContent--MenuDesplegable {
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        color: #2d4f88;
+        padding-left: 20px;
+        font-size: 16px;
+    }
+    .styledLinkContent--MenuDesplegable-subMenu:hover {
+        color: #2d4f88;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .styledLinkContent--MenuDesplegable-subMenu {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        font-size: 16px;
+        color: #2d4f88;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--menu-category-mobile) .menuContainerNav .menuContainer {
+        justify-content: center;
+    }
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--menu-central) .menuContainerNav, 
+:global(.vtex-flex-layout-0-x-flexColChild--menu-central) .menuContainer, 
+:global(.vtex-flex-layout-0-x-flexColChild--menu-central) .menuContainer .menuItem, 
+:global(.vtex-flex-layout-0-x-flexColChild--menu-central) .menuContainer .menuItem .styledLinkContainer, 
+:global(.vtex-flex-layout-0-x-flexColChild--menu-central) .menuContainer .menuItem .styledLinkContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--menu-central) .menuContainer .menuItem .styledLinkContainer .styledLinkContent {
+    font-size: 17px;
+    font-weight: 600;
+    color: #5A499D;
+}

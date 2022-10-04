@@ -1,0 +1,97 @@
+{
+    
+    "flex-layout.row#main-colFour": {
+        "children": [      
+            "flex-layout.col#CamposFormFooter"
+        ],
+        "props": {
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": false,
+            "preserveLayoutOnMobile": false,
+            "fullwidth": true,
+            "verticalAlign": "TOP",
+            "blockClass": "main-colFour"
+        }
+    },
+    "flex-layout.col#CamposFormFooter": {
+        "children": [
+            "image#logo-footer",
+            "flex-layout.row#mainRedesFooter"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": false,
+            "preserveLayoutOnMobile": true,
+            "verticalAlign": "TOP",
+            "blockClass": "CamposFormFooter"
+        }
+    },
+    "image#logo-footer": {
+        "props": {
+             "src": "assets/icons/iconUtilFooter.svg",
+             "alt": "logo",
+             "height": "102px",
+             "blockClass": "logo-footer"             
+        }
+   },
+    //Redes
+    "flex-layout.row#mainRedesFooter": {
+        "children": [
+            "image#facebook-footer",
+            "image#instagram-footer",
+            "image#whatsapp-footer"
+     ],
+        "props": {
+           "blockClass": "RedesFooter",
+           "fulwidth": false,
+           "preventHorizontalStretch": true,
+           "preventVerticalStretch": true,
+           "preserveLayoutOnMobile": true,
+           "horizontalAlign": "LEFT",
+           "verticalAlign": "middle",
+           "paddingTop": 0,
+           "paddingBottom": 0
+       }
+     },
+   
+     "image#facebook-footer": {
+       "props": {
+            "src": "assets/icons/facebookFooter.svg",
+            "alt": "Facebook",
+            "height": "40px",
+            "blockClass": "redes-footer",
+            "link": {
+                 "url": "https://www.facebook.com/",
+                 "openNewTab": true,
+                 "title": "Facebook "
+         }
+       }
+     },
+   
+     "image#instagram-footer": {
+       "props": {
+            "src": "assets/icons/instaFooter.svg",
+            "alt": "Instagram ",
+            "height": "40px",
+            "blockClass": "redes-footer",
+            "link": {
+                 "url": "https://www.instagram.com/",
+                 "openNewTab": true,
+                 "title": "Instagram "
+         }
+       }
+     },
+     "image#whatsapp-footer": {
+        "props": {
+             "src": "assets/icons/whatsappFooter.svg",
+             "alt": "Instagram ",
+             "height": "40px",
+             "blockClass": "redes-footer",
+             "link": {
+                  "url": "https://www.instagram.com/",
+                  "openNewTab": true,
+                  "title": "Instagram "
+          }
+        }
+      }
+}

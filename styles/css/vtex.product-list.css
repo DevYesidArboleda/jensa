@@ -1,0 +1,51 @@
+.productPriceCurrency {
+    color: #FF7F40;
+    font-size: 9.5px;
+}
+
+.currencyContainer{
+    color: #ADACB2;
+}
+
+.price{
+    font-size: 17px;
+}
+
+.productName{
+    font-size: 11.72px;
+}
+
+.removeButtonContainer .removeButton {
+    background: url("assets/icons/crashMinicart.svg");
+    width: 15px;
+    height: 15px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+}
+
+.deleteIcon{
+    display: none;
+}
+
+.quantitySelector :global(.vtex-dropdown__arrow){
+    color: #000;
+}
+
+.productPriceContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.quantityDropdownContainer :global(.vtex-dropdown__arrow){
+    background: url("assets/icons/iconArrowDown.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+    color: transparent;
+}

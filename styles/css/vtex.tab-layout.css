@@ -1,0 +1,17 @@
+.listContainer--tab-list{
+    justify-content: start;
+}
+
+.listItem--shelf :global(.vtex-button) :global(.vtex-button__label ){
+    color: #444242;
+    font-size: 14px;
+}
+
+.listItemActive--shelf :global(.vtex-button) {
+    border: 0;
+    background-color: transparent;
+}
+
+.listItemActive--shelf :global(.vtex-button) :global(.vtex-button__label ){
+    color: #CA6231;
+}

@@ -1,0 +1,15 @@
+.quantitySelectorDropdownContainer--shelf,
+.quantitySelectorDropdownContainer--shelf :global(.vtex-styleguide-9-x-dropdown),
+.quantitySelectorDropdownContainer--shelf :global(.vtex-styleguide-9-x-container),
+.quantitySelectorContainer--shelf{
+    height: 100%;
+    border-radius: 0;
+}
+
+.quantitySelectorDropdownContainer--shelf :global(.vtex-dropdown__arrow){
+    color: transparent;
+    background: url("assets/icons/iconUpCount.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}

@@ -1,0 +1,287 @@
+{
+    "footer-layout.desktop": { 
+        "children": [
+          "flex-layout.row#tienda-terminos-legales",
+          "flex-layout.row#Footer-subText",
+          "flex-layout.row#Footer-Xtrategik"
+        ]
+    },
+    "flex-layout.row#tienda-terminos-legales": {
+      "children": [
+        "flex-layout.col#Terminos-legales",
+        "flex-layout.col#la-tienda-footer",
+        "flex-layout.col#contacto-footer",
+        "flex-layout.col#redes-footer"
+      ],
+      "props": {
+        "blockClass": ["tienda-terminos-legales", "container1280px"],
+        "fulwidth": false,
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+      }
+    },
+    //PRIMERA COLUMNA
+  
+    "flex-layout.col#Terminos-legales": {
+      "children": [
+        "vtex.menu@2.x:menu#TerminosLegales",
+        "image#logo-footer-medios-pago"
+      ],
+      "props": {
+        "blockClass": "Terminos-legales",
+        "fulwidth": false,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "width": "30%"
+      }
+    },
+  
+    "image#logo-footer-medios-pago": {
+      "props": {
+        "src": "assets/icons/LogoIndustriaComercio.svg",
+        "alt": "Medios de pago",
+        "height": "50px",
+        "blockClass": "logo-medios-pay",
+        "link": {
+          "url": "#",
+          "openNewTab": true,
+          "title": ""
+        }
+      }
+    },
+    "flex-layout.row#sitio-seguro": {
+      "children": [
+        "rich-text#sitio-seguro",
+        "image#logo-footer-sitio-seguro"
+      ],
+      "props": {
+        "blockClass": "sitio-seguro",
+        "fulwidth": false,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "left",
+        "verticalAlign": "center",
+        "paddingTop": 0,
+        "paddingBottom": 0
+      }
+    },
+    "image#logo-footer-sitio-seguro": {
+      "props": {
+        "src": "assets/icons/sitioSeguro.svg",
+        "alt": "",
+        "height": "16px",
+        "blockClass": "logo-footer-sitio-seguro",
+        "link": {
+          "url": "#",
+          "openNewTab": true,
+          "title": ""
+        }
+      }
+    },
+    "rich-text#sitio-seguro": {
+      "props": {
+        "text": "Sitio Seguro ",
+        "blockClass": "sitio-seguro",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT"
+      }
+    },
+    "image#logo-footer-medios-pago-col2": {
+      "props": {
+        "src": "assets/icons/mediosPago.svg",
+        "alt": "Medios de pago",
+        "width" : "198px",
+        "blockClass": "logo-footer-medios-pago-col2",
+        "link": {
+          "url": "#",
+          "openNewTab": true,
+          "title": ""
+        }
+      }
+    },
+    //SEGUNDA COLUMNA
+  
+    "flex-layout.col#la-tienda-footer": {
+      "children": [
+        "vtex.menu@2.x:menu#LaTienda",
+        "rich-text#pay-menu-titulo",
+        "image#logo-footer-medios-pago-col2",
+        "flex-layout.row#sitio-seguro"
+      ],
+      "props": {
+        "blockClass": "la-tienda-footer",
+        "fulwidth": false,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "width": "30%"
+      }
+    },
+    "rich-text#pay-menu-titulo": {
+      "props": {
+        "text": "MEDIOS DE PAGO",
+        "blockClass": "la-tienda-menu-titulo",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT"
+      }
+    },
+    //TERCERA COLUMNA
+  
+    "flex-layout.col#contacto-footer": {
+      "children": [
+        "vtex.menu@2.x:menu#categorias",
+        "image#logo-footer-col3"
+      ],
+      "props": {
+        "blockClass": "la-tienda-footer",
+        "fulwidth": false,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "width": "20%"
+      }
+    },
+    "image#logo-footer-col3": {
+      "props": {
+        "src": "assets/icons/logoJensaTwo.svg",
+        "alt": "jensa footer",
+        "width": "115px",
+        "blockClass": "logo-footer-medios-pago-col2",
+        "link": {
+          "url": "#",
+          "openNewTab": true,
+          "title": ""
+        }
+      }
+    },
+    //cuarta COLUMNA
+  
+    "flex-layout.col#redes-footer": {
+      "children": [
+        "flex-layout.row#main-colFour"
+      ],
+      "props": {
+        "blockClass": "redes-footer",
+        "fulwidth": false,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "width": "20%"
+      }
+    },
+    "flex-layout.row#tienda-terminos-legales-mobile": {
+      "children": [
+        "flex-layout.col#latienda-mobile",
+        "flex-layout.col#Terminos-legales-mobile",
+        "flex-layout.col#contacto-footer-mobile"
+      ],
+      "props": {
+        "blockClass": ["tienda-terminos-legales", "container1280px"],
+        "fulwidth": false,
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 6,
+        "paddingBottom": 0
+      }
+    },
+    //PRIMERA COLUMNA
+  
+    "flex-layout.col#latienda-mobile": {
+      "children": [
+        "rich-text#laTienda",
+        "image#logo-footer-medios-pago-col2",
+        "flex-layout.row#sitio-seguro"
+      ],
+      "props": {
+        "blockClass": "Terminos-legales",
+        "fulwidth": false,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "paddingTop": 0,
+        "paddingBottom": 0
+      }
+    },
+  
+    "rich-text#laTienda": {
+      "props": {
+        "text": "LA TIENDA",
+        "blockClass": "laTienda",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT"
+      }
+    },
+    //SEGUNDA COLUMNA
+  
+    "flex-layout.col#Terminos-legales-mobile": {
+      "children": [
+        "rich-text#terminoslegales",
+        "image#logo-footer-medios-pago"
+      ],
+      "props": {
+        "blockClass": "Terminos-legales",
+        "fulwidth": false,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "paddingTop": 0,
+        "paddingBottom": 0
+      }
+    },
+    "rich-text#terminoslegales": {
+      "props": {
+        "text": "[TÉRMINOS LEGALES](/terminos-condiciones)",
+        "blockClass": "terminoslegales",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT"
+      }
+    },
+    //TERCERA COLUMNA
+  
+    "flex-layout.col#contacto-footer-mobile": {
+      "children": [
+        "vtex.menu@2.x:menu#contacto-mobile"
+      ],
+      "props": {
+        "blockClass": "la-tienda-footer",
+        "fulwidth": false,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "paddingTop": 0,
+        "paddingBottom": 6
+      }
+    }
+}

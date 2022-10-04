@@ -1,0 +1,8 @@
+{
+    "shelf.relatedProducts": {
+        "props": {
+            "recommendation": "buy"
+        },
+        "blocks":["product-summary.shelf"]
+    }
+}

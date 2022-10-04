@@ -1,0 +1,241 @@
+{
+  "flex-layout.row#Footer-Xtrategik": {
+    "children": ["flex-layout.row#Footer-Xtrategik-CT"],
+    "props": {
+      "blockClass": "Footer-Xtrategik",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "flex-layout.row#Footer-Xtrategik-CT": {
+    "children": [
+      "rich-text#TextoDerechos",
+      "rich-text#TextoXtrategik",
+      "image#Xtrategik",
+      "rich-text#TextoTecnologiaVTEX",
+      "image#VTEX"
+    ],
+    "props": {
+      "blockClass": "Footer-Xtrategik-CT",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "rich-text#TextoDerechos": {
+    "props": {
+      "text": "Copyright © 2019 JEN SA. Derechos Reservados. Util.com.co.",
+      "blockClass": ["TextoXtrategik","CopyrigthTextoXtrategik"],
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#TextoXtrategik": {
+    "props": {
+      "text": "Xtrategik agencia ecommerce",
+      "blockClass": "TextoXtrategik",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "image#Xtrategik": {
+    "props": {
+      "src": "assets/icons/xtrategikIcon.svg",
+      "alt": "Xtrategik Agencia Ecommerce",
+      "width": "70px",
+      "blockClass": "XtrategiK",
+      "link": {
+        "url": "https://www.xtrategik.com",
+        "openNewTab": true,
+        "title": "Xtrategik Agencia Ecommerce"
+      }
+    }
+  },
+  "image#VTEX": {
+    "props": {
+      "src": "assets/icons/vtexIcon.svg",
+      "alt": "Tecnología VTEX",
+      "width": "40px",
+      "blockClass": "VTEX",
+      "link": {
+        "url": "https://www.vtex.com",
+        "openNewTab": true,
+        "title": "Tecnología VTEX"
+      }
+    }
+  },
+  "rich-text#TextoTecnologiaVTEX": {
+    "props": {
+      "text": "Tecnología",
+      "blockClass": "TextoTecnologiaVTEX",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "flex-layout.row#Footer-Xtrategik-Mobile-not": {
+    "children": [
+      "flex-layout.row#Footer-Xtrategik-CT-Mobile"
+    ],
+    "props": {
+      "blockClass": "Footer-Xtrategik",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "flex-layout.row#Footer-Xtrategik-CT-Mobile": {
+    "children": [
+      "rich-text#TextoXtrategik",
+      "image#Xtrategik",
+      "rich-text#TextoTecnologiaVTEX",
+      "image#VTEX"
+    ],
+    "props": {
+      "blockClass": "Footer-Xtrategik-CT",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.row#Footer-Xtrategik-Mini": {
+    "children": ["flex-layout.row#Footer-Xtrategik-CT", "flex-layout.col#escribenos-menu"],
+    "props": {
+      "blockClass": ["Footer-Xtrategik", "footerMini"],
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  /* Escribenos */
+  "flex-layout.col#escribenos-menu": {
+    "props": {
+      "blockClass": "escribenos",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#escribenos"
+    ]
+  },
+  "vtex.menu@2.x:menu#escribenos": {
+    "props": {
+      "items": [{
+        "id": "whatsapp-menu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/contacto",
+          "noFollow": false,
+          "tagTitle": "ESCRIBENOS",
+          "text": "ESCRIBENOS"
+        }
+      }]
+    }
+  },
+  "flex-layout.row#Footer-Xtrategik-Mobile": {
+    "children": [
+      "flex-layout.col#Footer-Xtrategik-CT-Mobile"
+    ],
+    "props": {
+      "blockClass": "Footer-Xtrategik-mobile",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+  "flex-layout.col#Footer-Xtrategik-CT-Mobile": {
+    "children": [
+      "rich-text#TextoDerechos",
+      "flex-layout.row#Footer-Xtrategik-CT-Mobile-row2"
+    ],
+    "props": {
+      "blockClass": "Footer-Xtrategik-CT-mobile",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.row#Footer-Xtrategik-CT-Mobile-row2": {
+    "children": [
+      "rich-text#TextoXtrategik",
+      "image#Xtrategik-mobile",
+      "rich-text#TextoTecnologiaVTEX",
+      "image#VTEX-mobile"
+    ],
+    "props": {
+      "blockClass": "Footer-Xtrategik-CTMobile-row2",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "image#Xtrategik-mobile": {
+    "props": {
+      "src": "assets/icons/vtexIcon.svg",
+      "alt": "Xtrategik Agencia Ecommerce",
+      "width": "70px",
+      "blockClass": "XtrategiK",
+      "link": {
+        "url": "https://www.xtrategik.com",
+        "openNewTab": true,
+        "title": "Xtrategik Agencia Ecommerce"
+      }
+    }
+  },
+  "image#VTEX-mobile": {
+    "props": {
+      "src": "assets/icons/xtrategikIcon.svg",
+      "alt": "Tecnología VTEX",
+      "width": "40px",
+      "blockClass": "VTEX",
+      "link": {
+        "url": "https://www.vtex.com",
+        "openNewTab": true,
+        "title": "Tecnología VTEX"
+      }
+    }
+  }
+}

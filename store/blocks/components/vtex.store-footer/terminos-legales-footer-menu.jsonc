@@ -1,0 +1,159 @@
+{
+  "vtex.menu@2.x:menu#TerminosLegales": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "rich-text#terminos-legales-menu-titulo",
+        "menu-item#politica-tratamiento-datos",
+        "menu-item#aviso-privacidad",
+        "menu-item#terminos-condiciones",        
+        "menu-item#distribucion",
+        "menu-item#devolucion",
+        "menu-item#garantias",
+        "menu-item#superintendencia"
+      ]
+    },
+    "menu-item#politica-tratamiento-datos": {
+      "props": {
+        "id": "menu-item-politica-tratamiento-datos",
+        "type": "custom",
+        "iconId": null,
+        "blockClass": "LinkFooter",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/terminos-condiciones",
+          "noFollow": false,
+          "tagTitle": "Política de tratamiento de datos personales",
+          "text": "Política de tratamiento de datos personales"
+        }
+      }
+    },
+    "menu-item#terminos-condiciones": {
+      "props": {
+        "id": "menu-item-terminos-condiciones",
+        "type": "custom",
+        "blockClass": "LinkFooter",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/terminos-condiciones",
+          "noFollow": false,
+          "tagTitle": "Terminos y condiciones",
+          "text": "Terminos y condiciones"
+        }
+      }
+    },
+    "menu-item#medios-pago": {
+      "props": {
+        "id": "menu-item-medios-pago",
+        "type": "custom",
+        "blockClass": "LinkFooter",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/terminos-condiciones",
+          "noFollow": false,
+          "tagTitle": "Medios de pago",
+          "text": "Medios de pago"
+        }
+      }
+    },
+
+    "menu-item#aviso-privacidad": {
+      "props": {
+        "id": "menu-item-aviso-privacidad",
+        "type": "custom",
+        "blockClass": "LinkFooter",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/terminos-condiciones",
+          "noFollow": false,
+          "tagTitle": "Aviso de privacidad",
+          "text": "Aviso de privacidad"
+        }
+      }
+    },
+
+    "menu-item#superintendencia": {
+      "props": {
+        "id": "menu-item-superintendencia",
+        "type": "custom",
+        "blockClass": "LinkFooter",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/terminos-condiciones",
+          "noFollow": false,
+          "tagTitle": "Superintendencia de Industria y Comercio",
+          "text": "Superintendencia de Industria y Comercio"
+        }
+      }
+    },
+
+    "menu-item#distribucion": {
+      "props": {
+        "id": "menu-item-distribucion",
+        "type": "custom",
+        "blockClass": "LinkFooter",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/terminos-condiciones",
+          "noFollow": false,
+          "tagTitle": "Políticas de distribución y despacho",
+          "text": "Políticas de distribución y despacho"
+        }
+      }
+    },
+
+    "menu-item#devolucion": {
+      "props": {
+        "id": "menu-item-devolucion",
+        "type": "custom",
+        "blockClass": "LinkFooter",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/terminos-condiciones",
+          "noFollow": false,
+          "tagTitle": "Políticas de Devolución",
+          "text": "Políticas de Devolución"
+        }
+      }
+    },
+
+    "menu-item#garantias": {
+      "props": {
+        "id": "menu-item-devolucion",
+        "type": "custom",
+        "blockClass": "LinkFooter",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/terminos-condiciones",
+          "noFollow": false,
+          "tagTitle": "Politicas de Garantias y Devoluciones",
+          "text": "Politicas de Garantias y Devoluciones"
+        }
+      }
+    },
+
+    "rich-text#terminos-legales-menu-titulo": {
+        "props": {
+                 "text": "ASPECTOS LEGALES",
+                 "blockClass": "la-tienda-menu-titulo",
+                 "textAlignment": "LEFT",
+                 "textPosition": "LEFT"
+        }
+    }
+}

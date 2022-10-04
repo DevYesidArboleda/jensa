@@ -1,0 +1,11 @@
+{
+    "category-menu#mobile": {
+        "props": {
+          "showAllDepartments": true,
+          "showSubcategories": true,
+          "menuDisposition": "center",
+          "departments": [],
+          "mobileMode": true
+        }
+      }
+}

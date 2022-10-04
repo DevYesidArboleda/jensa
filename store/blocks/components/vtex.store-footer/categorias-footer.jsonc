@@ -1,0 +1,117 @@
+{
+    "vtex.menu@2.x:menu#categorias": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#categoria-menu-titulo",
+            "menu-item#Jardineria",
+            "menu-item#eletricos",
+            "menu-item#iliminacion",
+            "menu-item#seguridad",
+            "menu-item#automotriz"
+        ]
+    },
+    "vtex.menu@2.x:menu#contacto-mobile": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#categoria-menu-titulo",
+            "menu-item#Jardineria",
+            "menu-item#eletricos",
+            "menu-item#iliminacion",
+            "menu-item#seguridad",
+            "menu-item#automotriz"
+        ]
+    },
+    "menu-item#Jardineria": {
+        "props": {
+            "blockClass": "LinkFooter",
+            "id": "menu-item-telefono-contacto",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/contacto",
+                "noFollow": false,
+                "tagTitle": "Jardinería",
+                "text": "Jardinería"
+            }
+        }
+    },
+    "menu-item#eletricos": {
+        "props": {
+            "blockClass": "LinkFooter",
+            "id": "menu-item-servicio-cliente",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Elétronicos",
+                "text": "Elétronicos"
+            }
+        }
+    },
+    "menu-item#iliminacion": {
+        "props": {
+            "blockClass": "LinkFooter",
+            "id": "menu-item-nuestras-tiendas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "iliminación",
+                "text": "iliminación"
+            }
+        }
+    },
+    "menu-item#seguridad": {
+        "props": {
+            "blockClass": "LinkFooter",
+            "id": "menu-item-servicio-cliente",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Elétronicos",
+                "text": "Elétronicos"
+            }
+        }
+    },
+    "menu-item#automotriz": {
+        "props": {
+            "blockClass": "LinkFooter",
+            "id": "menu-item-nuestras-tiendas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Automotriz",
+                "text": "Automotriz"
+            }
+        }
+    },
+
+    "rich-text#categoria-menu-titulo": {
+        "props": {
+            "text": "CATEGORÍAS",
+            "blockClass": "categoria-menu-titulo",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        }
+    }
+}

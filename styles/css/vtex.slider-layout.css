@@ -1,0 +1,79 @@
+.paginationDotsContainer--carousel{
+    margin-bottom: -30px;
+}
+
+.paginationDot--carousel{
+    opacity: 0.4;
+}
+
+.paginationDot--carousel--isActive{
+    background-color: #9D9D9E;
+    opacity: 1;
+}
+
+.sliderTrack--sliderBrands {
+    gap: 6px;
+}
+
+.sliderLeftArrow--sliderBrands{
+    margin-left: -30px;
+}
+
+.sliderRightArrow--sliderBrands{
+    margin-right: -30px;
+}
+
+.sliderLeftArrow--sliderBrands .caretIcon--sliderBrands{
+    background-image: url('assets/icons/leftIconArrow.svg');
+    height: 23px;
+    width: 11px;
+    content: "";
+    display: flex;
+    color: transparent;
+}
+
+.sliderRightArrow--sliderBrands .caretIcon--sliderBrands{
+    background-image: url('assets/icons/rigthIconArrow.svg');
+    height: 23px;
+    width: 11px;
+    content: "";
+    display: flex;
+    color: transparent;
+}
+
+.infoCardContainer--accesories{
+    flex-direction: column-reverse;
+}
+
+.infoCardTextContainer--accesories .infoCardCallActionContainer--accesories{
+    display: none;
+}
+
+.infoCardHeadline--accesories{
+    font-size: 12px;
+    color: #606060;
+    margin-top: 0;
+}
+
+.infoCardImageContainer--accesories{
+    width: 100% !important;
+}
+
+.slide--accesories{
+    max-width: 142px;
+}
+
+.sliderTrack--FourImage{
+    gap: 10px;
+}
+
+.sliderTrackContainer--shelf{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-right:20px;
+    padding-left: 20px;
+}
+
+.sliderTrack--shelf{
+    gap: 5px;
+}

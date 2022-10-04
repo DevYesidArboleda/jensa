@@ -1,0 +1,251 @@
+{
+    "header-layout.desktop": {
+        "children": [
+          "sticky-layout#desktop"
+        ]
+      },
+      "sticky-layout#desktop": {
+        "props": {
+          "blockClass": "sticky-header"
+        },
+        "children": ["flex-layout.row#notification-bar","flex-layout.row#desktop"]
+      },
+      "flex-layout.row#desktop": {
+        "props": {
+          "blockClass": "main-header",
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [          
+          "flex-layout.col#desktop-col-two"
+        ]
+      },
+      "flex-layout.col#desktop-col-one": {
+        "props": {
+          "blockClass": "col-one-header",
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "flex-layout.col#logo-desktop",
+          "flex-layout.col#logo-two"      
+        ]
+      },
+      "flex-layout.col#desktop-col-two": {
+        "props": {
+          "blockClass": "col-two-header",
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "flex-layout.row#desktop-row-one",
+          "flex-layout.row#desktop-row-two"
+        ]
+      },
+      "flex-layout.row#desktop-row-one": {
+        "props": {
+          "blockClass": "row-one-header",
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "flex-layout.col#logo-desktop",
+          "flex-layout.col#logo-two"   ,
+          "search-bar",
+          "flex-layout.col#wishlist-menu",
+          "flex-layout.col#order-menu",                    
+          "flex-layout.col#whatsapp-menu",          
+          "minicart.v2"
+        ]
+      },
+      "flex-layout.row#desktop-row-two": {
+        "props": {
+          "blockClass": "row-two-header",
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+            "flex-layout.row#menu-header-main"
+        ]
+      },
+      "flex-layout.col#spacer": {
+        "props": {
+          "width": "100",
+          "marginLeft": 6,
+          "marginRight": 7
+        }
+      },
+      "flex-layout.col#logo-desktop": {
+        "props": {
+          "verticalAlign": "middle"
+        },
+        "children": ["logo"]
+      },
+      "logo": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/icons/logoJensaOne.svg",
+          "width": "99"
+        }
+      },
+      "flex-layout.col#logo-two": {
+        "props": {
+          "blockClass": "logo-two",
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+            "image#logo-header"
+        ]
+      },
+      "image#logo-header": {
+        "props": {
+          "src": "assets/icons/logoJensaTwo.svg",
+          "alt": "Logo Header",
+          "width": "140px",
+          "blockClass": "logo-two",
+          "link": {
+            "url": "/",
+            "openNewTab": true,
+            "title": ""
+          }
+        }
+      },
+      /* Wishlist */
+      "flex-layout.col#wishlist-menu": {
+        "props": {
+          "blockClass": "wishlist",
+          "preventVerticalStretch": true
+        },
+        "children": [
+          "vtex.menu@2.x:menu#wishlist"
+        ]
+      },
+      "vtex.menu@2.x:menu#wishlist": {
+        "props": {
+          "items": [{
+            "id": "wishlist-menu",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/account#/wishlist",
+              "noFollow": false,
+              "tagTitle": "LISTA DE DESEOS",
+              "text": "LISTA DE DESEOS"
+            }
+          }]
+        }
+      },
+      /* Pedidos */
+      "flex-layout.col#order-menu": {
+        "props": {
+          "blockClass": "orders",
+          "preventVerticalStretch": true
+        },
+        "children": [
+          "vtex.menu@2.x:menu#order"
+        ]
+      },
+      "vtex.menu@2.x:menu#order": {
+        "props": {
+          "items": [{
+            "id": "order-menu",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/account#/orders",
+              "noFollow": false,
+              "tagTitle": "Mis pedidos",
+              "text": "Mis pedidos"
+            }
+          }]
+        }
+      },
+      /* Whatsapp */
+      "flex-layout.col#whatsapp-menu": {
+        "props": {
+          "blockClass": "whatsapp",
+          "preventVerticalStretch": true
+        },
+        "children": [
+          "vtex.menu@2.x:menu#whatsapp"
+        ]
+      },
+      "vtex.menu@2.x:menu#whatsapp": {
+        "props": {
+          "items": [{
+            "id": "whatsapp-menu",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "(+57) 315 223 3833",
+              "text": "(+57) 315 223 3833"
+            }
+          }]
+        }
+      },
+      // notification bar
+      "notification.bar#home": {
+        "props": {
+          "content": "¡más de 4.000 productos! \n\n Envíos a toda Colombia  -  Envíos gratis a partir de 150.000 "
+        }
+      },
+      "flex-layout.row#notification-bar": {
+        "props": {
+          "blockClass": "notification",
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+            "rich-text#notification-one",
+            "rich-text#notification-two"
+        ]
+      },
+      "rich-text#notification-one": {
+        "props": {
+          "text": "¡MÁS DE 4.000 PRODUCTOS!",
+          "blockClass": "notification",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      },
+      "rich-text#notification-two": {
+        "props": {
+          "text": "Envíos a toda Colombia  -  Envíos gratis a partir de 150.000",
+          "blockClass": "notification",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      }
+      
+}

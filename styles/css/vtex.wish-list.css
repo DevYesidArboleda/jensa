@@ -1,0 +1,11 @@
+.outline{
+    background: url("assets/icons/iconWishlist.svg") !important;
+    background-position: center !important;
+    width: 19px !important;    
+    height: 17px !important;
+}
+
+.wishlistIconContainer{
+    display: flex;
+    justify-content: end;
+}

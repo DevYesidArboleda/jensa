@@ -1,0 +1,146 @@
+{
+    "flex-layout.row#shelf": {
+        "children": ["list-context.product-list#home"],
+        "props": {
+          "blockClass": "shelf",
+          "fulwidth": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "center",
+          "verticalAlign": "center"
+        }
+      },
+      "list-context.product-list#home": {
+        "blocks": ["product-summary.shelf#home"],
+        "children": ["slider-layout#demo-products"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+      },
+      "slider-layout#demo-products": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf",
+          "showPaginationDots": "never",
+          "showNavigationArrows": "never"
+        }
+      },"product-summary.shelf#home": {
+        "children": [      
+          "stack-layout",
+          "product-summary-name",
+          "product-summary-brand",
+          "flex-layout.row#price-wishlist",
+          "flex-layout.row#add-to-cart"
+        ]
+      },
+      "flex-layout.row#add-to-cart": {
+        "props": {
+          "colGap": 2,
+          "preserveLayoutOnMobile": true,
+          "preventHorizontalStretch": true,
+          "marginBottom": 4,
+          "blockClass": "add-to-cart"
+        },
+        "children": [
+          "product-summary-quantity#shelf",
+          "add-to-cart-button#shelf"
+        ]
+      },
+      "add-to-cart-button#shelf": {
+        "props": {
+          "text": "Añadir al carrito",
+          "blockClass": "AgragarVitrina",
+          "addToCartFeedback": "customEvent",
+          "customPixelEventId": "add-to-cart-button", //Abre el carrito
+          "onClickBehavior": "add-to-cart-button",
+          "isOneClickBuy": false,
+          "un ableText": "Producto agotado"
+        }
+      },
+      "product-summary-quantity#shelf": {
+        "props": {
+          "blockClass": "shelf",
+          "selectorType": "dropdown",
+          "showLabel": false
+        }
+      },
+      "product-summary-sku-selector#Vitrina": {
+        "props": {
+          "displayMode": "select",
+          "blockClass": "select-sku-input"
+        }
+      },
+      "flex-layout.row#price-wishlist": {
+        "children": [
+            "flex-layout.col#VPDatosProducto-precio",
+            "flex-layout.col#ProdFavoritos"
+        ],
+        "props": {
+          "blockClass": "price-wishlist",
+          "fulwidth": true,
+          //"preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "center",
+          "verticalAlign": "middle"
+        }
+      },
+      "flex-layout.col#VPDatosProducto-precio": {
+        "children": [
+          "flex-layout.row#VPPreciosDesktop"
+        ],
+        "props": {
+          "blockClass": "VPDatosProducto-precios",
+          "fulwidth": true,
+          //"preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "center",
+          "verticalAlign": "middle"
+        }
+      },
+      "flex-layout.row#VPPreciosDesktop": {
+        "children": [          
+          "product-list-price#VPPrecioLista",
+          "product-selling-price#VPPrecioVenta"
+        ],
+        "props": {
+          "blockClass": "VPPrecios",
+          //"preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "verticalAlign": "middle"
+        }
+      },
+      "product-list-price#VPPrecioLista": {
+        "props": {
+          "blockClass": "VPPrecioLista"
+        }
+      },
+      "product-selling-price#VPPrecioVenta": {
+        "props": {
+          "blockClass": "VPPrecioVenta"
+        }
+      },
+      "flex-layout.col#ProdFavoritos": {
+        "children": ["add-to-list-btn"],
+        "props": {
+          "blockClass": "ProdFavoritos",
+          "fulwidth": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "RIFHT",
+          "verticalAlign": "middle",
+          "paddingTop": 0,
+          "paddingBottom": 0
+        }
+      }
+}

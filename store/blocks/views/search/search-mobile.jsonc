@@ -1,0 +1,19 @@
+{
+    "search-result-layout.mobile": {
+        "children": [
+            "flex-layout.row#searchbread",
+            "flex-layout.row#searchtitle",
+            "flex-layout.row#searchinfomobile",
+            "flex-layout.row#productCount",
+            "flex-layout.row#contentmobile",
+            "flex-layout.row#fetchmore"
+          ],
+          "props": {
+            "pagination": "show-more",
+            "mobileLayout": {
+              "mode1": "small",
+              "mode2": "normal"
+            }
+          }
+    }
+}

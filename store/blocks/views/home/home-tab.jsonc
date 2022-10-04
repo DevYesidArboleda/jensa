@@ -1,0 +1,124 @@
+{
+    "flex-layout.row#container-tab-shelf": {
+        "title": "Tabs",
+        "children": ["flex-layout.col#container-tab-shelf"],
+        "props": {
+            "blockClass": ["container-tab-shelf", "container1280px"],
+            "paddingTop": 8,
+            "paddingBottom": 8
+        }
+    },
+    "flex-layout.col#container-tab-shelf": {
+        "title": "Tabs",
+        "children": ["tab-layout#main-container-tab-shelf"],
+        "props": {
+            "blockClass": ["container-tab-shelf", "container1280px"]
+        }
+    },
+    "tab-layout#main-container-tab-shelf": {
+        "children": ["tab-list#tab-list-shelf", "tab-content#tab-shelf"],
+        "props": {
+            "blockClass": "main-container",
+            "defaultActiveTabId": "shelf1"
+        }
+    },
+    "tab-list#tab-list-shelf": {
+        "title": "lista de tabs",
+        "children": [
+            "tab-list.item#shelf1-day",
+            "tab-list.item#shelf2-day",
+            "tab-list.item#shelf3-day",
+            "tab-list.item#shelf4-day"
+        ],
+        "props": {
+            "blockClass": "tab-list"
+        }
+    },
+    "tab-list.item#shelf1-day": {
+        "title": "calzados",
+        "props": {
+            "blockClass": ["shelf", "buttom-one"],
+            "tabId": "shelf1",
+            "label": "ACCESORIOS",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#shelf2-day": {
+        "title": "PRENDAS DE VESTIR",
+        "props": {
+            "blockClass": ["shelf", "buttom-two"],
+            "tabId": "shelf2",
+            "label": "CONSUMIBLES",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#shelf3-day": {
+        "title": "ACCESORIOS",
+        "props": {
+            "blockClass": ["shelf", "buttom-three"],
+            "tabId": "shelf3",
+            "label": "EQUIPOS",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#shelf4-day": {
+        "title": "REPUESTOS",
+        "props": {
+            "blockClass": ["shelf", "buttom-three"],
+            "tabId": "shelf4",
+            "label": "REPUESTOS",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-content#tab-shelf": {
+        "title": "Contenido de tabs",
+        "children": [
+            "tab-content.item#shelf-day",
+            "tab-content.item#shelf-day-two",
+            "tab-content.item#shelf-day-three"
+        ],
+        "props": {
+            "blockClass": "container-content"
+        }
+    },
+    "tab-content.item#shelf-day": {
+        "title": "Deportivos",
+        "children": [
+            "list-context.info-card-list#accesories"
+        ],
+        "props": {
+            "blockClass": "container-home1",
+            "tabId": "shelf1"
+        }
+    },
+    "tab-content.item#shelf-day-two": {
+        "title": "Botas",
+        "children": [
+            "list-context.info-card-list#accesories"
+        ],
+        "props": {
+            "blockClass": "container-home1",
+            "tabId": "shelf2"
+        }
+    },
+    "tab-content.item#shelf-day-three": {
+        "title": "Sandalias",
+        "children": [
+            "list-context.info-card-list#accesories"
+        ],
+        "props": {
+            "blockClass": "container-home1",
+            "tabId": "shelf3"
+        }
+    },
+    "tab-content.item#shelf-day-four": {
+        "title": "Sandalias",
+        "children": [
+            "list-context.info-card-list#accesories"
+        ],
+        "props": {
+            "blockClass": "container-home1",
+            "tabId": "shelf4"
+        }
+    }
+}

@@ -1,0 +1,105 @@
+{
+  "vtex.menu@2.x:menu#LaTienda": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#la-tienda-menu-titulo",
+      "menu-item#ingresa-a-tu-perfil",
+      "menu-item#tiendas",
+      "menu-item#escribenos",
+      "menu-item#horas-atencion",
+      "menu-item#newsletter"
+      
+    ]
+  },
+  "menu-item#ingresa-a-tu-perfil": {
+    "props": {
+      "blockClass": "LinkFooter",
+      "id": "menu-item-ingresa-a-tu-perfil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Mi cuenta",
+        "text": "Mi cuenta"
+      }
+    }
+  },
+  "menu-item#horas-atencion": {
+    "props": {
+      "blockClass": "LinkFooter",
+      "id": "menu-item-como-comprar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Horarios de Atención",
+        "text": "Horarios de Atención"
+      }
+    }
+  },
+  "menu-item#tiendas": {
+    "props": {
+      "blockClass": "LinkFooter",
+      "id": "menu-item-razon-socila",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/razon-social",
+        "noFollow": false,
+        "tagTitle": "Nuestras Tiendas",
+        "text": "Nuestras Tiendas"
+      }
+    }
+  },
+  "menu-item#escribenos": {
+    "props": {
+      "blockClass": "LinkFooter",
+      "id": "menu-item-ordenes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Escríbenos",
+        "text": "Escríbenos"
+      }
+    }
+  },
+  "menu-item#newsletter": {
+    "props": {
+      "blockClass": "LinkFooter",
+      "id": "menu-item-ordenes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Suscríbetre al newsletter",
+        "text": "Suscríbetre al newsletter"
+      }
+    }
+  },
+
+  "rich-text#la-tienda-menu-titulo": {
+    "props": {
+      "text": "LA TIENDA",
+      "blockClass": "la-tienda-menu-titulo",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  }
+}

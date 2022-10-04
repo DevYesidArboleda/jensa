@@ -1,0 +1,7 @@
+{
+    "footer-layout.mobile": { 
+        "children": [
+          "flex-layout.row#footer"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+.productImageTag--main{
+    max-width: 148px;
+}
+
+.searchBarContainer .searchBarInnerContainer .autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+    border: 1px solid #20211D;
+    border-radius: 0;
+}
+
+.searchBarContainer .searchBarInnerContainer .autoCompleteOuterContainer :global(.vtex-input-prefix__group) :global(.vtex-input__suffix){
+    background-color: #20211D;
+    border-radius: 0;
+    
+}
+
+.searchBarContainer .searchBarInnerContainer .autoCompleteOuterContainer :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) .searchIcon{   
+    color: #fff;
+}
+
+.searchBarIcon--search{
+    padding-right: 0;
+}
+
+.searchBarContainer{
+    display: flex;
+    align-items: center;
+}

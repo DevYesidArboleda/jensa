@@ -1,0 +1,17 @@
+.sellingPriceValue--VPPrecioVenta .currencyContainer--VPPrecioVenta{
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #444242;
+}
+
+.listPriceValue--VPPrecioLista{
+    color: #CA6231;
+}
+
+.listPriceValue--VPPrecioLista .currencyContainer--VPPrecioLista{
+    font-size: 12px;
+    font-weight: 400;
+    color: #5B5B5F;
+    text-decoration: none;
+}

@@ -1,0 +1,189 @@
+{
+  "flex-layout.row#menu-header-main": {
+    "children": [
+      "flex-layout.row#menu-header-items"
+    ],
+    "props": {
+      "blockClass": ["menu-header-main", "bloquePrincipal"],
+      "fulwidth": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  },
+
+  "flex-layout.row#menu-header-items": {
+    "children": [
+      "vtex.menu@2.x:menu#MenuDespl-productos",
+      "rich-text#separador",
+      "vtex.menu@2.x:menu#MenuDespl-new",
+      "rich-text#separador",
+      "vtex.menu@2.x:menu#MenuDespl-brands",   
+      "rich-text#separador",
+      "vtex.menu@2.x:menu#MenuDespl-ofertas", 
+      "flex-layout.col#LinkTrabajo",
+      "flex-layout.col#LinkAsesor"
+      
+    ],
+    "props": {
+      "blockClass": "menu-header-items",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "width": "100%"
+    }
+  },
+
+  "rich-text#separador": {
+    "props": {
+      "text": "**|**",
+      "blockClass": "separador",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  /* SALES */
+  "flex-layout.col#sales-menu": {
+    "props": {
+      "blockClass": "menu-sales"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#sales"
+    ]
+  },
+  "vtex.menu@2.x:menu#sales": {
+    "props": {
+      "items": [{
+        "id": "sales-menu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "SALES",
+          "text": "SALES"
+        }
+      }]
+    }
+  },
+  /* Marcas */
+  "flex-layout.col#brands-menu": {
+    "props": {
+      "blockClass": "menu-central"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#brands"
+    ]
+  },
+  "vtex.menu@2.x:menu#brands": {
+    "props": {
+      "items": [{
+        "id": "brands-menu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "MARCAS",
+          "text": "MARCAS"
+        }
+      }]
+    }
+  },
+  /* Ofertas*/
+  "flex-layout.col#ofertas-menu": {
+    "props": {
+      "blockClass": "menu-central"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#ofertas"
+    ]
+  },
+  "vtex.menu@2.x:menu#ofertas": {
+    "props": {
+      "items": [{
+        "id": "ofertas-menu",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "OFERTAS",
+          "text": "OFERTAS"
+        }
+      }]
+    }
+  },
+  "flex-layout.col#LinkTrabajo": {
+    "props": {
+      "blockClass": "menu-derecha"
+    },
+    "children": [
+      "rich-text#LinkTrabajo"
+    ]
+  },
+  "rich-text#LinkTrabajo": {
+      "props": {
+           "text": "[Consulta por trabajo  **AQUÍ TE AYUDAMOS**](/)",
+           "blockClass": [
+             "linkCategoria",
+             "linkDepartamentos"
+           ],
+           "textAlignment": "RIGHT",
+           "textPosition": "RIGHT"
+      }
+    },
+    "flex-layout.col#LinkAsesor": {
+      "props": {
+        "blockClass": "menu-derecha"
+      },
+      "children": [
+        "rich-text#LinkAsesor"
+      ]
+    },
+    "rich-text#LinkAsesor": {
+      "props": {
+           "text": "[¡Lo tenemos, lo solucionamos, **lo asesoramos**!](/)",
+           "blockClass": [
+             "linkCategoria2",
+             "linkDepartamentos2"
+           ],
+           "textAlignment": "RIGHT",
+           "textPosition": "RIGHT"
+      }
+    },
+    "flex-layout.col#LinkJuvenil": {
+      "props": {
+        "blockClass": "menu-derecha"
+      },
+      "children": [
+        "rich-text#LinkJuvenil"
+      ]
+    },
+    "rich-text#LinkJuvenil": {
+      "props": {
+           "text": "[Juvenil](/juvenil)",
+           "blockClass": [
+             "linkCategoria",
+             "linkDepartamentos"
+           ],
+           "textAlignment": "RIGHT",
+           "textPosition": "RIGHT"
+      }
+    }
+}
