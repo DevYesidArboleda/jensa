@@ -1,0 +1,275 @@
+{
+    "rich-text#titleHerramienta": {
+        "props": {
+          "text": "HERRAMIENTAS ",
+          "blockClass": ["titleheader","titleHerramienta"],
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+        "vtex.menu@2.x:menu#herramienta": {
+          "props": {
+            "orientation": "vertical",
+            "items": [
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Abrasivas",
+                  "text": "Abrasivas"
+                }
+              },
+              {
+                "id": "menu-item-about-us",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "De corte",
+                  "text": "De corte"
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Eléctricas",
+                  "text": "Eléctricas"
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Manuales",
+                  "text": "Manuales"
+                }
+              },
+              {
+                "id": "menu-item-about-us",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "VER TODO",
+                  "text": "VER TODO"
+                }
+              }
+            ]
+          }
+        },
+        "rich-text#titleAlmacenadores": {
+            "props": {
+              "text": "ALMACENADORES ",
+              "blockClass": ["titleheader","titleAlmacenadores"],
+              "textAlignment": "LEFT",
+              "textPosition": "LEFT"
+            }
+          },
+            "vtex.menu@2.x:menu#almacenadores": {
+              "props": {
+                "orientation": "vertical",
+                "items": [
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Cajas y organizadores",
+                      "text": "Cajas y organizadores"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Muebles",
+                      "text": "Muebles"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "VER TODO",
+                      "text": "VER TODO"
+                    }
+                  }
+                ]
+              }
+            },
+            "rich-text#titleEquipos": {
+            "props": {
+              "text": "EQUIPOS",
+              "blockClass": ["titleheader", "titleEquipos"],
+              "textAlignment": "LEFT",
+              "textPosition": "LEFT"
+            }
+          },
+            "vtex.menu@2.x:menu#equipo": {
+              "props": {
+                "orientation": "vertical",
+                "items": [
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Sierras",
+                      "text": "Sierras"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Lijadoras",
+                      "text": "Lijadoras"
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Mototool",
+                      "text": "Mototool"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Pulidoras ",
+                      "text": "Pulidoras"
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Polichadoras y accesorios",
+                      "text": "Polichadoras y accesorios"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Esmeriles",
+                      "text": "Esmeriles"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Hidrolavadoras ",
+                      "text": "Hidrolavadoras "
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Ruteadoras",
+                      "text": "Ruteadoras"
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Soldadores y accesorios ",
+                      "text": "Soldadores y accesorios "
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Pistolas soldadoras para silicona ",
+                      "text": "Pistolas soldadoras para silicona "
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "VER TODO",
+                      "text": "VER TODO"
+                    }
+                  }
+                ]
+              }
+            }
+}

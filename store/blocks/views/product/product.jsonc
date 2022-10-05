@@ -47,7 +47,19 @@
     ]
   },
   "flex-layout.row#product-image": {
-    "children": ["product-images"]
+    "children": ["product-summary-image#shelf"]
+  },
+  "product-images": {
+    "props": {
+      "showBadge": true
+    }
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": true,
+      "aspectRatio": "1:1",
+      "maxHeight": 170
+    }
   },
   "flex-layout.col#right-col": {
     "props": {

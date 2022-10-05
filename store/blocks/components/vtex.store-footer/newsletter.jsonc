@@ -1,0 +1,135 @@
+{
+    "modal-trigger#newsletter": {
+        "title": "Guía de tallas",
+        "props": {
+          "blockClass": "size__guide"
+        },
+        "children": [
+          "menu-item#newsletter",
+          "modal-layout#newsletter"
+        ]
+      },
+      "rich-text#guideSize": {
+        "props": {
+          "text": "Suscríbetre al newsletter",
+          "blockClass": "pdp__guide"
+        }
+      },
+      "modal-layout#newsletter": {
+        "title": "newsletter",
+        "children": [
+          "modal-header#newsletter"
+        ],
+        "props": {
+          "blockClass": [
+            "newsletter"
+          ]
+        }
+      },
+      "modal-header#newsletter": {
+        "title": "Contenido",
+        "children": [
+          "modal-content#newsletter"
+        ],
+        "props": {
+          "blockClass": [
+            "newsletter"
+          ]
+        }
+      },
+      "modal-content#newsletter": {
+        "title": "Informacion",
+        "children": [
+            "rich-text#TextoSuscribete",
+            "newsletter-form"
+        ],
+        "props": {
+          "blockClass": "newsletter"
+        }
+      },
+      "newsletter-form": {
+        "children": [
+            "flex-layout.col#CamposFormFooternew"
+        ],
+        "props": {
+            "blockClass": "BoletinFooter",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "newsletter-submit": {
+        "props": {
+            "submitButtonLabel": "ENVIAR",
+            "blockClass": "BoletinFooterEnviar"
+        }
+    },
+    "newsletter-input-email": {
+        "props": {
+            "blockClass": "CampoEmail",
+            "placeholderText": "Email"
+        }
+    },
+    "newsletter-input-name": {
+        "props": {
+            "blockClass": "CampoName",
+            "placeholderText": "Nombre y Apellido"
+        }
+    },
+    "newsletter-checkbox-confirmation": {
+        "props": {
+            "checkboxLabel": "Al enviar tus datos declaras haber leído y aceptado el tratamiento de datos personales",
+            "blockClass": "BoletinConfirmacion"
+        }
+    },
+
+    "flex-layout.col#CamposFormFooternew": {
+        "children": [
+            "flex-layout.col#CamposFormFooterNews",
+            "flex-layout.col#newsletterInput"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": false,
+            "preserveLayoutOnMobile": true,
+            "verticalAlign": "TOP",
+            "blockClass": "CamposFormFooter"
+        }
+    },
+    "flex-layout.col#CamposFormFooterNews": {
+        "children": [            
+            "newsletter-input-name",
+            "newsletter-input-email"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": false,
+            "fullwidth": true,
+            "verticalAlign": "TOP",
+            "blockClass": "newsletterInput",
+            "paddingTop": 0,
+            "paddingBottom": 5
+        }
+    },
+    "flex-layout.col#newsletterInput": {
+        "children": [            
+            "newsletter-checkbox-confirmation",
+            "newsletter-submit"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": false,
+            "preserveLayoutOnMobile": true,
+            "verticalAlign": "TOP",
+            "blockClass": "newsletterInputCheck"
+        }
+    },
+
+    "rich-text#TextoSuscribete": {
+        "props": {
+            "text": "¡Suscríbete al NEWSLETTER y \n**recibe ofertas especiales!**",
+            "blockClass": "TextoSuscribete",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        }
+    }
+}

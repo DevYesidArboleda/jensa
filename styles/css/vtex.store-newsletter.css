@@ -1,0 +1,29 @@
+.confirmationCheckboxContainer--BoletinConfirmacion :global(.vtex-checkbox__label){
+    font-size: 12.12px;
+}
+
+.formSubmitContainer--BoletinFooterEnviar :global(.vtex-button){
+    background-color: transparent;
+    border: 0;
+}
+
+.formSubmitContainer--BoletinFooterEnviar :global(.vtex-button){
+    background-color: transparent;
+    border: 0;
+}
+
+.formSubmitContainer--BoletinFooterEnviar :global(.vtex-button) :global(.vtex-button__label){
+    color: #000;
+    font-size: 22.62px;
+    text-decoration: underline;
+}
+
+.nameInputContainer--CampoName :global(.vtex-input),
+.emailInputContainer--CampoEmail :global(.vtex-input),
+.emailInputContainer--CampoEmail :global(.vtex-input) :global(.vtex-input-prefix__group),
+.nameInputContainer--CampoName :global(.vtex-input) :global(.vtex-input-prefix__group),
+.emailInputContainer--CampoEmail :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input),
+.nameInputContainer--CampoName :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input){
+    border: 0;
+    border-radius: 0;
+}

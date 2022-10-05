@@ -1,0 +1,13 @@
+{
+    "responsive-layout.mobile#home": {
+        "children": [
+          "flex-layout.row#Slider-Main",
+          "flex-layout.row#Slider-brands",
+          "flex-layout.row#Slider-and-Text",
+          "flex-layout.row#container-tab-shelf",
+          "flex-layout.row#shelf", 
+          "flex-layout.row#Slider-and-Text2",
+          "flex-layout.row#FourImage"
+        ]
+      }
+}

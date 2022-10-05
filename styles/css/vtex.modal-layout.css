@@ -1,0 +1,12 @@
+.headerContainer--newsletter{
+    background-color: #FFDF00;
+    border-radius: 0;
+}
+
+.paper--newsletter{
+    border-radius: 0;
+}
+
+.contentContainer--newsletter{
+    padding-left: 60px;
+}

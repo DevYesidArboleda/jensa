@@ -180,3 +180,13 @@
     font-weight: 600;
     color: #5A499D;
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--headerMenu) .styledLinkContent {
+    font-size: 12px;
+    color: #606060;
+    margin-left: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--headerMenu) .styledLinkContainer {
+    margin-left: 0;
+}

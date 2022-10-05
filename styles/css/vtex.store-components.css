@@ -25,3 +25,14 @@
     display: flex;
     align-items: center;
 }
+
+.discountInsideContainer {
+    background-color: #70A73B;
+    font-size: 16px;
+    position: relative;
+    float: left;
+}
+
+.discountContainer {
+    border-top: 1px solid #BBBBBC;
+}

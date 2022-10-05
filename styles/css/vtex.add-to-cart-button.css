@@ -1,5 +1,7 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart) .buttonText--AgragarVitrina,
 .buttonDataContainer--AgragarVitrina .buttonText--AgragarVitrina{
     color: #fff;
     font-size: 13.66px;
     text-transform: initial;
 }
+

@@ -1,6 +1,6 @@
 {
     "flex-layout.row#shelf": {
-        "children": ["list-context.product-list#home"],
+        "children": ["flex-layout.col#shelf"],
         "props": {
           "blockClass": "shelf",
           "fulwidth": true,
@@ -9,6 +9,23 @@
           "preserveLayoutOnMobile": true,
           "horizontalAlign": "center",
           "verticalAlign": "center"
+        }
+      },
+      "flex-layout.col#shelf": {
+        "children": [
+          "rich-text#titleShelfHome",
+          "list-context.product-list#home"
+        ],
+        "props": {
+          "blockClass": "shelf",
+          "fulwidth": false,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "RIFHT",
+          "verticalAlign": "middle",
+          "paddingTop": 0,
+          "paddingBottom": 0
         }
       },
       "list-context.product-list#home": {
@@ -36,6 +53,7 @@
           "stack-layout",
           "product-summary-name",
           "product-summary-brand",
+          "flex-layout.col#spacer",
           "flex-layout.row#price-wishlist",
           "flex-layout.row#add-to-cart"
         ]
@@ -141,6 +159,14 @@
           "verticalAlign": "middle",
           "paddingTop": 0,
           "paddingBottom": 0
+        }
+      },
+      "rich-text#titleShelfHome": {
+        "props": {
+          "text": "PRODUCTOS DESTACADOS",
+          "blockClass": "titleShelfHome",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
         }
       }
 }

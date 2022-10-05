@@ -9,7 +9,7 @@
       "menu-item#tiendas",
       "menu-item#escribenos",
       "menu-item#horas-atencion",
-      "menu-item#newsletter"
+      "modal-trigger#newsletter"
       
     ]
   },
@@ -86,7 +86,6 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
         "noFollow": false,
         "tagTitle": "Suscríbetre al newsletter",
         "text": "Suscríbetre al newsletter"

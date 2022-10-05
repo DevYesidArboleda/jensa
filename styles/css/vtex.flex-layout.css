@@ -1,6 +1,6 @@
 .flexRowContent--container-tab-shelf,
 .flexRowContent--Slider-and-Text{
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
     padding-right:20px;
     padding-left: 20px;
@@ -116,9 +116,15 @@
 
 .flexRowContent--Footer-Xtrategik{
     justify-content: start;
-    max-width: 1232px;
+    max-width: 1200px;
     margin: 0 auto;
     border-top: 1px solid #BBBBBC;
+}
+
+.flexRowContent--FourImage{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .flexRowContent--Footer-Xtrategik-CT{
@@ -131,7 +137,7 @@
 }
 
 .flexRowContent--notification{
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
     justify-content: space-around;    
 }
@@ -146,12 +152,12 @@
 
 .flexRowContent--Footer-subText,
 .flexRowContent--tienda-terminos-legales{
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 24px;
 }
 
-.flexCol--CamposFormFooter{
+.flexCol--CamposFormFooterRed{
     align-items: flex-end;
 }
 
@@ -165,4 +171,26 @@
 
 .flexRowContent--slider-main-carrousel{
     margin-top: 20px;
+}
+
+.flexCol--newsletterInputCheck .flexColChild--newsletterInputCheck:last-child{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.flexCol--CamposFormFooter .flexColChild--CamposFormFooter{
+    width: 100%;
+}
+
+.flexCol--newsletterInput{
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.flexCol--headerMenu{
+    align-items: start;
+}
+
+.flexRowContent--menu-header{
+    gap: 20px;
 }

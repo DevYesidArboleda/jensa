@@ -1,0 +1,335 @@
+{
+    "rich-text#titleJardineria": {
+        "props": {
+          "text": "JARDINERÍA",
+          "blockClass": ["titleheader", "titleJardineria"],
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+        "vtex.menu@2.x:menu#jardineria": {
+          "props": {
+            "orientation": "vertical",
+            "items": [
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Guadañadoras",
+                  "text": "Guadañadoras"
+                }
+              },
+              {
+                "id": "menu-item-about-us",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "Tijeras",
+                  "text": "Tijeras"
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Pistolas de Riego",
+                  "text": "Pistolas de Riego"
+                }
+              },
+              {
+                "id": "menu-item-about-us",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "Aspersores",
+                  "text": "Aspersores"
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Mangueras",
+                  "text": "Mangueras"
+                }
+              },
+              {
+                "id": "menu-item-about-us",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "Escobas",
+                  "text": "Escobas"
+                }
+              },
+              {
+                "id": "menu-item-about-us",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "Palas palitas y tenedores ",
+                  "text": "Palas palitas y tenedores "
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Repuestos",
+                  "text": "Repuestos"
+                }
+              },
+              {
+                "id": "menu-item-about-us",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "VER TODO",
+                  "text": "VER TODO"
+                }
+              }
+            ]
+          }
+        },
+        "rich-text#titleIluminacion": {
+          "props": {
+            "text": "ILUMINACIÓN",
+            "blockClass": ["titleheader","titleIluminacion"],
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+          }
+        },
+          "vtex.menu@2.x:menu#iluminacion": {
+            "props": {
+              "orientation": "vertical",
+              "items": [
+                {
+                  "id": "menu-item-shop",
+                  "type": "custom",
+                  "highlight": false,
+                  "itemProps": {
+                    "type": "internal",
+                    "href": "#",
+                    "noFollow": false,
+                    "tagTitle": "Lámparas Y Linternas ",
+                    "text": "Lámparas Y Linternas "
+                  }
+                },
+                {
+                  "id": "menu-item-about-us",
+                  "type": "custom",
+                  "highlight": false,
+                  "itemProps": {
+                    "type": "internal",
+                    "href": "/",
+                    "noFollow": false,
+                    "tagTitle": "Bombillos",
+                    "text": "Bombillos"
+                  }
+                },
+                {
+                  "id": "menu-item-shop",
+                  "type": "custom",
+                  "highlight": false,
+                  "itemProps": {
+                    "type": "internal",
+                    "href": "#",
+                    "noFollow": false,
+                    "tagTitle": "Ahorradores",
+                    "text": "Ahorradores"
+                  }
+                },
+                {
+                  "id": "menu-item-about-us",
+                  "type": "custom",
+                  "highlight": false,
+                  "itemProps": {
+                    "type": "internal",
+                    "href": "/",
+                    "noFollow": false,
+                    "tagTitle": "VER TODO",
+                    "text": "VER TODO"
+                  }
+                }
+              ]
+            }
+          },
+          "rich-text#titleElectricos": {
+            "props": {
+              "text": "ELÉCTRICOS",
+              "blockClass": ["titleheader", "titleElectricos"],
+              "textAlignment": "LEFT",
+              "textPosition": "LEFT"
+            }
+          },
+            "vtex.menu@2.x:menu#electricos": {
+              "props": {
+                "orientation": "vertical",
+                "items": [
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Tomas y multitomas",
+                      "text": "Tomas y multitomas"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Cables coaxiales",
+                      "text": "Cables coaxiales"
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Conectores",
+                      "text": "Conectores"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Convertidores e invertidores ",
+                      "text": "Convertidores e invertidores "
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Interruptores",
+                      "text": "Interruptores"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Probadoress",
+                      "text": "Probadoress"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Clavijas ",
+                      "text": "Clavijas "
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Extensiones",
+                      "text": "Extensiones"
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Audio y TV",
+                      "text": "Audio y TV"
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Cargadores",
+                      "text": "Cargadores"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "VER TODO",
+                      "text": "VER TODO"
+                    }
+                  }
+                ]
+              }
+            }
+}

@@ -5,6 +5,7 @@
 .listItem--shelf :global(.vtex-button) :global(.vtex-button__label ){
     color: #444242;
     font-size: 14px;
+    font-weight: 600;
 }
 
 .listItemActive--shelf :global(.vtex-button) {

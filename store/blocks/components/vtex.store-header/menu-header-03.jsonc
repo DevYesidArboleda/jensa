@@ -1,0 +1,344 @@
+{
+    "rich-text#titleSeguridad": {
+        "props": {
+          "text": "SEGURIDAD",
+          "blockClass": ["titleheader", "titleSeguridad"],
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+        "vtex.menu@2.x:menu#seguridad": {
+          "props": {
+            "orientation": "vertical",
+            "items": [
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Juegos De Chazos",
+                  "text": "Juegos De Chazos"
+                }
+              },
+              {
+                "id": "menu-item-about-us",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "Tornillos y tuercas",
+                  "text": "Tornillos y tuercas"
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Clavos",
+                  "text": "Clavos"
+                }
+              },
+              {
+                "id": "menu-item-about-us",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "Chazos",
+                  "text": "Chazos"
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Chapas",
+                  "text": "Chapas"
+                }
+              },
+              {
+                "id": "menu-item-about-us",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "Bisagras",
+                  "text": "Bisagras"
+                }
+              },
+              {
+                "id": "menu-item-about-us",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "Ganchos ",
+                  "text": "Ganchos "
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Garruchas",
+                  "text": "Garruchas"
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Cierres Y Cerraduras ",
+                  "text": "Cierres Y Cerraduras "
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Candados",
+                  "text": "Candados"
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Modelos Llaves",
+                  "text": "Modelos Llaves"
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Mirillas",
+                  "text": "Mirillas "
+                }
+              },
+              {
+                "id": "menu-item-shop",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Cadenas",
+                  "text": "Cadenas"
+                }
+              },
+              {
+                "id": "menu-item-about-us",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "VER TODO",
+                  "text": "VER TODO"
+                }
+              }
+            ]
+          }
+        },
+        "rich-text#titleAutomotriz": {
+            "props": {
+              "text": "AUTOMOTRIZ",
+              "blockClass": ["titleheader", "titleAutomotriz"],
+              "textAlignment": "LEFT",
+              "textPosition": "LEFT"
+            }
+          },
+            "vtex.menu@2.x:menu#automotriz": {
+              "props": {
+                "orientation": "vertical",
+                "items": [
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Aspiradoras",
+                      "text": "Aspiradoras"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Compresores",
+                      "text": "Compresores"
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Infladores",
+                      "text": "Infladores"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Crucetas",
+                      "text": "Crucetas"
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Pulpo",
+                      "text": "Pulpo"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Medidores de aire",
+                      "text": "Medidores de aire"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "Tapetes ",
+                      "text": "Tapetes "
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Microfibras",
+                      "text": "Microfibras"
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Kits Y Singulares ",
+                      "text": "Kits Y Singulares "
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Juegos para latonería",
+                      "text": "Juegos para latonería"
+                    }
+                  },
+                  {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Forros Timón",
+                      "text": "Forros Timón"
+                    }
+                  },
+                  {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "VER TODO",
+                      "text": "VER TODO"
+                    }
+                  }
+                ]
+              }
+            }
+}

@@ -50,7 +50,9 @@
     "vtex.product-list": "0.x",
     "vtex.info-card-list": "0.x",
     "vtex.store-image": "0.x",
-    "vtex.store-icons": "0.x"
+    "vtex.modal-layout": "0.x",
+    "vtex.store-icons": "0.x",
+    "vtex.store-newsletter": "1.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

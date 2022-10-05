@@ -23,7 +23,7 @@
             "preventVerticalStretch": false,
             "preserveLayoutOnMobile": true,
             "verticalAlign": "TOP",
-            "blockClass": "CamposFormFooter"
+            "blockClass": "CamposFormFooterRed"
         }
     },
     "image#logo-footer": {
