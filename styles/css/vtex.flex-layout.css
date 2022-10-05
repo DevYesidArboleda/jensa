@@ -154,7 +154,12 @@
 .flexRowContent--tienda-terminos-legales{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.flexRowContent--tienda-terminos-legales{
+    padding-top: 30px;
 }
 
 .flexCol--CamposFormFooterRed{
