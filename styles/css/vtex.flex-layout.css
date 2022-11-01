@@ -1,58 +1,58 @@
 .flexRowContent--container-tab-shelf,
-.flexRowContent--Slider-and-Text{
+.flexRowContent--Slider-and-Text {
     max-width: 1200px;
     margin: 0 auto;
-    padding-right:20px;
+    padding-right: 20px;
     padding-left: 20px;
 }
 
-.flexRowContent--Slider-and-Text .flexColChild--image{
+.flexRowContent--Slider-and-Text .flexColChild--image {
     justify-content: end;
     display: flex;
 }
 
-.flexRowContent--Slider-and-Text .flexColChild--image2{
+.flexRowContent--Slider-and-Text .flexColChild--image2 {
     justify-content: start;
     display: flex;
 }
 
-.flexRowContent--add-to-cart :global(.vtex-button){
+.flexRowContent--add-to-cart :global(.vtex-button) {
     border: 0;
     background-color: #CA6231;
     border-radius: 0;
 }
 
-.flexRowContent--add-to-cart{
+.flexRowContent--add-to-cart {
     justify-content: space-between;
 }
 
-.flexCol--SeguirComprando{
+.flexCol--SeguirComprando {
     flex-direction: column-reverse;
     margin-bottom: 20px;
 }
 
-.flexRowContent--SeguirComprando{
+.flexRowContent--SeguirComprando {
     padding: 0 20px;
 }
 
-.flexColChild--SeguirComprando:first-child{
+.flexColChild--SeguirComprando:first-child {
     width: 100%;
     text-align: end;
 }
 
-.flexRowContent--qttyPrice-row{
+.flexRowContent--qttyPrice-row {
     flex-direction: column;
 }
 
-.flexRowContent--qttyPrice-row .stretchChildrenWidth:first-child{
+.flexRowContent--qttyPrice-row .stretchChildrenWidth:first-child {
     width: 100% !important;
 }
 
-.flexCol--col-one-header{
+.flexCol--col-one-header {
     flex-direction: row;
 }
 
-.flexColChild--wishlist :global(.vtex-menu-2-x-styledLinkContent)::before{
+.flexColChild--wishlist :global(.vtex-menu-2-x-styledLinkContent)::before {
     background: url("assets/icons/WishlistHeader.svg");
     width: 17px;
     height: 17px;
@@ -65,108 +65,108 @@
     display: flex;
 }
 
-.flexColChild--orders :global(.vtex-menu-2-x-styledLinkContent)::before{
-  background: url("assets/icons/pedidosHeader.svg");
-  width: 17px;
-  height: 17px;
-  content: "";
-  margin-right: 10px;
-  background-position: 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  display: flex;
+.flexColChild--orders :global(.vtex-menu-2-x-styledLinkContent)::before {
+    background: url("assets/icons/pedidosHeader.svg");
+    width: 17px;
+    height: 17px;
+    content: "";
+    margin-right: 10px;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
 }
 
-.flexColChild--whatsapp :global(.vtex-menu-2-x-styledLinkContent)::before{
-  background: url("assets/icons/whatsappHeader.svg");
-  width: 15px;
-  height: 15px;
-  content: "";
-  background-position: 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  margin-right: 10px;
-  display: flex;
+.flexColChild--whatsapp :global(.vtex-menu-2-x-styledLinkContent)::before {
+    background: url("assets/icons/whatsappHeader.svg");
+    width: 15px;
+    height: 15px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
 }
 
 .flexCol--orders,
 .flexCol--whatsapp,
-.flexCol--wishlist{
-  justify-content: center;
+.flexCol--wishlist {
+    justify-content: center;
 }
 
 .flexColChild--orders :global(.vtex-menu-2-x-styledLinkContent),
 .flexColChild--whatsapp :global(.vtex-menu-2-x-styledLinkContent),
-.flexColChild--wishlist :global(.vtex-menu-2-x-styledLinkContent){
-  font-size: 13px;
-  font-weight: 400;
-  text-transform: uppercase;
+.flexColChild--wishlist :global(.vtex-menu-2-x-styledLinkContent) {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
-.flexCol--logo-two{
+.flexCol--logo-two {
     justify-content: center;
     padding: 0 20px;
 }
 
-.flexRowContent--main-header{
+.flexRowContent--main-header {
     background-color: #fff;
 }
 
-.flexRowContent--Footer-Xtrategik{
+.flexRowContent--Footer-Xtrategik {
     justify-content: start;
     max-width: 1200px;
     margin: 0 auto;
     border-top: 1px solid #BBBBBC;
 }
 
-.flexRowContent--FourImage{
+.flexRowContent--FourImage {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.flexRowContent--Footer-Xtrategik-CT{
+.flexRowContent--Footer-Xtrategik-CT {
     align-items: center;
     gap: 10px;
 }
 
-.flexRow--notification{
+.flexRow--notification {
     background-color: #CA6231;
 }
 
-.flexRowContent--notification{
+.flexRowContent--notification {
     max-width: 1200px;
     margin: 0 auto;
-    justify-content: space-around;    
+    justify-content: space-around;
 }
 
-.flexColChild--col-two-header:last-child{
+.flexColChild--col-two-header:last-child {
     width: 100%;
 }
 
-.flexRow--row-two-header{
+.flexRow--row-two-header {
     background-color: #20211D;
 }
 
 .flexRowContent--Footer-subText,
-.flexRowContent--tienda-terminos-legales{
+.flexRowContent--tienda-terminos-legales {
     max-width: 1200px;
     margin: 0 auto;
     padding-left: 24px;
     padding-right: 24px;
 }
 
-.flexRowContent--tienda-terminos-legales{
+.flexRowContent--tienda-terminos-legales {
     padding-top: 30px;
 }
 
-.flexCol--CamposFormFooterRed{
+.flexCol--CamposFormFooterRed {
     align-items: flex-end;
 }
 
-.flexRowContent--RedesFooter{
+.flexRowContent--RedesFooter {
     gap: 6px;
 }
 
@@ -174,28 +174,37 @@
     align-items: center;
 }
 
-.flexRowContent--slider-main-carrousel{
+.flexRowContent--slider-main-carrousel {
     margin-top: 20px;
 }
 
-.flexCol--newsletterInputCheck .flexColChild--newsletterInputCheck:last-child{
+.flexCol--newsletterInputCheck .flexColChild--newsletterInputCheck:last-child {
     justify-content: flex-end;
     display: flex;
 }
 
-.flexCol--CamposFormFooter .flexColChild--CamposFormFooter{
+.flexCol--CamposFormFooter .flexColChild--CamposFormFooter {
     width: 100%;
 }
 
-.flexCol--newsletterInput{
+.flexCol--newsletterInput {
     gap: 10px;
     padding-bottom: 20px;
 }
 
-.flexCol--headerMenu{
+.flexCol--headerMenu {
     align-items: start;
 }
 
-.flexRowContent--menu-header{
+.flexRowContent--menu-header {
     gap: 20px;
+}
+
+.flexCol--filterCol {
+    max-width: 394px;
+    min-width: 230px;
+}
+
+.flexCol--filterCol .flexColChild--filterCol {
+    height: auto !important;
 }

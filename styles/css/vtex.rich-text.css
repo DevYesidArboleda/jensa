@@ -208,3 +208,16 @@
   background-repeat: no-repeat;
   cursor: pointer;
 }
+
+.paragraph--textPLP{
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.paragraph--textPLP:hover{
+  color: #CA6231;
+}
+
+.strong--separador{
+  color: #BBBBBC;
+}

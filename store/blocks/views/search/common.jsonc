@@ -1,7 +1,7 @@
 {
 
   "flex-layout.row#searchbread": {
-    "children": ["breadcrumb.search"],
+    "children": ["breadcrumb.search", "flex-layout.row#plpMenu"],
     "props": {
       "preserveLayoutOnMobile": true,
       "fullWidth": true,
@@ -34,7 +34,7 @@
     }
   },
   "flex-layout.row#searchinfo": {
-    "children": ["flex-layout.col#orderby"]
+    "children": ["flex-layout.col#productCount", "flex-layout.col#orderby"]
   },
   "flex-layout.col#productCount": {
     "children": ["total-products.v2"],
@@ -90,6 +90,50 @@
       "blockClass": "filterMobileCol"
     }
   },
+  "filter-navigator.v3": {
+    "props": {
+      "maxItemsDepartment": 3,
+      "maxItemsCategory": 3,
+      "initiallyCollapsed": true,
+      "blockClass": "FiltrosSearch",
+      "priceRangeLayout": "slider",
+      "facetOrdering": [{
+        "key": "brand",
+        "orderBy": "name",
+        "order": "ASC"
+      }]
+    }
+  },
+  "flex-layout.row#bannerSearch": {
+    "children": [
+      "image#bannerSearch"
+    ],
+    "title": "Imagen Lateral",
+    "props": {
+      "blockClass": "bannerSearch",
+      "fulwidth": false,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 8
+    }
+  },
+
+  "image#bannerSearch": {
+    "props": {
+      "src": "/arquivos/BannerPLP.png",
+      "alt": "Imagen Banner",
+      "blockClass": "bannerSearch",
+      "link": {
+        "url": "/",
+        "openNewTab": false,
+        "title": "Imagen Banner"
+      }
+    }
+  },
   "flex-layout.col#switcherMobile": {
     "children": ["search-layout-switcher"],
     "props": {
@@ -106,6 +150,81 @@
     "children": ["search-content"],
     "props": {
       "preserveLayoutOnMobile": true
+    }
+  },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1300px)": 4,
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#home",
+      "GridSummary": "product-summary.shelf#home"
+    }
+  },
+  "flex-layout.row#plpMenu": {
+    "props": {
+      "blockClass": "plpMenu",
+      "horizontalAlign": "center",
+      "paddingTop": 0,
+       "paddingBottom": 0
+    },
+    "children": [
+      "rich-text#manuales",
+      "rich-text#separador",
+      "rich-text#estacionarias",
+      "rich-text#separador",
+      "rich-text#electronicas",
+      "rich-text#separador",
+      "rich-text#manuales2"
+    ]
+  },
+  "rich-text#manuales": {
+    "props": {
+      "text": "MANUALES",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "textPLP"
+    }
+  },
+  "rich-text#estacionarias": {
+    "props": {
+      "text": "ESTACIONARIAS",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "textPLP"
+    }
+  },
+  "rich-text#electronicas": {
+    "props": {
+      "text": "ELÉCTRICAS",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "textPLP"
+    }
+  },
+  "rich-text#manuales2": {
+    "props": {
+      "text": "MANUALES",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "textPLP"
     }
   }
 }

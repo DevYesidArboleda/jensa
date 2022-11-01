@@ -48,7 +48,8 @@
           "showPaginationDots": "never",
           "showNavigationArrows": "never"
         }
-      },"product-summary.shelf#home": {
+      },
+      "product-summary.shelf#home": {
         "children": [      
           "stack-layout",
           "product-summary-name",

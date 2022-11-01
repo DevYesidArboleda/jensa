@@ -1,6 +1,7 @@
 {
     "search-result-layout.desktop": {
         "children": [
+          "flex-layout.row#bannerSearch",
           "flex-layout.row#searchbread",
           "flex-layout.row#result"
         ],

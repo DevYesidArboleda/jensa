@@ -1,0 +1,17 @@
+.homeIcon{
+    display: none;
+}
+
+.container .homeLink::after {
+    width: 21px;
+    height: 21px;
+    content: "INICIO";
+    font-size: 11px;
+}
+
+.term,
+.caretIcon,
+.link {
+    font-size: 11px;
+    color: #000;
+}

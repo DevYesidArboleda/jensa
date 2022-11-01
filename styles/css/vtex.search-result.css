@@ -1,0 +1,115 @@
+.galleryLayoutOptionButton {
+  background-color: #F0F0F0;
+  color: #3F3F40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3F3F40;
+  color: #FFFFFF;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center
+}
+
+.galleryItem--list {
+  border-bottom: 1px #E7E9EE solid;
+}
+
+.filterAvailable--FiltrosSearch .filterIcon--FiltrosSearch .caretIcon--FiltrosSearch,
+.orderByButton  .filterPopupArrowIcon .caretIcon{
+    background: url("assets/icons/DownSearch.svg");
+    width: 14px;
+    height: 15px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+}
+
+.filterPopupArrowIcon .caretIcon,
+.filterAvailable--FiltrosSearch .filterIcon--FiltrosSearch .caretIcon--FiltrosSearch{
+    color: transparent;
+}
+
+.filterIsOpen--FiltrosSearch .filterIcon--FiltrosSearch .caretIcon--FiltrosSearch{
+    transform: translate(180deg);
+}
+
+.filterTemplateOverflow--FiltrosSearch :global(.vtex-slider__selector-container) :global(.vtex-slider__selector),
+.filterTemplateOverflow--FiltrosSearch :global(.vtex-slider__base) :global(.vtex-slider__base-internal){
+  background-color: #CA6231;
+}
+
+.filter__container--FiltrosSearch .filterMessage--FiltrosSearch{
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.filterTitle--FiltrosSearch .filterTitleSpan--FiltrosSearch{
+  font-size: 15px;
+}
+
+.filterItem--FiltrosSearch :global(.vtex-checkbox__label){
+  font-size: 14px;
+}
+
+.filterItem--FiltrosSearch :global(.vtex-checkbox__container) :global(.vtex-checkbox__inner-container){
+  border-radius: 50px;
+}
+
+.filterTemplateOverflow--FiltrosSearch :global(.vtex-slider__values-container) :global(.vtex-slider__left-value),
+.filterTemplateOverflow--FiltrosSearch :global(.vtex-slider__values-container) :global(.vtex-slider__right-value){
+  font-size: 15px;
+  color: #000;
+}
+
+.totalProducts--layout,
+.totalProducts--layout .totalProductsMessage {
+  font-size: 15px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.orderByDropdown .filterPopupTitle .orderByText {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #000;
+  background-color: white;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.orderByButton .filterPopupArrowIcon  {
+  background-color: #D8D8DC;
+  height: 100%;
+}
+
+.orderByDropdown .filterPopupTitle{
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #D8D8DC;
+}
+
+.searchResultContainer {
+  max-width: 1180px;
+}
+
+.gallery--grid{
+  justify-content: center;
+}
+
+.filterTemplateOverflow--FiltrosSearch :global(.vtex-slider__values-container){
+  justify-content: center;
+}
+
+.filter__container--priceRange{
+  border-color: transparent;
+}
