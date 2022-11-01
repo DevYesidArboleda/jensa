@@ -12,7 +12,8 @@
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
     "props": {
       "preventHorizontalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "contentPLP-container"
     }
   },
   "flex-layout.col#filter": {

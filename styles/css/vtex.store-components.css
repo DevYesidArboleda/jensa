@@ -36,3 +36,7 @@
 .discountContainer {
     border-top: 1px solid #BBBBBC;
 }
+
+.imageElement--bannerSearch{
+    width: 100vw;
+}

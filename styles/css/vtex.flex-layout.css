@@ -208,3 +208,16 @@
 .flexCol--filterCol .flexColChild--filterCol {
     height: auto !important;
 }
+
+.flexRow--contentPLP-container,
+.flexRow--breadcrumb-container{
+    max-width: 1180px;
+    min-width: 1180px;
+    margin: 0 auto;
+}
+
+.flexRow--bannerSearch :global(.vtex-store-components-3-x-container){
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
