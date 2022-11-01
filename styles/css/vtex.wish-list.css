@@ -9,3 +9,20 @@
     display: flex;
     justify-content: end;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--botonFavoritos) .wishlistIconContainer{
+    justify-content: start;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--botonFavoritos) .wishlistIconContainer :global(.vtex-button)::after {
+    content: "Agregar a tu lista de deseos";
+    font-size: 13px;
+    text-transform: initial;
+    display: flex;
+    color: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--botonFavoritos) .wishlistIconContainer :global(.vtex-button) {
+    display: flex;
+    align-items: center;
+}

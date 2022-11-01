@@ -221,3 +221,23 @@
     margin: 0;
     max-width: 100%;
 }
+
+.flexRow--searchFlotante{
+    position: fixed;
+    top: 40%;
+    padding: 0 0 0 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .flexRow--searchFlotante :global(.vtex-store-components-3-x-container){
+    padding: 0;
+  }
+
+  .flexRow--pdpRecomendation,
+  .flexRow--product-main,
+  .flexRow--description,
+  .flexRow--product-breadcrumb{
+    max-width: 1180px;
+    margin: 0 auto;
+  }

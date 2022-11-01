@@ -1,8 +1,106 @@
 {
-    "shelf.relatedProducts": {
+    "flex-layout.row#pdpRecomendation": {
+        "children": [
+            "flex-layout.col#pdpRecomendation"
+        ],
         "props": {
-            "recommendation": "buy"
+            "blockClass": "pdpRecomendation",
+            "fulwidth": false,
+            "paddingTop": 5,
+            "paddingBottom": 8
+        }
+    },
+    "flex-layout.col#pdpRecomendation": {
+        "children": [
+            "flex-layout.row#NombreVitrinaRecomendados",
+            "list-context.product-list#shelf-relacionados"
+        ],
+        "props": {
+            "blockClass": "pdpRecomendation",
+            "fulwidth": false
+        }
+    },
+    "shelf.relatedProducts#Desktop": {
+        "props": {
+            "blockClass": "ProductosRelacionados",
+            "recommendation": "buy",
+            "hideOutOfStockItems": true,
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 2000,
+                "stopOnHover": true
+            },
+            "paddingBottom": 10,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "productList": {
+                "titleText": "¡Ve estas opciones!",
+                "scroll": "BY_PAGE",
+                "showTitle": false,
+                "arrows": true,
+                "minItemsPerPage": 4,
+                "maxItems": 18,
+                "summary": "product-summary.shelf",  
+                "blockClass": "carousel",
+                "navigationStep": "itemsPerPage",
+                "slideTransition": {
+                    "speed": 400,
+                    "delay": 0,
+                    "timing": 0
+                }
+            }
         },
-        "blocks":["product-summary.shelf"]
-    }
+        "blocks": [
+            "product-summary.shelf#home"
+        ]
+    },
+    "flex-layout.row#NombreVitrinaRecomendados": {
+        "children": [
+            "rich-text#ProductosRecomendados"
+        ],
+        "props": {
+            "blockClass": "NombreVitrina",
+            "fulwidth": false,
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "CENTER",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "rich-text#ProductosRecomendados": {
+        "props": {
+            "text": "PRODUCTOS RELACIONADOS",
+            "blockClass": "NombreRecomendadosVitrina",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        }
+    },
+    "list-context.product-list#shelf-relacionados": {
+        "blocks": ["product-summary.shelf#home"],
+        "children": ["slider-layout#shelf-relacionados"],
+        "props": {
+          
+        }
+      },
+      "slider-layout#shelf-relacionados": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 6,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "never",
+          "showPaginationDots": "mobileOnly",
+          "fullWidth": false,
+          "blockClass": "shelf-relacionados-slider"
+        }
+      }
 }
