@@ -7,7 +7,7 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#busquedaAvanzadaFlotante",
-      "flex-layout.row#description",
+      "flex-layout.row#product",
       "flex-layout.row#pdpRecomendation"
     ]
   },
@@ -62,7 +62,7 @@
   "vtex.store-components:product-brand": {
     "props": {
       "blockClass": "MarcaProducto",
-      "displayMode": "text"
+      "displayMode": "logo"
     }
   },
   "product-images#pdp": {
@@ -342,6 +342,17 @@
     "props": {
       "blockClass": "botonFavoritos",
       "fulwidth": false
+    }
+  },
+  "flex-layout.row#product": {
+    "children": [
+    "product-specifications#product"
+    ]
+  },
+  "product-specifications#product": {
+    "props": {
+      "shoudCollapseOnTabChange": true,
+      "collapsible": "desktopOnly"
     }
   }
 }
