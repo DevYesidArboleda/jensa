@@ -16,3 +16,21 @@
 .clearLink {
     text-decoration: none;
 }
+
+.productBrandLogoWrapper {
+    height: initial !important;
+}
+
+.productBrandLogo {
+    display: flex;
+    height: 25px !important;
+}
+
+.nameContainer {
+    padding: 20px 0;
+    justify-content: initial;
+}
+
+.brandName {
+    font-size: 14px;
+}

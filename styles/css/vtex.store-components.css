@@ -54,3 +54,37 @@
 .productDescriptionTitle {
     display: none;
 }
+
+.specificationsTableContainer {
+    display: block;
+    padding: 0;
+}
+
+.specificationsTableRow {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CA6231;
+}
+
+.specificationsTitle,
+.specificationsTableHead {
+    display: none;
+}
+
+.specificationsTableRow .specificationItemProperty {
+    width: 100%;
+    background-color: #CA6231;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.specificationsTableRow .specificationItemSpecifications {
+    width: 100%;
+}
+
+.productBrandLogoWrapper--MarcaProducto,
+.productBrandLogo--MarcaProducto{
+    height: auto !important;
+}

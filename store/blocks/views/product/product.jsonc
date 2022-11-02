@@ -30,8 +30,7 @@
     },
     "children": [
       "flex-layout.col#stack",      
-      "flex-layout.col#right-col",
-      "flex-layout.col#CompartirEnRedes"
+      "flex-layout.col#right-col"
     ]
   },
   "flex-layout.col#stack": {
@@ -62,7 +61,8 @@
   "vtex.store-components:product-brand": {
     "props": {
       "blockClass": "MarcaProducto",
-      "displayMode": "logo"
+      "displayMode": "logo",
+      "height": 100
     }
   },
   "product-images#pdp": {
@@ -347,7 +347,11 @@
   "flex-layout.row#product": {
     "children": [
     "product-specifications#product"
-    ]
+    ],
+    "props": {
+      "blockClass": "productSpecifitation",
+      "fulwidth": false
+    }
   },
   "product-specifications#product": {
     "props": {

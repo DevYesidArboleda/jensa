@@ -27,6 +27,28 @@
     align-items: center;
 }
 
+.wishlistIconContainer :global(.vtex-button__label) {
+    min-height: 30px;
+    padding: 0 !important;
+    letter-spacing: -1px;
+    font-weight: bold;
+    background: white !important;
+    background-color: white !important;
+    border: none;
+}
+.wishlistIconContainer :global(.vtex-button__label):hover {
+    min-height: 30px;
+    padding: 0 !important;
+    letter-spacing: -1px;
+    font-weight: bold;
+    background: white !important;
+    background-color: white !important;
+    border: none;
+}
+.wishlistIconContainer :global(.vtex-button) {
+    background: transparent !important;
+}
+
 :global(.vtex-flex-layout-0-x-flexRowContent--botonFavoritos) .wishlistIconContainer :global(.vtex-button) :global(.vtex-button__label){
     padding-left: 0;
     padding-right: 5px;
