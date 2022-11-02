@@ -40,3 +40,17 @@
 .imageElement--bannerSearch{
     width: 100vw;
 }
+
+.productBrand {
+    color: #5B5B5F;
+    font-size: 24px;
+}
+
+.productDescriptionText {
+    font-size: 13px;
+    color: #5B5B5F;
+}
+
+.productDescriptionTitle {
+    display: none;
+}

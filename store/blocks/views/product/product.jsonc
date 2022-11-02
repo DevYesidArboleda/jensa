@@ -91,13 +91,13 @@
       "product-identifier.product",
       "flex-layout.row#MarcaProducto",
       "flex-layout.row#botonFavoritos",
-      "flex-layout.row#list-price-savings",
-      //"flex-layout.row#description",
+      "flex-layout.row#list-price-savings",      
       //"product-rating-summary",
       //"product-separator",      
       //"flex-layout.row#selling-price",
       "sku-selector",            
-      "flex-layout.row#buy-button"
+      "flex-layout.row#buy-button",
+      "flex-layout.row#description"
       //"flex-layout.row#guiaTalla"
       /*"product-separator",
       "shipping-simulator",
@@ -138,7 +138,7 @@
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "marginBottom": 2,
-      "marginTop": 5
+      "marginTop": 1
     },
     "children": [
       "product-list-price",
@@ -276,6 +276,7 @@
 
   "flex-layout.row#buy-button": {
     "props": {
+      "blockClass": "buy-button",
       "marginTop": 4,
       "marginBottom": 7
     },

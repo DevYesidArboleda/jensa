@@ -15,3 +15,17 @@
     color: #5B5B5F;
     text-decoration: none;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--list-price-savings) .sellingPrice .sellingPriceValue .currencyContainer{
+    color: #CA6231;
+    font-size: 48px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--list-price-savings) .listPriceValue{
+    color: #CA6231;
+    font-size: 24px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--list-price-savings) .listPriceValue .currencyContainer{
+    color: #959599;
+}

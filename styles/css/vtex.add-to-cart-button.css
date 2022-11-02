@@ -5,3 +5,11 @@
     text-transform: initial;
 }
 
+:global(.vtex-flex-layout-0-x-flexRowContent--buy-button) :global(.vtex-button){
+    color: #fff;
+    font-size: 21px;
+    text-transform: initial;
+    background-color: #CA6231;
+    border: 0;
+    border-radius: 0;
+}

@@ -241,3 +241,11 @@
     max-width: 1180px;
     margin: 0 auto;
   }
+
+  .flexRowContent--buy-button .stretchChildrenWidth:first-child{
+    justify-content: center;
+  }
+
+  .flexRowContent--list-price-savings{
+    align-items: center;
+  }

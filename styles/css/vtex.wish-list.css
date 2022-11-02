@@ -26,3 +26,8 @@
     display: flex;
     align-items: center;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--botonFavoritos) .wishlistIconContainer :global(.vtex-button) :global(.vtex-button__label){
+    padding-left: 0;
+    padding-right: 5px;
+}

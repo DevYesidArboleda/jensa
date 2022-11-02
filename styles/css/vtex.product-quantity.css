@@ -13,3 +13,54 @@
     background-repeat: no-repeat;
     margin-left: 20px;
 }
+
+.quantitySelectorContainer {
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__input){
+    border-left: 0;
+    border-right: 0;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__minus-button),
+.quantitySelectorStepper :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__plus-button){
+    background-color: transparent;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__minus-button__text){
+    background: url("assets/icons/DownSearch.svg");
+    width: 14px;
+    height: 14px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+    font-size: 0;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper-container) :global(.vtex-numeric-stepper__plus-button__text){
+    background: url("assets/icons/DownSearch.svg");
+    width: 14px;
+    height: 14px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+    font-size: 0;
+    transform: rotate(180deg);
+}
+
+.quantitySelectorTitle {
+    font-size: 14px;
+    color: #5B5B5F;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-right: 10px;
+}
