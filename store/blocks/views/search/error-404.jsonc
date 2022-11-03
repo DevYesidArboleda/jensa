@@ -1,0 +1,77 @@
+{
+    //Error 404
+    "store.not-found#search": {
+        "blocks": [
+            
+        ]
+    },
+    "flex-layout.row#errorMain": {
+        "children": [
+            "flex-layout.row#error-one"
+        ],
+        "props": {
+          "blockClass": "errorMain",
+          "fulwidth": true,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": false,
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "colJustify": "around",
+          "rowGap": 3,
+          "paddingTop": 3,
+          "paddingBottom": 3
+        }
+      },
+      "flex-layout.row#error-one": {
+        "children": [
+            "rich-text#error404",
+            "rich-text#error404Home"
+        ],
+        "props": {
+          "blockClass": "error-one",
+          "fulwidth": true,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": false,
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "colJustify": "around",
+          "rowGap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        }
+      },
+      "flex-layout.row#error-two": {
+        "children": [
+            
+        ],
+        "props": {
+          "blockClass": "error-two",
+          "fulwidth": true,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": false,
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "colJustify": "around",
+          "rowGap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        }
+      },
+      "rich-text#error404": {
+        "props": {
+          "text": "¡Lo sentimos, esta URL ha cambiado recientemente! \n\n **Te invitamos a navegar por nuestros departamentos¡Lo sentimos, esta URL ha cambiado recientemente!**",
+          "textColor": "c-auto",
+          "blockClass": "error404"
+        }
+      },
+      "rich-text#error404Home": {
+        "props": {
+          "text": "[ir al Inicio](/)",
+          "textColor": "c-auto",
+          "blockClass": "error404Home"
+        }
+      }
+}

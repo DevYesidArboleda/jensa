@@ -250,3 +250,8 @@
   .flexRowContent--list-price-savings{
     align-items: center;
   }
+
+  .flexRowContent--notfound{
+    max-width: 1150px;
+    margin: 0 auto;
+  }

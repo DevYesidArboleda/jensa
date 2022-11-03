@@ -1,11 +1,33 @@
 {
     "search-not-found-layout": {
-        "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+        "children": [ "flex-layout.row#notfound", "flex-layout.row#pdpRecomendation", "flex-layout.row#FourImage"]
     },
     "flex-layout.row#notfound": {
-        "children": ["not-found"],
+        "children": [
+            "rich-text#notFoundMain",
+            "image#notfound"
+        ],
         "props": {
-          "fullWidth": true
+          "blockClass": "notfound",
+          "fullWidth": true,
+          "paddingTop": 4,
+          "paddingBottom": 4
         }
-    }
+    },
+    "image#notfound": {
+        "props": {
+          "src": "/arquivos/notFound.png",
+          "alt": "no encontrado",
+          "height": "98px",
+          "width": "549px",
+          "blockClass": "notfound"          
+        }
+      },
+      "rich-text#notFoundMain": {
+        "props": {
+          "text": "**¡LO SENTIMOS, NO HEMOS ENCONTRADO ESE PRODUCTO!**  \n\n estos productos te pueden interesar...",
+          "textColor": "c-auto",
+          "blockClass": "notFoundMain"
+        }
+      }
 }

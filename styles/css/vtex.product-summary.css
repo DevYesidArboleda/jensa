@@ -7,9 +7,6 @@
 
 .productBrandContainer{
     display: flex;
-}
-
-.productBrandContainer .productBrandName{
     border-bottom:1px solid #BBBBBC ;
 }
 
@@ -33,4 +30,8 @@
 
 .brandName {
     font-size: 14px;
+}
+
+.element {
+    border-top: 1px solid #BBBBBC;
 }

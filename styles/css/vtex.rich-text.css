@@ -221,3 +221,15 @@
 .strong--separador{
   color: #BBBBBC;
 }
+
+.wrapper--notFoundMain .paragraph--notFoundMain:last-child{
+  font-size: 18px;
+  text-transform: uppercase;
+  border-top: 1px solid #1A3B5B;
+  padding-top: 10px;
+  color: #5B5B5F;
+}
+
+.strong--notFoundMain{
+  font-size: 20px;
+}
