@@ -251,7 +251,23 @@
     align-items: center;
   }
 
+  .flexRowContent--errorMain,
   .flexRowContent--notfound{
     max-width: 1150px;
     margin: 0 auto;
+  }
+
+  .flexRow--errorMain{
+    background-color: #000;
+  }
+
+  .flexColChild--error-one :global(.vtex-store-components-3-x-imageElement--notfound){
+    background-color: #fff;
+    max-width: 326px;
+    max-height: 50px;
+  }
+
+  .flexCol--error-one{
+    justify-content: center;
+    align-items: flex-start;
   }

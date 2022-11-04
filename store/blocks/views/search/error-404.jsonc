@@ -2,12 +2,13 @@
     //Error 404
     "store.not-found#search": {
         "blocks": [
-            
+          "flex-layout.row#errorMain"
         ]
     },
     "flex-layout.row#errorMain": {
         "children": [
-            "flex-layout.row#error-one"
+            "flex-layout.col#error-one",
+            "flex-layout.col#error-two"
         ],
         "props": {
           "blockClass": "errorMain",
@@ -19,14 +20,53 @@
           "verticalAlign": "middle",
           "colJustify": "around",
           "rowGap": 3,
-          "paddingTop": 3,
-          "paddingBottom": 3
+          "paddingTop": 6,
+          "paddingBottom": 6
+        }
+      },
+      "flex-layout.col#error-one": {
+        "children": [
+            "rich-text#error404",
+            "image#notfound"
+        ],
+        "props": {
+          "blockClass": "error-one",
+          "fulwidth": true,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": false,
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "colJustify": "around",
+          "rowGap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        }
+      },
+      "flex-layout.col#error-two": {
+        "children": [
+          "flex-layout.row#error-one",
+          "flex-layout.row#error-two"
+        ],
+        "props": {
+          "blockClass": "error-two",
+          "fulwidth": true,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": false,
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "colJustify": "around",
+          "rowGap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
         }
       },
       "flex-layout.row#error-one": {
         "children": [
-            "rich-text#error404",
-            "rich-text#error404Home"
+          "image#erro1",
+          "image#erro2",
+          "image#erro3"
         ],
         "props": {
           "blockClass": "error-one",
@@ -44,7 +84,9 @@
       },
       "flex-layout.row#error-two": {
         "children": [
-            
+          "image#erro4",
+          "image#erro5",
+          "image#erro6"
         ],
         "props": {
           "blockClass": "error-two",
@@ -60,9 +102,10 @@
           "paddingBottom": 0
         }
       },
+      
       "rich-text#error404": {
         "props": {
-          "text": "¡Lo sentimos, esta URL ha cambiado recientemente! \n\n **Te invitamos a navegar por nuestros departamentos¡Lo sentimos, esta URL ha cambiado recientemente!**",
+          "text": "**ERROR** **404** \n\n ¡Lo sentimos, esta URL ha cambiado!",
           "textColor": "c-auto",
           "blockClass": "error404"
         }
@@ -72,6 +115,60 @@
           "text": "[ir al Inicio](/)",
           "textColor": "c-auto",
           "blockClass": "error404Home"
+        }
+      },
+      "image#erro1": {
+        "props": {
+          "src": "/arquivos/herrero.png",
+          "alt": "no encontrado",
+          "height": "134px",
+          "width": "134px",
+          "blockClass": "notfound"          
+        }
+      },
+      "image#erro2": {
+        "props": {
+          "src": "/arquivos/carpintero.png",
+          "alt": "no encontrado",
+          "height": "134px",
+          "width": "134px",
+          "blockClass": "notfound"          
+        }
+      },
+      "image#erro3": {
+        "props": {
+          "src": "/arquivos/jardinero.png",
+          "alt": "no encontrado",
+          "height": "134px",
+          "width": "134px",
+          "blockClass": "notfound"          
+        }
+      },
+      "image#erro4": {
+        "props": {
+          "src": "/arquivos/electricista.png",
+          "alt": "no encontrado",
+          "height": "134px",
+          "width": "134px",
+          "blockClass": "notfound"          
+        }
+      },
+      "image#erro5": {
+        "props": {
+          "src": "/arquivos/albañil.png",
+          "alt": "no encontrado",
+          "height": "134px",
+          "width": "134px",
+          "blockClass": "notfound"          
+        }
+      },
+      "image#erro6": {
+        "props": {
+          "src": "/arquivos/electricista.png",
+          "alt": "no encontrado",
+          "height": "134px",
+          "width": "134px",
+          "blockClass": "notfound"          
         }
       }
 }

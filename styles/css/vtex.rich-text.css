@@ -233,3 +233,15 @@
 .strong--notFoundMain{
   font-size: 20px;
 }
+
+.paragraph--error404{
+  color: #fff;
+}
+
+.paragraph--error404 .strong--error404{
+  font-size: 29px;
+}
+
+.paragraph--error404 .strong--error404:last-child{
+  color: #CA6231;
+}
