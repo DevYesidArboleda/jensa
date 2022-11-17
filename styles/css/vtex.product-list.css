@@ -49,3 +49,16 @@
     content: "";
     color: transparent;
 }
+
+:global(.vtex-minicart-2-x-minicartProductListContainer) .productBrandName {
+    display: none;
+}
+
+:global(.vtex-minicart-2-x-minicartProductListContainer) .productPriceContainer  {
+    padding: 0;
+}
+
+.productImage,
+.productImageContainer{
+    height: 100%;
+}

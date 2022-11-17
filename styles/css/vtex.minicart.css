@@ -104,6 +104,18 @@
     display: none;
 }
 
+.minicartWrapperContainer{
+    justify-content: center;
+}
+
+.drawer {
+    max-height: 609px;
+}
+
+.minicartSideBarContentWrapper {
+    height: 609px;
+}
+
 @media screen and (max-width: 768px) {
     .minicartContainer {
         padding-right: 5px;

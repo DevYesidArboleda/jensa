@@ -269,5 +269,36 @@
 
   .flexCol--error-one{
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
   }
+
+  .flexColChild--error-one:first-child{
+    width: 100%;
+  }
+
+  .flexColChild--col-two-header:first-child .flexRow--row-one-header{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .flexColChild--col-two-header:first-child {
+    width: 100%;
+  }
+
+  .flexRowContent--row-one-header{    
+    justify-content: space-between;
+  }
+
+  .flexRowContent--row-two-header{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .flexRow--tienda-terminos-legales{
+    background-color: #ECEDEF ;
+  }
+
+  .flexRowContent--product-main{
+    background: linear-gradient(to right, white 0%, white 50%, #F6F6F7 50%, #F6F6F7 100% );
+  }
+
+  

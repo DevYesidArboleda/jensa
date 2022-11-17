@@ -76,6 +76,12 @@
   font-size: 15px;
   color: #000;
   text-transform: uppercase;
+  justify-content: start;  
+}
+
+.totalProducts--layout{
+  display: flex;
+  flex-direction: row;
 }
 
 .orderByDropdown .filterPopupTitle .orderByText {

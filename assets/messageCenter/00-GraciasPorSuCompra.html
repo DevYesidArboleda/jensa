@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <!-- So that mobile webkit will display zoomed in -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- disable auto telephone linking in iOS -->
+    <title>Jensa - Gracias por tu pedido</title>
+    <style type="text/css">
+        /* Resets: see reset.css for details */
+        .ReadMsgBody {
+            width: 100%;
+            background-color: #ebebeb;
+        }
+
+        .ExternalClass {
+            width: 100%;
+            background-color: #ebebeb;
+        }
+
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+
+        body {
+            -webkit-text-size-adjust: none;
+            -ms-text-size-adjust: none;
+        }
+
+        body {
+            padding: 0;
+        }
+
+        td a {
+            text-decoration: none !important;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        .yshortcuts a {
+            border-bottom: none !important;
+        }
+
+        @media only screen and (max-width: 1200px) {
+            table[class="container"] {
+                width: 100% !important;
+            }
+
+            body {
+                font-size: 25px !important;
+            }
+        }
+    </style>
+</head>
+
+<body marginwidth="0" marginheight="0" bgcolor="#fff" style="padding:0px 0px;color:#333;" leftmargin="0" topmargin="0">
+    <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#fff"
+        style="max-width: 700px; margin: auto; font-family: Arial, Helvetica, sans-serif;">
+        <tbody>
+
+            <tr>
+                <td align="center" class="container-padding" style="";>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center"
+                        style="padding: 0;border:none;margin-top: 20px;">
+                        <tbody>
+                            <tr>
+                                <td align="center" class="container-padding">
+                                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center"
+                                        style="border:none;border-left:0px;border-right:0px;">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center">
+                                                    <p>
+                                                        <a href="https://jensa.com">
+                                                            <img src="https://jensa.myvtex.com/arquivos/HeaderEMM.png" alt="Gracias por su compra" width="800px">
+                                                        </a>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            
+
+            <tr>
+                <td>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center"
+                        style="border:none;border-left:0px;border-right:0px; margin-bottom: 0px;">
+                        <tbody>
+                        
+                            <tr>
+                                <td align="center"
+                                    style="padding: 40px 0 20px">
+                                    <div style="background-color: #fff;">
+                                        
+                                        <p style="color: #4d4d4d; font-weight: 400; margin: 10px 0 10px">
+                                            <span>
+                                                <strong style="font-size: 26px; color: #000">
+                                                    ¡Gracias por tu compra! 
+                                                </strong>                                                
+                                            </span>
+                                        </p> 
+                                        
+                                            <p style="color: #4d4d4d; font-weight: 400; margin: 10px 0 10px">
+                                                <span>
+                                                    <strong style="font-size: 26px; color: #000">
+                                                        {{orders.0.clientProfileData.firstName}} {{orders.0.clientProfileData.lastName}}
+                                                    </strong>                                                
+                                                </span>
+                                            </p>                                       
+                                    </div>
+                                </td>
+                            </tr>     
+                            
+                            
+                            <tr>
+                                <td align="center" style="padding: 10px 0;">
+                                    <div style="color: #4D4D4D;">
+                                            <a href="https://www.jensa.com">
+                                                <img border="0"
+                                                    style="padding: 0;border:none;border-left:0px;border-right:0px;"
+                                                    src="https://jensa.myvtex.com/arquivos/EstadoPedidoRecibido.png" alt="Gracias por tu pedido" width="600px">
+                                            </a>
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>                            
+                            
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="padding: 20px 0"></td>
+            </tr>
+
+            <tr>
+                <td align="center" style="background-color: #F6F6F7;">
+                    <div>
+                        <p style="color: #E2261E; margin: 10px 0">
+                            <span>
+                                <strong style="font-size: 18px;font-weight: 400;">DETALLE DE TU PEDIDO</strong>
+                            </span>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td align="center" style="background-color: #F6F6F7;">
+
+                     <p style="color: #4D4D4D; margin: 0 0 5px;font-weight: 400;">
+
+                        <span style="font-size: 20px;">
+                            <strong>PEDIDO N° {{replace orders.0.orderId "-01" ""}}</strong>
+                        </span><br/>
+                    
+                        <strong>Fecha del pedido: </strong>{{formatDate orders.0.creationDate}}<br>
+                        <strong>Forma de pago: </strong>{{replace orders.0.paymentData.transactions.0.payments.0.paymentSystemName "Cash" "contra entrega"}}<br>
+                        
+                        {{#eq orders.0.shippingData.address.addressType "pickup"}}
+                            <strong>Retiro en tienda: </strong>
+                            {{orders.0.shippingData.pickupPoints.0.friendlyName}}<br>
+                            {{orders.0.shippingData.address.street}} {{orders.0.shippingData.address.number}} {{orders.0.shippingData.address.neighborhood}} 
+                            {{orders.0.shippingData.address.complement}}  {{orders.0.shippingData.address.reference}}  {{orders.0.shippingData.address.city}} {{orders.0.shippingData.address.state}}  {{orders.0.shippingData.address.postalCode}}<br>
+                            {{orders.0.shippingData.pickupPoints.0.additionalInfo}}
+                        {{/eq}}
+                    
+                        {{#eq orders.0.shippingData.address.addressType "residential"}}
+                            <strong>Dirección: </strong>{{orders.0.shippingData.address.street}} {{orders.0.shippingData.address.number}} {{orders.0.shippingData.address.neighborhood}} 
+                            {{orders.0.shippingData.address.complement}}  {{orders.0.shippingData.address.reference}}  {{orders.0.shippingData.address.city}} {{orders.0.shippingData.address.state}}  {{orders.0.shippingData.address.postalCode}}<br>
+                        {{/eq}}
+                        
+                        <strong>Teléfono: </strong><a href="tel:{{orders.0.clientProfileData.phone}}" style="color: #4D4D4D">{{orders.0.clientProfileData.phone}}</a><br>                        
+                    </p>
+                </td>
+            </tr> 
+       
+            <tr>
+                <td align="center"
+                    style="color: #4D4D4D; text-align: center; padding: 20px 10px 20px 10px; font-size: 20px;  background-color: #F6F6F7; ">
+                    <!-- Inicio de la Orden -->
+                    {{#each orders}}
+                    <!-- Inicio de los items -->
+                    {{#each items}}
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0"
+                        style="max-width: 600px; margin: auto; font-family: Arial, Helvetica, sans-serif; border-radius: 10px;">
+                        <tbody>
+                            <tr>
+                                <td align="left" style="width: 100px;">
+                                    <a href="https://jensa.myvtex.com/{{detailUrl}}">
+                                        <img src="{{replace imageUrl "55-55" "100-100" }}" alt="{{name}}"
+                                            height="100px" style="margin: 5px 15px 5px 0; border-radius: 15px;">
+                                    </a>
+                                </td>
+                                <td align="left" style="font-size: 14px;padding-right: 20px; line-height: 1">
+                                    <span style="font-size: 15px; color: #5B5B5F; ">
+                                        {{name}}
+                                    </span><br>
+                                    <span style="font-size: 15px; color: #5B5B5F">
+                                        Cantidad: {{quantity}}<br>
+                                        Código: {{ean}}<br>
+                                    </span>
+
+                                    <span style="font-size:15px;color: #5B5B5F">
+                                        <span style="display:inline-block;">
+ 
+                                            {{#each ../shippingData.logisticsInfo}}
+                                            
+                                                {{#eq itemId ../id}}
+                                                
+                                                    {{#each slas}}
+
+                                                        <span>
+                                                        Entrega: </span> 
+                                                        {{#eq ../selectedSla id}}
+                                                            {{#if deliveryWindow}}
+                                                                    Agendada
+                                                            {{else}}
+                                                                {{#unless shippingEstimateDate}}
+                                                                    hasta
+                                                                    {{#hasSubStr shippingEstimate 'bd'}}
+                                                                        {{replace shippingEstimate 'bd' ' días hábiles.'}}
+                                                                        {{else}}
+                                                                        
+                                                                        {{replace shippingEstimate 'd' ' día.'}}
+                                                                    {{/hasSubStr}}
+                                                                    {{else}}
+                                                                    
+                                                                    hasta {{shippingEstimate}} -
+                                                                    {{formatDate shippingEstimateDate}}
+                                                                {{/unless}}
+                                                            {{/if}}
+                                                        {{/eq}}
+
+                                                    {{/each}}
+                                                {{/eq}}
+                                            {{/each}}
+
+
+
+                                </td>
+                                <td align="left" style="width:120px; text-align: right;padding-right: 20px">
+                                    <span
+                                        style="font-weight: 700;font-size: 22px;color: #414042; margin: 10px 0">${{formatCurrency
+                                        sellingPrice}}</span>
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- fin de los Items -->
+                    {{/each}}
+
+                    <!-- Totales -->
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0"
+                        style="max-width: 600px; margin: auto; font-family: Arial, Helvetica, sans-serif; color: #414042; border-top: 1px solid #ADACB2;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table width="100%" cellspacing="0" cellpadding="1" border="0" align="right"
+                                        style="margin: 0px 0; padding: 20px 20px 20px;">
+                                        <tbody>
+                                            {{#each totals}}
+                                            {{#if value}}
+                                            <tr>
+                                                <td valign="top" align="left" style="color:#404041; font-size: 16px;">
+                                                    {{#eq id "Items"}}Sub-total: {{/eq}}
+                                                    {{#eq id "Shipping"}}Envío: {{/eq}}
+                                                    {{#eq id "Discounts"}}Descuentos: {{/eq}}
+                                                    {{#eq id "Tax"}}Impuestos: {{/eq}}
+
+                                                </td>
+                                                <td valign="top" align="right"
+                                                    style="text-align:right;font-size: 16px;">
+                                                    $ {{formatCurrency value}}
+                                                </td>
+                                            </tr>
+                                            {{/if}}
+                                            {{/each}}
+                                            {{#if value}}
+                                            <tr>
+                                                <td valign="top" align="left" style="font-weight:bold;font-size: 22px;">
+                                                    <span style="color:black;">TOTAL:</span>
+                                                </td>
+                                                <td valign="top" align="right"
+                                                    style="color: black; text-align:ri;font-size: 22px; font-weight: 700;">
+                                                    ${{formatCurrency value}}
+                                                </td>
+                                            </tr>
+                                            {{/if}}
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    {{/each}}
+                </td>
+            </tr>  
+            
+            <tr>
+                <td align="center" class="container-padding">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center"
+                        style="padding: 0;border:none;">
+                        <tbody>
+                        <tr>
+                            <td align="center" class="container-padding" >
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center"
+                                    style="padding: 0;border:none;border-left:0px;border-right:0px;">
+                                    <tbody>
+                                        <tr>
+                                            <td align="left">
+                                                <a href="https://jensa.myvtex.com" target="new">
+                                                    <img border="0"
+                                                        style="padding: 0;border:none;border-left:0px;border-right:0px;"
+                                                        src="https://jensa.myvtex.com/arquivos/BannerEMMTwo.png" width="800px">
+                                                </a>
+                                            </td>
+            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>    
+                     
+            <tr>
+                <td align="center" class="container-padding">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center"
+                        style="padding: 0;border:none;">
+                        <tbody>
+                        <tr>
+                            <td align="center" class="container-padding" >
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center"
+                                    style="padding: 0;border:none;border-left:0px;border-right:0px;">
+                                    <tbody>
+                                        <tr>
+                                            <td align="left">
+                                                <a href="https://jensa.myvtex.com" target="new">
+                                                    <img border="0"
+                                                        style="padding: 0;border:none;border-left:0px;border-right:0px;"
+                                                        src="https://jensa.myvtex.com/arquivos/BannerEMM.png" width="800px">
+                                                </a>
+                                            </td>
+            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>          
+           
+
+            
+            <tr>
+                <td align="center" class="container-padding" ;>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center"
+                        style="padding: 5px;border:none;border-left:0px;border-right:0px;">
+                        <tbody>
+                            <tr>
+                                <td align="center" class="container-padding">
+                                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center"
+                                        style="border:none;border-left:0px;border-right:0px;">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center">
+                                                    <p style="color: #5c575e; font-size: 10px; margin: 0px 10px;">
+                                                        © Copyright 2022 Jensa. Todos los derechos reservados
+                                                    </p>
+                                                </td>
+                                                <td align="center">
+                                                    <p style="color: #5c575e; font-size: 10px; margin: 0px 10px;">
+                                                        Agencia ecommerce XtrategiK SAS 
+                                                        <a href="https://www.xtrategik.com?utm=jensa">
+                                                            <img src="https://jensa.myvtex.com/arquivos/MailTransaccionalXtrategik.png" alt="Agencia de Ecoomerce XtrategiK">
+                                                        </a>
+                                                    </p>
+                                                </td>
+                                                <td align="center">
+                                                    <p style="color: #5c575e; font-size: 10px; margin: 0px 10px;">
+                                                        Tecnología 
+                                                        <a href="https://www.vtex.com?utm=jensa">
+                                                            <img src="https://jensa.myvtex.com/arquivos/MailTransaccionalVTEX.png" alt="TEcnología VTEX">
+                                                        </a>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</body>
+
+</html>
+
+

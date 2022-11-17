@@ -3,7 +3,8 @@
         "children": [
           "flex-layout.row#bannerSearch",
           "flex-layout.row#searchbread",
-          "flex-layout.row#result"
+          "flex-layout.row#result",
+          "flex-layout.row#Slider-and-Text2"
         ],
         "props": {
           "pagination": "show-more",

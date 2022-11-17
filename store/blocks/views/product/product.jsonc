@@ -4,7 +4,7 @@
       "blockClass": "productDetail"
     },
     "children": [
-      "flex-layout.row#product-breadcrumb",
+      
       "flex-layout.row#product-main",
       "flex-layout.row#busquedaAvanzadaFlotante",
       "flex-layout.row#product",
@@ -34,7 +34,10 @@
     ]
   },
   "flex-layout.col#stack": {
-    "children": ["stack-layout"],
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "stack-layout"
+    ],
     "props": {
       "width": "50%",
       "rowGap": 0
@@ -73,9 +76,9 @@
         "phone": "16:9"
       },
       "showNavigationArrows": false,
-      "displayThumbnailsArrows": false,
+      "displayThumbnailsArrows": true,
       "thumbnailVisibility": "visible",
-      "thumbnailsOrientation": "horizontal",
+      "thumbnailsOrientation": "vertical",
       "zoomMode": "in-place-hover"
     }
   },

@@ -56,7 +56,7 @@
           "blockClass": "row-one-header",
           "horizontalAlign": "center",
           "verticalAlign": "center",
-          "preventHorizontalStretch": true,
+          "preventHorizontalStretch": false,
           "preventVerticalStretch": true,
           "fullWidth": true
         },
@@ -75,7 +75,7 @@
           "blockClass": "row-two-header",
           "horizontalAlign": "center",
           "verticalAlign": "center",
-          "preventHorizontalStretch": true,
+          "preventHorizontalStretch": false,
           "preventVerticalStretch": true,
           "fullWidth": true
         },

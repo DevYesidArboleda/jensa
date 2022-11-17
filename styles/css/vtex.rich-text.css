@@ -245,3 +245,11 @@
 .paragraph--error404 .strong--error404:last-child{
   color: #CA6231;
 }
+
+.container--error404{
+  justify-content: end;
+}
+
+.wrapper--error404{
+  width: 326px;
+}
