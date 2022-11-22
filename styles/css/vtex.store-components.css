@@ -1,4 +1,4 @@
-.productImageTag--main{
+.productImageTag--imageProductShelf--main{
     max-width: 148px;
 }
 
@@ -49,6 +49,7 @@
 .productDescriptionText {
     font-size: 13px;
     color: #5B5B5F;
+    padding-bottom: 20px;
 }
 
 .productDescriptionTitle {

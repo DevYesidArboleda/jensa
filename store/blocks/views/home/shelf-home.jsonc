@@ -169,5 +169,33 @@
           "textAlignment": "LEFT",
           "textPosition": "LEFT"
         }
+      },
+      "stack-layout": {
+        "props": {
+          "blockClass": "product"
+        },
+        "children": [
+          "flex-layout.row#product-image-normal",
+          "product-specification-badges"
+        ]
+      },
+      "flex-layout.row#product-image-normal": {
+        "children": ["product-images"]
+      },
+      "product-images": {
+        "props": {
+          "blockClass": "imageProductShelf",
+          "aspectRatio": {
+            "desktop": "auto",
+            "phone": "16:9"
+          },
+          "showNavigationArrows": false,
+          "displayThumbnailsArrows": true,
+          "thumbnailVisibility": "visible",
+          "thumbnailsOrientation": "vertical",
+          "zoomMode": "in-place-hover",
+          "maxHeight":"400px",
+          "zoomFactor": 2
+        }
       }
 }

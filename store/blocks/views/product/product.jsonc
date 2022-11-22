@@ -36,14 +36,14 @@
   "flex-layout.col#stack": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "stack-layout"
+      "stack-layout#pdp"
     ],
     "props": {
       "width": "50%",
       "rowGap": 0
     }
   },
-  "stack-layout": {
+  "stack-layout#pdp": {
     "props": {
       "blockClass": "product"
     },
@@ -79,7 +79,9 @@
       "displayThumbnailsArrows": true,
       "thumbnailVisibility": "visible",
       "thumbnailsOrientation": "vertical",
-      "zoomMode": "in-place-hover"
+      "zoomMode": "in-place-hover",
+      "maxHeight":"400px",
+      "zoomFactor": 2
     }
   },
   "flex-layout.col#right-col": {
