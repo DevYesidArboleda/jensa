@@ -301,6 +301,7 @@
     justify-content: space-between;
   }
 
+  .flexCol--ContenedorP,
   .flexRowContent--row-two-header{
     max-width: 1200px;
     margin: 0 auto;
@@ -314,4 +315,22 @@
     background: linear-gradient(to right, white 0%, white 50%, #F6F6F7 50%, #F6F6F7 100% );
   }
 
-  
+  .flexRowContent--mainContenedorP :global(.vtex-textarea__label),
+.flexRowContent--mainContenedorP :global(.vtex-input__label){
+  display: none;
+}
+
+.flexRowContent--mainContenedorP :global(.vtex-input-prefix__group){
+  margin: 10px 0;
+  border-color: #CA6231;
+}
+
+
+.flexColChild--textosContactenos {
+    display: flex;
+    align-items: center;
+}
+
+.flexCol--ContactenosDer :global(.vtex-textarea__input){
+    border-color: #CA6231;
+}

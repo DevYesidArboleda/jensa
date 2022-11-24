@@ -253,3 +253,82 @@
 .wrapper--error404{
   width: 326px;
 }
+
+.container--tiendasContact,
+.container--phoneContact,
+.container--whatsappContact{
+  justify-content: center;
+}
+
+.wrapper--tiendasContact,
+.wrapper--phoneContact,
+.wrapper--whatsappContact{
+  display: flex;
+  align-items: center;
+}
+
+.paragraph--tiendasContact,
+.paragraph--phoneContact,
+.paragraph--whatsappContact{
+  font-size: 18px;
+}
+
+.link--tiendasContact{
+  text-decoration: none;
+  color: #000;
+}
+
+.paragraph--subContact{
+  text-align: justify;
+  font-size: 18px;
+}
+
+.headingLevel1--subContact{
+  text-align: justify;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.wrapper--subContact .paragraph--subContact:last-child{
+  margin: 0;
+}
+
+.wrapper--whatsappContact::before{
+  background: url("assets/icons/whatsappContact2.svg");
+    width: 30px;
+    height: 30px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+}
+
+.wrapper--phoneContact::before{
+  background: url("assets/icons/phoneContact.svg");
+    width: 30px;
+    height: 30px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+}
+
+.wrapper--tiendasContact::before{
+  background: url("assets/icons/mailContact.svg");
+    width: 30px;
+    height: 30px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+}

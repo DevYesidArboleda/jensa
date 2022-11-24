@@ -17,7 +17,7 @@
 
   "flex-layout.col#Contactenos": {
     "children": [
-      "rich-text#subContact",
+      "flex-layout.row#Top-contacto",
       "flex-layout.row#MainContactenos"    
     ],
     "props": {
@@ -55,9 +55,7 @@
   },
   "flex-layout.col#ContactenosIzq-1": {
     "children": [
-      "rich-text#whatsappContact",
-      "rich-text#phoneContact",
-      "rich-text#tiendasContact"
+      "rich-text#subContact"
     ],
     "props": {
       "preventHorizontalStrech": true,
@@ -91,6 +89,7 @@
     "children": ["form#contact"],
     "props": {
       "preventHorizontalStrech": true,
+      "blockClass": "ContactenosDer",
       "width":"70%"
     }
   },
@@ -101,7 +100,6 @@
       "blockClass": "formularioContactenos"
     },
     "children": [
-      "rich-text#tituloEscribenos",
       "form-input.text#name",
       "form-input.text#email",      
       "form-input.text#phone",
@@ -149,7 +147,7 @@
   "form-input.checkbox#agreement": {
     "props": {
       "pointer": "#/properties/agreement",
-      "label": "He leído y acepto la política de tratamiento de datos personales",
+      "label": "Declaro que he leído y acepto el tratamiento de datos personales",
       "blockClass": "textoAceptoPoliticas",
       "marginTop": 10    
     }
@@ -181,7 +179,7 @@
   },
   "rich-text#whatsappContact": {
     "props": {
-      "text": "+57 1 5555555",
+      "text": "Escríbenos por Whatsapp \n **(+57) 315 223 3833**",
       "blockClass": "whatsappContact"
     }
   },
@@ -200,23 +198,35 @@
   },
   "rich-text#phoneContact": {
     "props": {
-      "text": "+57 1 5555555",
+      "text": "Llámanos \n **(+57) 315 223 3833**",
       "blockClass": "phoneContact"
     }
   },
   "rich-text#tiendasContact": {
     "props": {
-      "text": "Nuestras tiendas",
+      "text": "Escríbenos por correo \n **servicioalcliente@util.com.co**",
       "blockClass": "tiendasContact"
     }
   },
   "rich-text#subContact": {
     "props": {
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  volutpat. Ut wisi enim ad minim veniam, esse molestie consequat, vel illum dolore eu. ",
+        "text": "**¡CONTÁCTENOS!** \n Si necesitas ayuda, comunícate con nosotros \n Atención personalizada\n\n\n # HORARIO DE ATENCIÓN AL CLIENTE: \n Lunes a Viernes de 8:00 AM a 5:00 PM ",
         "blockClass": "subContact",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "color": "black"
     }
-}
+  },
+  "flex-layout.row#Top-contacto": {
+    "children": [
+      "rich-text#whatsappContact",
+      "rich-text#phoneContact",
+      "rich-text#tiendasContact"
+    ],
+    "props": {
+      "preventHorizontalStrech": true,
+      "preventVerticalStrech": true,
+      "blockClass": "textosContactenos"
+    }
+  }
 }
