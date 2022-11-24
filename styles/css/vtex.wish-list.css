@@ -32,8 +32,8 @@
     padding: 0 !important;
     letter-spacing: -1px;
     font-weight: bold;
-    background: white !important;
-    background-color: white !important;
+    background: transparent !important;
+    background-color: transparent !important;
     border: none;
 }
 .wishlistIconContainer :global(.vtex-button__label):hover {
@@ -41,8 +41,8 @@
     padding: 0 !important;
     letter-spacing: -1px;
     font-weight: bold;
-    background: white !important;
-    background-color: white !important;
+    background: transparent !important;
+    background-color: transparent !important;
     border: none;
 }
 .wishlistIconContainer :global(.vtex-button) {

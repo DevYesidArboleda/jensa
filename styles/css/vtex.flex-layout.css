@@ -121,6 +121,10 @@
     border-top: 1px solid #BBBBBC;
 }
 
+.flexRow--FourImage{
+    padding-bottom: 20px;
+}
+
 .flexRowContent--FourImage {
     max-width: 1200px;
     margin: 0 auto;
@@ -130,6 +134,10 @@
 .flexRowContent--Footer-Xtrategik-CT {
     align-items: center;
     gap: 10px;
+}
+
+.flexCol--info-pdp{
+    padding-left: 20px;
 }
 
 .flexRow--notification {
@@ -207,6 +215,11 @@
 
 .flexCol--filterCol .flexColChild--filterCol {
     height: auto !important;
+}
+
+.flexRow--slider-main-brands{
+    margin: auto;
+    max-width: 1140px;
 }
 
 .flexRow--contentPLP-container,

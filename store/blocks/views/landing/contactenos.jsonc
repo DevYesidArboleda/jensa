@@ -1,0 +1,222 @@
+{
+  "store.custom#Contactenos": {
+    "blocks": [     
+      "flex-layout.row#Contactenos"
+    ]
+  },
+
+  "flex-layout.row#Contactenos": {
+    "children": [
+      "flex-layout.col#Contactenos"     
+    ],
+    "props": {
+      "paddingTop": 6,
+      "blockClass": ["ContenedorP", "container1280px"]
+    }
+  },
+
+  "flex-layout.col#Contactenos": {
+    "children": [
+      "rich-text#subContact",
+      "flex-layout.row#MainContactenos"    
+    ],
+    "props": {
+      "paddingTop": 6,
+      "blockClass": ["ContenedorP", "container1280px"]
+    }
+  },
+  "flex-layout.row#MainContactenos": {
+    "children": [      
+      "flex-layout.col#ContactenosIzq", 
+      "flex-layout.col#ContactenosDer"
+    ],
+    "props": {
+      "paddingTop": 6,
+      "blockClass": ["mainContenedorP", "container1280px"]
+    }
+  },
+  "flex-layout.col#ContactenosIzq": {
+    "children": ["flex-layout.row#ContactenosIzqCT"],
+    "props": {
+      "preventHorizontalStrech": false,
+      "preventVerticalStrech": true,
+      "blockClass": "textosContactenos"
+    }
+  },
+  "flex-layout.row#ContactenosIzqCT": {
+    "children": [
+      "flex-layout.col#ContactenosIzq-1"
+    ],
+    "props": {
+      "preventHorizontalStrech": false,
+      "preventVerticalStrech": true,
+      "blockClass": "textosContactenos"
+    }
+  },
+  "flex-layout.col#ContactenosIzq-1": {
+    "children": [
+      "rich-text#whatsappContact",
+      "rich-text#phoneContact",
+      "rich-text#tiendasContact"
+    ],
+    "props": {
+      "preventHorizontalStrech": true,
+      "preventVerticalStrech": true,
+      "blockClass": "textosContactenos"
+    }
+  },
+  "flex-layout.col#ContactenosIzq-2": {
+    "children": [
+      "image#emailContact"
+    ],
+    "props": {
+      "preventHorizontalStrech": true,
+      "preventVerticalStrech": true,
+      "blockClass": "textosContactenos"
+    }
+  },
+  "rich-text#tituloContactenos": {
+    "props": {
+      "text": "Contáctenos",
+      "blockClass": "contactenos"
+    }
+  },
+  "rich-text#tituloEscribenos": {
+    "props": {
+      "text": "Escríbenos",
+      "blockClass": "contactenos"
+    }
+  },
+  "flex-layout.col#ContactenosDer": {
+    "children": ["form#contact"],
+    "props": {
+      "preventHorizontalStrech": true,
+      "width":"70%"
+    }
+  },
+  "form#contact": {
+    "props": {
+      "entity": "CO",
+      "schema": "contactenos",
+      "blockClass": "formularioContactenos"
+    },
+    "children": [
+      "rich-text#tituloEscribenos",
+      "form-input.text#name",
+      "form-input.text#email",      
+      "form-input.text#phone",
+      "form-input.textarea#comments",
+      //"form-input.checkbox#agreement",
+      "form-submit"
+    ],
+    "blocks": ["form-success"]
+  },
+  "form-success": {
+    "children": ["rich-text#successSubmit"]
+  },
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "¡Gracias por escribirnos a **Marquis!** daremos respuesta a tu \n solicitud lo más pronto posible, queremos hacer inolvidable tu experiencia.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "form-input.text#name": {
+    "props": {
+      "pointer": "#/properties/name",
+      "placeholder": "Nombre y Apellido"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email",
+      "placeholder": "Email"
+    }
+  },
+  "form-input.text#document": {
+    "props": {
+      "pointer": "#/properties/document",
+      "label": "CC"
+    }
+  },
+  "form-input.textarea#comments": {
+    "props": {
+      "pointer": "#/properties/comments",
+      "label": "Comentario",
+      "placeholder": "Comentarios"
+    }
+  },
+  "form-input.checkbox#agreement": {
+    "props": {
+      "pointer": "#/properties/agreement",
+      "label": "He leído y acepto la política de tratamiento de datos personales",
+      "blockClass": "textoAceptoPoliticas",
+      "marginTop": 10    
+    }
+  },
+  "form-input.text#phone": {
+    "props": {
+      "pointer": "#/properties/phone",
+      "placeholder": "Celular",
+      "label": false
+    }
+  },
+  "form-submit": {
+    "props": {
+      "label": "Enviar"
+    }
+  }, 
+  "image#whatsappContact": {
+    "props": {
+      "src": "/assets/icons/whatsappContact.svg",      
+      "blockClass": "",
+      "width": "66px",
+      "alt": "whatsapp",
+      "link": {
+        "url": "/",
+        "openNewTab": false,
+        "title": "whatsapp"
+      }
+    }
+  },
+  "rich-text#whatsappContact": {
+    "props": {
+      "text": "+57 1 5555555",
+      "blockClass": "whatsappContact"
+    }
+  },
+  "image#emailContact": {
+    "props": {
+      "src": "/assets/icons/mailContact.svg",  
+      "width": "66px",    
+      "blockClass": "",
+      "alt": "email",
+      "link": {
+        "url": "/",
+        "openNewTab": false,
+        "title": "email"
+      }
+    }
+  },
+  "rich-text#phoneContact": {
+    "props": {
+      "text": "+57 1 5555555",
+      "blockClass": "phoneContact"
+    }
+  },
+  "rich-text#tiendasContact": {
+    "props": {
+      "text": "Nuestras tiendas",
+      "blockClass": "tiendasContact"
+    }
+  },
+  "rich-text#subContact": {
+    "props": {
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  volutpat. Ut wisi enim ad minim veniam, esse molestie consequat, vel illum dolore eu. ",
+        "blockClass": "subContact",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "color": "black"
+    }
+}
+}

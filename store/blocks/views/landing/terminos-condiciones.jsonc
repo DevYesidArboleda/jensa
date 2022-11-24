@@ -1,0 +1,66 @@
+{
+
+    "store.custom#terminos-condiciones": {
+        "children": [
+            "flex-layout.row#main-tabs-terminos"
+        ]
+      },
+    //inicio de tabs
+  "flex-layout.row#main-tabs-terminos": {
+    "children": ["tab-layout#main-tabs"],
+    "props": {
+      "blockClass": "main-tabs-terminos"
+    }
+  },
+  "tab-layout#main-tabs": {
+    "children": ["tab-list#main-tabs", "tab-content#main-tabs"],
+    "props": {
+      "blockClass": "main-tabs",
+      "defaultActiveTabId": "main-tab-1"
+    }
+  },
+  //tab-list
+  "tab-list#main-tabs": {
+    "children": [
+      "tab-list.item#politicas",
+      "tab-list.item#terminos"
+    ],
+    "props": {
+      "blockClass": "main-tabs"
+    }
+  },
+  "tab-list.item#politicas": {
+    "props": {
+      "tabId": "main-tab-1",
+      "label": "Política de tratamiento de datos",
+      "defaultActiveTab": true,
+      "blockClass": "politicass"
+    }
+  },
+  "tab-list.item#terminos": {
+    "props": {
+      "tabId": "main-tab-2",
+      "label": "Términos y condiciones",
+      "blockClass": "terminos"
+    }
+  },
+  //tab-content
+  "tab-content#main-tabs": {
+    "children": [
+      "tab-content.item#politicas",
+      "tab-content.item#terminos"
+    ]
+  },
+  "tab-content.item#politicas": {
+    "children": ["flex-layout.row#politicas"],
+    "props": {
+      "tabId": "main-tab-1"
+    }
+  },
+  "tab-content.item#terminos": {
+    "children": ["flex-layout.row#terminos"],
+    "props": {
+      "tabId": "main-tab-2"
+    }
+  }
+}

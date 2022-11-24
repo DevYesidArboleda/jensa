@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#terminos": {
+        "children": ["rich-text#info-terminos"],
+        "props": {
+          "blockClass": "terminos"
+        }
+      },
+      "rich-text#info-terminos": {
+        "props": {
+          "text": "**Recomendaciones**\n\n ***Respetar la cadena de frío***\n\n  Un alimento fresco puede permanecer como máximo dos horas a temperatura ambiente.\n\n ***Guardar las carnes correctamente***\n\n Evitar colocar carne en los estantes superiores de la heladera para prevenir que se derrame su jugo sobre otros alimentos.",
+          "blockClass": "info-text-up"
+        },
+        "title": "Texto terminos"
+      }
+}

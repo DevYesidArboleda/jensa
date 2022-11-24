@@ -109,11 +109,11 @@
 }
 
 .drawer {
-    max-height: 609px;
+    max-height: 550px;
 }
 
 .minicartSideBarContentWrapper {
-    height: 609px;
+    height: auto !important;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,0 +1,9 @@
+{
+  "store.custom#Contactenos": {
+    "path": "/contacto"
+  },
+  
+  "store.custom#terminos-condiciones": {
+    "path": "/terminos-condiciones"
+  }
+}
