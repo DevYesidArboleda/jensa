@@ -16,3 +16,53 @@
 .listItemActive--shelf :global(.vtex-button) :global(.vtex-button__label ){
     color: #CA6231;
 }
+
+.container--main-tabs{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.contentContainer {
+    padding: 20px;
+    border: 1px solid #CA6231;
+}
+
+.listContainer--main-tabs  .listItem {
+    background-color: #D8D8DC;
+    margin: 0;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+}
+
+.listContainer--main-tabs .listItemActive {
+    background-color: #CA6231;
+    margin: 0;
+}
+
+.listContainer--main-tabs  .listItem :global(.vtex-button){
+    background-color: transparent;
+    border: 0;
+}
+
+.listContainer--main-tabs  .listItem :global(.vtex-button) :global(.vtex-button__label ){
+    color: #000;
+    text-transform: initial;
+    padding: 10px 60px;
+    white-space: pre;
+}
+
+.listContainer--main-tabs  .listItemActive :global(.vtex-button) :global(.vtex-button__label ){
+    color: #fff;
+    text-transform: initial;
+    padding: 10px 53px;
+    white-space: pre;
+}
+
+.listContainer--main-tabs .listItemActive :global(.vtex-button){
+    background-color: transparent;
+    border: 0;
+}
+
+.listContainer--main-tabs{
+    flex-wrap: nowrap;
+}

@@ -290,6 +290,15 @@
   font-weight: 400;
 }
 
+.paragraph--info-text-up{
+  font-size: 16px;
+  text-align: justify;
+}
+
+.link--info-text-up{
+  color: #000;
+}
+
 .wrapper--subContact .paragraph--subContact:last-child{
   margin: 0;
 }

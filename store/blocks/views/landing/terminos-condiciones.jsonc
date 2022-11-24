@@ -9,7 +9,9 @@
   "flex-layout.row#main-tabs-terminos": {
     "children": ["tab-layout#main-tabs"],
     "props": {
-      "blockClass": "main-tabs-terminos"
+      "blockClass": "main-tabs-terminos",
+      "paddingTop": 6,
+      "paddingBottom": 6
     }
   },
   "tab-layout#main-tabs": {
@@ -23,7 +25,9 @@
   "tab-list#main-tabs": {
     "children": [
       "tab-list.item#politicas",
-      "tab-list.item#terminos"
+      "tab-list.item#terminos",
+      "tab-list.item#garantia",
+      "tab-list.item#entrega"
     ],
     "props": {
       "blockClass": "main-tabs"
@@ -44,11 +48,28 @@
       "blockClass": "terminos"
     }
   },
+  "tab-list.item#garantia": {
+    "props": {
+      "tabId": "main-tab-4",
+      "label": "Póliza de garantía",
+      "defaultActiveTab": true,
+      "blockClass": "politicass"
+    }
+  },
+  "tab-list.item#entrega": {
+    "props": {
+      "tabId": "main-tab-3",
+      "label": "Instructivo de entrega",
+      "blockClass": "terminos"
+    }
+  },
   //tab-content
   "tab-content#main-tabs": {
     "children": [
       "tab-content.item#politicas",
-      "tab-content.item#terminos"
+      "tab-content.item#terminos",
+      "tab-content.item#entrega",
+      "tab-content.item#garantia"
     ]
   },
   "tab-content.item#politicas": {
@@ -61,6 +82,18 @@
     "children": ["flex-layout.row#terminos"],
     "props": {
       "tabId": "main-tab-2"
+    }
+  },
+  "tab-content.item#entrega": {
+    "children": ["flex-layout.row#entrega"],
+    "props": {
+      "tabId": "main-tab-3"
+    }
+  },
+  "tab-content.item#garantia": {
+    "children": ["flex-layout.row#terminos"],
+    "props": {
+      "tabId": "main-tab-4"
     }
   }
 }

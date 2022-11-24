@@ -2,7 +2,9 @@
     "flex-layout.row#terminos": {
         "children": ["rich-text#info-terminos"],
         "props": {
-          "blockClass": "terminos"
+          "blockClass": "terminos",
+          "paddingTop": 6,
+          "paddingBottom": 6
         }
       },
       "rich-text#info-terminos": {

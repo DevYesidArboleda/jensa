@@ -10,7 +10,7 @@
       "flex-layout.col#Contactenos"     
     ],
     "props": {
-      "paddingTop": 6,
+      "paddingTop": 0,
       "blockClass": ["ContenedorP", "container1280px"]
     }
   },
@@ -18,7 +18,8 @@
   "flex-layout.col#Contactenos": {
     "children": [
       "flex-layout.row#Top-contacto",
-      "flex-layout.row#MainContactenos"    
+      "flex-layout.row#MainContactenos",
+      "flex-layout.row#BannerContact"    
     ],
     "props": {
       "paddingTop": 6,
@@ -104,7 +105,7 @@
       "form-input.text#email",      
       "form-input.text#phone",
       "form-input.textarea#comments",
-      //"form-input.checkbox#agreement",
+      "form-input.checkbox#agreement",
       "form-submit"
     ],
     "blocks": ["form-success"]
@@ -114,7 +115,7 @@
   },
   "rich-text#successSubmit": {
     "props": {
-      "text": "¡Gracias por escribirnos a **Marquis!** daremos respuesta a tu \n solicitud lo más pronto posible, queremos hacer inolvidable tu experiencia.",
+      "text": "¡Gracias por escribirnos a **Jensa!** daremos respuesta a tu \n solicitud lo más pronto posible, queremos hacer inolvidable tu experiencia.",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
@@ -226,7 +227,30 @@
     "props": {
       "preventHorizontalStrech": true,
       "preventVerticalStrech": true,
-      "blockClass": "textosContactenos"
+      "blockClass": "textosContactenosP"
+    }
+  },
+  "flex-layout.row#BannerContact": {
+    "children": [
+      "image#BannerContact"
+    ],
+    "props": {
+      "blockClass": "BannerContact",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "preserveLayoutOnMobile": true,
+      "fullwidth": false,
+      "paddingTop": 6,
+      "paddingBottom": 6,
+      "width": "100%"
+    }
+  },
+  "image#BannerContact": {
+    "props": {
+      "src": "/arquivos/BannerContact.png",
+      "mobileImage":"/arquivos/BannerContact.png",
+      "alt": "",
+      "blockClass": "BannerContact"
     }
   }
 }
