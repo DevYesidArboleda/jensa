@@ -47,14 +47,14 @@
 .listContainer--main-tabs  .listItem :global(.vtex-button) :global(.vtex-button__label ){
     color: #000;
     text-transform: initial;
-    padding: 10px 60px;
+    padding: 10px 30px;
     white-space: pre;
 }
 
 .listContainer--main-tabs  .listItemActive :global(.vtex-button) :global(.vtex-button__label ){
     color: #fff;
     text-transform: initial;
-    padding: 10px 53px;
+    padding: 10px 43px;
     white-space: pre;
 }
 

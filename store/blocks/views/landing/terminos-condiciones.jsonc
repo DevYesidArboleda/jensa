@@ -27,7 +27,8 @@
       "tab-list.item#politicas",
       "tab-list.item#terminos",
       "tab-list.item#garantia",
-      "tab-list.item#entrega"
+      "tab-list.item#entrega",
+      "tab-list.item#aviso"
     ],
     "props": {
       "blockClass": "main-tabs"
@@ -62,6 +63,13 @@
       "label": "Instructivo de entrega",
       "blockClass": "terminos"
     }
+  },  
+  "tab-list.item#aviso": {
+    "props": {
+      "tabId": "main-tab-5",
+      "label": "Aviso de privacidad",
+      "blockClass": "aviso"
+    }
   },
   //tab-content
   "tab-content#main-tabs": {
@@ -69,7 +77,8 @@
       "tab-content.item#politicas",
       "tab-content.item#terminos",
       "tab-content.item#entrega",
-      "tab-content.item#garantia"
+      "tab-content.item#garantia",
+      "tab-content.item#aviso"
     ]
   },
   "tab-content.item#politicas": {
@@ -94,6 +103,12 @@
     "children": ["flex-layout.row#garantia"],
     "props": {
       "tabId": "main-tab-4"
+    }
+  },
+  "tab-content.item#aviso": {
+    "children": ["flex-layout.row#aviso"],
+    "props": {
+      "tabId": "main-tab-5"
     }
   }
 }
