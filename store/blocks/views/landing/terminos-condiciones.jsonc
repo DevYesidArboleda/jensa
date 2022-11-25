@@ -91,7 +91,7 @@
     }
   },
   "tab-content.item#garantia": {
-    "children": ["flex-layout.row#terminos"],
+    "children": ["flex-layout.row#garantia"],
     "props": {
       "tabId": "main-tab-4"
     }
