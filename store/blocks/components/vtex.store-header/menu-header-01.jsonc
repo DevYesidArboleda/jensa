@@ -42,6 +42,29 @@
       "width": "100%"
     }
   },
+  "flex-layout.row#menu-header-items-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#MenuDespl-productos",
+      "rich-text#separador",
+      "vtex.menu@2.x:menu#MenuDespl-new",
+      "rich-text#separador",
+      "vtex.menu@2.x:menu#MenuDespl-brands",   
+      "rich-text#separador",
+      "vtex.menu@2.x:menu#MenuDespl-ofertas"      
+    ],
+    "props": {
+      "blockClass": "menu-header-items-mobile",
+      "fulwidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "LEFT",
+      "verticalAlign": "middle",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "width": "100%"
+    }
+  },
 
   "rich-text#separador": {
     "props": {

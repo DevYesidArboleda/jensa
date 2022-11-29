@@ -222,7 +222,7 @@
           "blockClass": "notification",
           "horizontalAlign": "center",
           "verticalAlign": "center",
-          "preventHorizontalStretch": true,
+          "preventHorizontalStretch": false,
           "preventVerticalStretch": true,
           "fullWidth": true
         },

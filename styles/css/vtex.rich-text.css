@@ -341,3 +341,22 @@
     margin-right: 10px;
     display: flex;
 }
+
+@media screen and (max-width: 500px) {
+
+  .paragraph--TextoSliderHome:first-child,
+  .paragraph--TextoSliderHome2:first-child{
+    text-align: center;
+  }
+
+  .strong--TextoSliderHome,
+  .strong--TextoSliderHome2{
+    font-size: 40px !important;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .paragraph--notification{
+    font-size: 8px;
+  }
+}

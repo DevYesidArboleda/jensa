@@ -100,4 +100,51 @@
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+
+    .paginationDotsContainer--accesories{
+        margin-bottom: -20px;
+    }
+
+    .paginationDot--accesories{
+        background-color: #c1c2c870;
+    }
+
+    .paginationDot--accesories--isActive{
+        background-color: #C1C2C8;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .sliderTrack--FourImage{
+        display: flex!important;
+        flex-wrap: wrap!important;
+        transform: none!important;
+        width: 100%!important;
+    }
+    
+    .slide--FourImage--hidden{
+        display: none;
+    }
+    
+    .slide--FourImage{
+        width: 369px !important;
+        height: 127px;
+    }
+}
+
+@media screen and (max-width: 380px) {   
+    
+    .slide--FourImage{
+        width: 320px !important; 
+        height: 127px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .slide--FourImage{
+        width: 260px !important;
+        height: 127px;
+    }
 }

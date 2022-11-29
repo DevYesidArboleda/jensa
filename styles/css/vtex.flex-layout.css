@@ -1,4 +1,5 @@
 .flexRowContent--container-tab-shelf,
+.flexRowContent--Slider-and-Text2, 
 .flexRowContent--Slider-and-Text {
     max-width: 1200px;
     margin: 0 auto;
@@ -352,12 +353,53 @@
     border-color: #CA6231;
 }
 
+.flexRowContent--main-header-mobile{
+    justify-content: center;
+}
+
+.flexRow--main-header-mobile{
+    background-color: #fff;
+}
+
+.flexRow--menu-header-items-mobile{
+    background-color: #000;
+}
+
 @media screen and (max-width: 800px) {
     .flexRowContent--Slider-and-Text{
         flex-direction: column;
     }
-
+    .flexRowContent--Slider-and-Text2{
+        flex-direction: column-reverse;
+    }
+    .flexRowContent--Slider-and-Text2 .stretchChildrenWidth,
     .flexRowContent--Slider-and-Text .stretchChildrenWidth   {
         width: 100% !important;
+    }
+
+    .flexColChild--whatsapp :global(.vtex-menu-2-x-styledLinkContent)::before {
+        width: 33px;
+        height: 33px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .flexColChild--whatsapp :global(.vtex-menu-2-x-styledLinkContent){
+        font-size: 0;
+    }
+
+    .flexRowContent--notification{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .flexRow--slider-main-brands{
+        padding: 20px 20px;
+    }
+
+    .flexRowContent--slider-main-carrousel{
+        padding: 0 20px;
     }
 }

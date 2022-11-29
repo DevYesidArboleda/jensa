@@ -6,15 +6,18 @@
     },
     "sticky-layout#mobile": {
         "children": [
-            "flex-layout.row#mobile"
+            "flex-layout.row#notification-bar",
+            "flex-layout.row#mobile",
+            "flex-layout.row#menu-header-items-mobile"
         ]
     },
     "flex-layout.row#mobile": {
         "children": [
-            "category-menu#mobile",
+            //"category-menu#mobile",
             "logo",
-            "flex-layout.col#spacer",
-            "login",
+            "flex-layout.col#logo-two" ,
+            //"flex-layout.col#spacer",
+            "flex-layout.col#whatsapp-menu",    
             "minicart.v2"
         ],
         "props": {

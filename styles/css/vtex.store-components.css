@@ -93,3 +93,9 @@
 .imageElement--logo-medios-pay{
     width: 97px;
 }
+
+@media screen and (max-width: 800px) {
+    .imageElement--carousel{
+        max-height: 100%;
+    }
+}

@@ -17,7 +17,7 @@
         "props": {
           "blockClass": "slider-main-carrousel",
           "fulwidth": true,
-          "preventHorizontalStretch": true,
+          "preventHorizontalStretch": false,
           "preventVerticalStretch": true,
           "preserveLayoutOnMobile": true,
           "horizontalAlign": "center",
@@ -32,11 +32,11 @@
           "height": 405,
           "images": [{
               "image": "/arquivos/BannerPrincipalNew.png",
-              "mobileImage": "/arquivos/BannerPrincipalNew.png"
+              "mobileImage": "/arquivos/BannerPrincipalNewMobile.png"
             },
             {
               "image": "/arquivos/BannerPrincipalNew.png",
-              "mobileImage": "/arquivos/BannerPrincipalNew.png"
+              "mobileImage": "/arquivos/BannerPrincipalNewMobile.png"
             }
           ]
         }
@@ -62,7 +62,7 @@
           "fulwidth": true,
           "preventHorizontalStretch": false,
           "preventVerticalStretch": true,
-          "preserveLayoutOnMobile": false,
+          "preserveLayoutOnMobile": true,
           "horizontalAlign": "center",
           "verticalAlign": "middle",
           "paddingTop": 6,
@@ -199,7 +199,7 @@
           "flex-layout.col#Slider-and-Text-colA2"
         ],
         "props": {
-          "blockClass": "Slider-and-Text",
+          "blockClass": "Slider-and-Text2",
           "fulwidth": true,
           //"preventHorizontalStretch": true,
           "preventVerticalStretch": true,
@@ -365,19 +365,19 @@
           "height": 195,
           "images": [{
               "image": "/arquivos/FourImage1.png",
-              "mobileImage": "/arquivos/FourImage1.png"
+              "mobileImage": "/arquivos/FourImage1mobile.png"
             },
             {
               "image": "/arquivos/FourImage2.png",
-              "mobileImage": "/arquivos/FourImage2.png"
+              "mobileImage": "/arquivos/FourImage2mobile.png"
             },
             {
               "image": "/arquivos/FourImage3.png",
-              "mobileImage": "/arquivos/FourImage3.png"
+              "mobileImage": "/arquivos/FourImage3mobile.png"
             },
             {
               "image": "/arquivos/FourImage4.png",
-              "mobileImage": "/arquivos/FourImage4.png"
+              "mobileImage": "/arquivos/FourImage4mobile.png"
             }
           ]
         }
@@ -387,10 +387,11 @@
           "itemsPerPage": {
             "desktop": 4,
             "tablet": 3,
-            "phone": 1
+            "phone": 4
           },
           "infinite": true,
           "showNavigationArrows": "never",
+          "showPaginationDots" :"never",
           "blockClass": "FourImage"
         }
       }

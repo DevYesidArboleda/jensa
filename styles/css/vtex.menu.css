@@ -190,3 +190,22 @@
 :global(.vtex-flex-layout-0-x-flexCol--headerMenu) .styledLinkContainer {
     margin-left: 0;
 }
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-header-items-mobile) .styledLinkContainer--MenuDesplegable-Opcion{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width:400px) {
+    :global(.vtex-flex-layout-0-x-flexRow--menu-header-items-mobile) .styledLinkContainer--MenuDesplegable-Opcion{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    :global(.vtex-flex-layout-0-x-flexRow--menu-header-items-mobile) .styledLinkContainer--MenuDesplegable-Opcion{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
