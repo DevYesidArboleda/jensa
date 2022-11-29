@@ -86,3 +86,18 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+
+@media screen and (max-width: 800px) {
+    .infoCardContainer--accesories{
+        display: flex;
+    }
+
+    .sliderTrack--accesories{
+        gap: 10px;
+    }
+
+    .sliderLayoutContainer--shelf{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}

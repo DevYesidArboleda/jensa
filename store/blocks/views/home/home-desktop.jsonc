@@ -60,9 +60,9 @@
         "props": {
           "blockClass": "slider-main-brands",
           "fulwidth": true,
-          "preventHorizontalStretch": true,
+          "preventHorizontalStretch": false,
           "preventVerticalStretch": true,
-          "preserveLayoutOnMobile": true,
+          "preserveLayoutOnMobile": false,
           "horizontalAlign": "center",
           "verticalAlign": "middle",
           "paddingTop": 6,
@@ -125,11 +125,11 @@
         "props": {
           "itemsPerPage": {
             "desktop": 7,
-            "tablet": 1,
-            "phone": 1
+            "tablet": 3,
+            "phone": 3
           },
           "infinite": true,
-          "showNavigationArrows": "desktopOnly",
+          "showNavigationArrows": "always",
           "showPaginationDots" :"never",
           "blockClass": "sliderBrands"
         }
@@ -335,12 +335,12 @@
           "itemsPerPage": {
             "desktop": 7,
             "tablet": 3,
-            "phone": 2
+            "phone": 3
           },
           "infinite": true,
           "blockClass": "accesories",
-          "showNavigationArrows": "always",
-          "showPaginationDots": "never"
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "mobileOnly"
         }
       },
       "flex-layout.row#FourImage": {

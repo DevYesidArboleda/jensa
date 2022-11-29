@@ -351,3 +351,13 @@
 .flexCol--ContactenosDer :global(.vtex-textarea__input){
     border-color: #CA6231;
 }
+
+@media screen and (max-width: 800px) {
+    .flexRowContent--Slider-and-Text{
+        flex-direction: column;
+    }
+
+    .flexRowContent--Slider-and-Text .stretchChildrenWidth   {
+        width: 100% !important;
+    }
+}
