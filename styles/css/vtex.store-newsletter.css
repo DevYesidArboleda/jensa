@@ -33,3 +33,7 @@
     justify-content: center;
     display: flex;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--newsletter) .formSubmitContainer--BoletinFooterEnviar :global(.vtex-button__label){
+    color: #E2261E;
+}

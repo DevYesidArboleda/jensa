@@ -392,6 +392,39 @@
         display: flex;
         flex-direction: row;
     }
+
+    .flexRowContent--price-wishlist .stretchChildrenWidth:first-child{
+        width: 62% !important;
+    }
+
+    .flexRowContent--price-wishlist .stretchChildrenWidth:last-child{
+        width: 38% !important;
+    }
+
+    .flexRow--mainContentMobile{
+        background-color: #F6F6F7;
+    }
+
+    .flexRowContent--RedesSocialesFooter{
+        gap: 20px;
+    }
+
+    .flexRowContent--newsletter{
+        padding: 0 20px;
+    }
+
+    .flexCol--newsletterInput{
+        gap: 0;
+    }
+
+    .flexCol--Footer-Xtrategik-CT-mobile{
+        border-top: 1px solid #5B5B5F;
+        margin: 0 20px;
+    }
+
+    .flexCol--Footer-Xtrategik-CT-mobile .flexColChild--Footer-Xtrategik-CT-mobile{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -402,4 +435,6 @@
     .flexRowContent--slider-main-carrousel{
         padding: 0 20px;
     }
+
+    
 }

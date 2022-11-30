@@ -196,6 +196,39 @@
     margin-right: 15px;
 }
 
+.accordionIcon--CategoriaFooterMobileItem--isClosed{
+    background: url(assets/icons/DownSearch.svg);
+    width: 14px;
+    height: 15px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+    transform: rotate(360deg);
+    color: transparent;
+}
+
+.accordionIcon--CategoriaFooterMobileItem--isOpen{
+    background: url(assets/icons/DownSearch.svg);
+    width: 14px;
+    height: 15px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+    transform: rotate(180deg);
+    color: transparent;
+}
+
+.styledLinkContent--CategoriaFooterMobileItem{
+    color: #E2261E;
+}
+
+
 @media screen and (max-width:400px) {
     :global(.vtex-flex-layout-0-x-flexRow--menu-header-items-mobile) .styledLinkContainer--MenuDesplegable-Opcion{
         margin-left: 8px;

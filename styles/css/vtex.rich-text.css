@@ -359,4 +359,15 @@
   .paragraph--notification{
     font-size: 8px;
   }
+
+  .container--titleShelfHome{
+    justify-content: center;
+  }
+
+  .paragraph--TextoSuscribeteMobile{
+    color: #E2261E;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
 }

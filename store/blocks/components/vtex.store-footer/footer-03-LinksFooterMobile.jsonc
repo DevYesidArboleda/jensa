@@ -1,0 +1,454 @@
+{
+  "flex-layout.row#LinksFooterMobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass": "LinksFooterMobile"
+    },
+    "children": ["vtex.menu@2.x:menu#LinksFooterMobile"]
+  },
+
+  "vtex.menu@2.x:menu#LinksFooterMobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "LinksFooterMobile"
+    },
+    "children": [
+      "menu-item#LinkFooterMobile-LaTienda",
+      "menu-item#LinkFooterMobile-Categorias",      
+      "menu-item#LinkFooterMobile-Legales"
+    ]
+  },
+
+  "menu-item#LinkFooterMobile-Nosotros": {
+    "props": {
+      "blockClass": "CategoriaFooterMobileItem",
+      "id": "menu-item-mobile-dermocosmetica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Nosotros",
+        "text": "Nosotros"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#LinkFooterMobile-NosotrosDetalle"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#LinkFooterMobile-NosotrosDetalle": {
+    "children": ["vtex.menu@2.x:menu#LinkFooterMobile-NosotrosDetalle"],
+    "props": {
+      "blockClass": "AcordionCategoriaFooter"
+    }
+  },
+  "vtex.menu@2.x:menu#LinkFooterMobile-NosotrosDetalle": {
+    "props": {
+      "blockClass": "itemFooter",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Drogas Económicas",
+            "text": "Drogas Económicas"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Nit No. 1107065698-9",
+            "text": "Nit No. 1107065698-9"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Cali. Colombia",
+            "text": "Cali. Colombia"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/contactenos",
+            "noFollow": false,
+            "tagTitle": "Contáctenos",
+            "text": "Contáctenos"
+          }
+        }
+      ]
+    }
+  },
+
+
+  "menu-item#LinkFooterMobile-Categorias": {
+    "props": {
+      "blockClass": "CategoriaFooterMobileItem",
+      "id": "menu-item-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "MEDIOS DE PAGO",
+        "text": "MEDIOS DE PAGO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#LinkFooterMobile-CategoriasDetalle"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#LinkFooterMobile-CategoriasDetalle": {
+    "children": ["vtex.menu@2.x:menu#LinkFooterMobile-CategoriasDetalle"],
+    "props": {
+      "blockClass": "AcordionCategoriaFooter"
+    }
+  },
+  "vtex.menu@2.x:menu#LinkFooterMobile-CategoriasDetalle": {
+    "props": {
+      "blockClass": "itemFooter",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/equipos-medicos-y-emergencia",
+            "noFollow": false,
+            "tagTitle": "Equipos Médicos",
+            "text": "Equipos Médicos"
+          }
+        },
+        // {
+        //   "id": "menu-item-shop",
+        //   "type": "custom",
+        //   "iconId": null,
+        //   "highlight": false,
+        //   "blockClass": "itemFooter",
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/limpieza-y-desinfeccion",
+        //     "noFollow": false,
+        //     "tagTitle": "Limpieza y Desinfección",
+        //     "text": "Limpieza y Desinfección"
+        //   }
+        // },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/belleza-y-cuidado-personal",
+            "noFollow": false,
+            "tagTitle": "Belleza y Cuidado Personal",
+            "text": "Belleza y Cuidado Personal"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/dermocosmetica",
+            "noFollow": false,
+            "tagTitle": "Dermocosmética",
+            "text": "Dermocosmética"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/medicamentos",
+            "noFollow": false,
+            "tagTitle": "Medicamentos",
+            "text": "Medicamentos"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/maternidad-y-bebes",
+            "noFollow": false,
+            "tagTitle": "Maternidad y Bebé",
+            "text": "Maternidad y Bebé"
+          }
+        }
+      ]
+    }
+  },
+
+  "menu-item#LinkFooterMobile-LaTienda": {
+    "props": {
+      "blockClass": "CategoriaFooterMobileItem",
+      "id": "menu-item-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Categorías",
+        "text": "LA TIENDA"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#LinkFooterMobile-LaTiendaDetalle"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#LinkFooterMobile-LaTiendaDetalle": {
+    "children": ["vtex.menu@2.x:menu#LinkFooterMobile-LaTiendaDetalle"],
+    "props": {
+      "blockClass": "AcordionCategoriaFooter"
+    }
+  },
+  "vtex.menu@2.x:menu#LinkFooterMobile-LaTiendaDetalle": {
+    "props": {
+      "blockClass": "itemFooter",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/account",
+            "noFollow": false,
+            "tagTitle": "Tu Perfil",
+            "text": "Tu Perfil"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/como-comprar",
+            "noFollow": false,
+            "tagTitle": "Cómo Comprar",
+            "text": "Cómo Comprar"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Formas de Pago",
+            "text": "Formas de Pago"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/politicas-envio",
+            "noFollow": false,
+            "tagTitle": "Métodos de Envío",
+            "text": "Métodos de Envío"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "http://wa.me/573138271082",
+            "noFollow": false,
+            "tagTitle": "Asesoría Online",
+            "text": "Asesoría Online"
+          }
+        }
+      ]
+    }
+  },
+
+  "menu-item#LinkFooterMobile-Legales": {
+    "props": {
+      "blockClass": "CategoriaFooterMobileItem",
+      "id": "menu-item-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Legales",
+        "text": "ASPECTOS LEGALES"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#LinkFooterMobile-LegalesDetalle"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#LinkFooterMobile-LegalesDetalle": {
+    "children": ["vtex.menu@2.x:menu#LinkFooterMobile-LegalesDetalle"],
+    "props": {
+      "blockClass": "AcordionCategoriaFooter"
+    }
+  },
+  "vtex.menu@2.x:menu#LinkFooterMobile-LegalesDetalle": {
+    "props": {
+      "blockClass": "itemFooter",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Términos y Condiciones",
+            "text": "Términos y Condiciones"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/tratamiento-datos-personales",
+            "noFollow": false,
+            "tagTitle": "Política de tratamiento de datos",
+            "text": "Política de tratamiento de datos"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/contactenos",
+            "noFollow": false,
+            "tagTitle": "Peticiones, quejas y reclamos",
+            "text": "Peticiones, quejas y reclamos"            
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/politicas-envio",
+            "noFollow": false,
+            "tagTitle": "Política de Envío",
+            "text": "Política de Envío"            
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "internal",
+            "href": "/politica-devoluciones",
+            "noFollow": false,
+            "tagTitle": "Política de devoluciones",
+            "text": "Política de devoluciones"
+          }
+        },
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "itemFooter",
+          "itemProps": {
+            "type": "external",
+            "href": "https://www.sic.gov.co",
+            "noFollow": false,
+            "tagTitle": "Superintendencia de Industria y Comercio",
+            "text": "Superintendencia de Industria y Comercio"
+          }
+        }
+      ]
+    }
+  }
+
+}

@@ -1,7 +1,176 @@
 {
     "footer-layout.mobile": { 
         "children": [
-          "flex-layout.row#footer"
+          "flex-layout.row#mainContentMobile",
+          "flex-layout.row#Footer-subText",
+          "flex-layout.row#Footer-Xtrategik-Mobile"
         ]
+    },
+    "flex-layout.row#mainContentMobile": {
+      "children": ["flex-layout.col#mainContentMobile"],
+      "props": {
+        "blockClass": "mainContentMobile",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 5
+      }
+    },
+    "flex-layout.col#mainContentMobile": {
+      "children": [
+        "flex-layout.row#FooterLogoRedesMobile",
+        "flex-layout.row#LinksFooterMobile",
+        "flex-layout.row#RedesSocialesFooter",
+        "flex-layout.row#newsletter"
+      ],
+      "props": {
+        "blockClass": "mainContentMobile",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 2,
+        "paddingBottom": 0
+      }
+    },
+    "flex-layout.row#FooterLogoRedesMobile": {
+      "children": ["flex-layout.col#LogoFooterMobile"],
+      "props": {
+        "blockClass": "FooterLogoRedesMobile",
+        "fulwidth": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingTop": 2,
+        "paddingBottom": 0
+      }
+    },
+    "flex-layout.col#LogoFooterMobile": {
+      "children": [
+        "image#logoFooterMobile"
+      ],
+      "props": {
+        "blockClass": "LogoFooter",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "CENTER",
+        "verticalAlign": "middle",
+        "paddingTop": 0,
+        "paddingBottom": 0
+      }
+    },
+    "image#logoFooterMobile": {
+      "props": {
+        "src": "/arquivos/LogoFooterMobile.png",
+        "alt": "Logo footer",
+        "width": "208px",
+        "blockClass": "logoMoltoMedicalFooter"
+      }
+    },
+    "flex-layout.row#RedesSocialesFooter": {
+      "children": [
+        "image#BotonWhatsappFooter",
+        "image#BotonFacebookFooter",
+        "image#BotonInstagramFooter"
+      ],
+      "props": {
+        "blockClass": "RedesSocialesFooter",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "CENTER",
+        "verticalAlign": "middle",
+        "paddingTop": 3,
+        "paddingBottom": 3,
+        "rowGap": 6
+      }
+    },
+  
+    "image#BotonFacebookFooter": {
+      "props": {
+        "src": "assets/icons/facebookMobile.svg",
+        "alt": "Facebook ",
+        "width": "69px",
+        "blockClass": "BotonFacebook",
+        "link": {
+          "url": "#Facebook",
+          "openNewTab": true,
+          "title": "Facebook"
+        }
+      }
+    },
+    "image#BotonWhatsappFooter": {
+      "props": {
+        "src": "assets/icons/whatsappMobile.svg",
+        "alt": "whatsapp ",
+        "width": "69px",
+        "blockClass": "BotonWhatsapp",
+        "link": {
+          "url": "#whatsapp",
+          "openNewTab": true,
+          "title": "whatsapp"
+        }
+      }
+    },
+    "image#BotonInstagramFooter": {
+      "props": {
+        "src": "assets/icons/instaMobile.svg",
+        "alt": "Instagram ",
+        "width": "69px",
+        "blockClass": "BotonInstagram",
+        "link": {
+          "url": "https://www.instagram.com/",
+          "openNewTab": true,
+          "title": "Instagram "
+        }
+      }
+    },
+    "flex-layout.row#newsletter": {
+      "children": [
+        "flex-layout.col#newsletter"
+      ],
+      "props": {
+        "blockClass": "newsletter",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "CENTER",
+        "verticalAlign": "middle",
+        "paddingTop": 3,
+        "paddingBottom": 3,
+        "rowGap": 6
+      }
+    },
+    "flex-layout.col#newsletter": {
+      "children": [
+        "rich-text#TextoSuscribeteMobile",
+        "newsletter-form"
+      ],
+      "props": {
+        "blockClass": "newsletter",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "horizontalAlign": "CENTER",
+        "verticalAlign": "middle"
+      }
+    },
+
+    "rich-text#TextoSuscribeteMobile": {
+        "props": {
+            "text": "¡Suscríbete al NEWSLETTER y recibe ofertas especiales!",
+            "blockClass": "TextoSuscribeteMobile",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        }
     }
 }

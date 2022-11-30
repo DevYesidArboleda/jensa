@@ -35,7 +35,7 @@
   },
   "rich-text#TextoDerechos": {
     "props": {
-      "text": "Copyright © 2019 JEN SA. Derechos Reservados. Util.com.co.",
+      "text": "Copyright © 2022 JEN SA. Derechos Reservados. Util.com.co.",
       "blockClass": ["TextoXtrategik","CopyrigthTextoXtrategik"],
       "textAlignment": "LEFT",
       "textPosition": "LEFT"
@@ -167,7 +167,7 @@
     "props": {
       "blockClass": "Footer-Xtrategik-mobile",
       "fulwidth": true,
-      "preventHorizontalStretch": true,
+      "preventHorizontalStretch": false,
       "preventVerticalStretch": true,
       "preserveLayoutOnMobile": true,
       "horizontalAlign": "center",
