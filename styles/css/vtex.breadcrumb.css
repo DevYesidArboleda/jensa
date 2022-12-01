@@ -15,3 +15,17 @@
     font-size: 11px;
     color: #000;
 }
+
+@media screen and (max-width: 800px) {
+    .container {
+        background-color: #EFEDEA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .arrow {
+        display: flex;
+        align-items: center;
+    }
+}

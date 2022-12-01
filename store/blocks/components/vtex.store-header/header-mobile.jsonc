@@ -8,7 +8,8 @@
         "children": [
             "flex-layout.row#notification-bar",
             "flex-layout.row#mobile",
-            "flex-layout.row#menu-header-items-mobile"
+            "flex-layout.row#menu-header-items-mobile",
+            "flex-layout.row#sub-header"
         ]
     },
     "flex-layout.row#mobile": {
@@ -25,6 +26,54 @@
             "preventHorizontalStretch": true,
             "preserveLayoutOnMobile": true,
             "fullWidth": true
+        }
+    },
+    "flex-layout.row#sub-header": {
+        "children": [
+            "flex-layout.col#sub-header"
+        ],
+        "props": {
+          "blockClass": "sub-header",
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "CENTER",
+          "verticalAlign": "middle",
+          "paddingTop": 0,
+          "paddingBottom": 3,
+          "rowGap": 0
+        }
+      },
+      "flex-layout.col#sub-header": {
+        "children": [
+            //"rich-text#tenemos",
+            "search-bar"/*,
+            "rich-text#consulta"*/
+        ],
+        "props": {
+          "blockClass": "sub-header",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "horizontalAlign": "CENTER",
+          "verticalAlign": "middle"
+        }
+      },
+  
+      "rich-text#tenemos": {
+          "props": {
+              "text": "¡Lo tenemos, lo solucionamos, lo asesoramos!",
+              "blockClass": "tenemos",
+              "textAlignment": "CENTER",
+              "textPosition": "CENTER"
+          }
+      },
+      "rich-text#consulta": {
+        "props": {
+            "text": "Consulta por trabajo  **AQUÍ TE AYUDAMOS**",
+            "blockClass": "consulta",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
         }
     }
 }

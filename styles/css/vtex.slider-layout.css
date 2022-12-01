@@ -112,6 +112,10 @@
     .paginationDot--accesories--isActive{
         background-color: #C1C2C8;
     }
+
+    .paginationDotsContainer--shelf-relacionados-slider{
+        display: none;
+    }
     
 }
 

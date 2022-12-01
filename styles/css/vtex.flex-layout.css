@@ -425,6 +425,68 @@
     .flexCol--Footer-Xtrategik-CT-mobile .flexColChild--Footer-Xtrategik-CT-mobile{
         width: 100%;
     }
+
+    .flexRowContent--Footer-Xtrategik-CTMobile-row2 {
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .flexRowContent--sub-header{
+        justify-content: center;
+    }
+
+    .flexRow--sub-header{
+        background-color: #fff;
+        padding: 0 20px;
+    }
+
+    .flexRowContent--breadcrumb-container{
+        flex-direction: column-reverse;
+    }
+
+    .flexRow--breadcrumb-container{
+        max-width: 100%;
+        min-width: 100%;        
+    }
+
+    .flexRow--plpMenu{
+        padding: 0 20px;
+    }
+
+     .flexRowContent--plpMenu .stretchChildrenWidth{
+        justify-content: center;
+    }
+
+    .flexRow--breadcrumb-container .stretchChildrenWidth{
+        width: 100% !important;
+    }
+
+    .flexRowContent--searchinfomobile{
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .flexRowContent--list-price-savings{
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .flexRowContent--buy-button{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .flexRow--pdpRecomendation,
+    .flexRow--productSpecifitation{
+        padding: 0 10px;
+    }
+
+    .flexRowContent--notfound{
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 500px) {

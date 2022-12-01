@@ -149,10 +149,10 @@
           "blockClass": "itemFooter",
           "itemProps": {
             "type": "internal",
-            "href": "/equipos-medicos-y-emergencia",
+            "href": "/",
             "noFollow": false,
-            "tagTitle": "Equipos Médicos",
-            "text": "Equipos Médicos"
+            "tagTitle": "Metodos de Pago",
+            "text": "Metodos de Pago"
           }
         },
         // {
@@ -177,52 +177,10 @@
           "blockClass": "itemFooter",
           "itemProps": {
             "type": "internal",
-            "href": "/belleza-y-cuidado-personal",
+            "href": "/",
             "noFollow": false,
-            "tagTitle": "Belleza y Cuidado Personal",
-            "text": "Belleza y Cuidado Personal"
-          }
-        },
-        {
-          "id": "menu-item-shop",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "blockClass": "itemFooter",
-          "itemProps": {
-            "type": "internal",
-            "href": "/dermocosmetica",
-            "noFollow": false,
-            "tagTitle": "Dermocosmética",
-            "text": "Dermocosmética"
-          }
-        },
-        {
-          "id": "menu-item-shop",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "blockClass": "itemFooter",
-          "itemProps": {
-            "type": "internal",
-            "href": "/medicamentos",
-            "noFollow": false,
-            "tagTitle": "Medicamentos",
-            "text": "Medicamentos"
-          }
-        },
-        {
-          "id": "menu-item-shop",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "blockClass": "itemFooter",
-          "itemProps": {
-            "type": "internal",
-            "href": "/maternidad-y-bebes",
-            "noFollow": false,
-            "tagTitle": "Maternidad y Bebé",
-            "text": "Maternidad y Bebé"
+            "tagTitle": "Sitio seguro",
+            "text": "Sitio seguro"
           }
         }
       ]
@@ -269,8 +227,8 @@
             "type": "internal",
             "href": "/account",
             "noFollow": false,
-            "tagTitle": "Tu Perfil",
-            "text": "Tu Perfil"
+            "tagTitle": "Mi cuenta",
+            "text": "Mi cuenta"
           }
         },
         {
@@ -281,10 +239,10 @@
           "blockClass": "itemFooter",
           "itemProps": {
             "type": "internal",
-            "href": "/como-comprar",
+            "href": "/",
             "noFollow": false,
-            "tagTitle": "Cómo Comprar",
-            "text": "Cómo Comprar"
+            "tagTitle": "Nuestras tiendas",
+            "text": "Nuestras tiendas"
           }
         },
         {
@@ -297,8 +255,8 @@
             "type": "internal",
             "href": "#",
             "noFollow": false,
-            "tagTitle": "Formas de Pago",
-            "text": "Formas de Pago"
+            "tagTitle": "Escríbenos",
+            "text": "Escríbenos"
           }
         },
         {
@@ -309,10 +267,10 @@
           "blockClass": "itemFooter",
           "itemProps": {
             "type": "internal",
-            "href": "/politicas-envio",
+            "href": "/",
             "noFollow": false,
-            "tagTitle": "Métodos de Envío",
-            "text": "Métodos de Envío"
+            "tagTitle": "Horas de atención",
+            "text": "Horas de atención"
           }
         },
         {
@@ -323,10 +281,10 @@
           "blockClass": "itemFooter",
           "itemProps": {
             "type": "internal",
-            "href": "http://wa.me/573138271082",
+            "href": "/",
             "noFollow": false,
-            "tagTitle": "Asesoría Online",
-            "text": "Asesoría Online"
+            "tagTitle": "Suscribete al Newsletter",
+            "text": "Suscribete al Newsletter"
           }
         }
       ]

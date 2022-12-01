@@ -342,6 +342,18 @@
     display: flex;
 }
 
+.container--consulta{
+  background-color: #CA6231;
+}
+
+.paragraph--consulta{
+  color: #fff;
+}
+
+.paragraph--tenemos{
+  color: #000;
+}
+
 @media screen and (max-width: 500px) {
 
   .paragraph--TextoSliderHome:first-child,

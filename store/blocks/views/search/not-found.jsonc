@@ -8,6 +8,9 @@
             "image#notfound"
         ],
         "props": {
+          "preserveLayoutOnMobile": true,
+         "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
           "blockClass": "notfound",
           "fullWidth": true,
           "paddingTop": 4,
