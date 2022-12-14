@@ -137,6 +137,14 @@
     }
 }
 
+@media screen and (max-width: 430px) {   
+    
+    .slide--FourImage{
+        width: 360px !important; 
+        height: 127px;
+    }
+}
+
 @media screen and (max-width: 380px) {   
     
     .slide--FourImage{

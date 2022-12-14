@@ -190,9 +190,10 @@
             "phone": "16:9"
           },
           "showNavigationArrows": false,
-          "displayThumbnailsArrows": true,
-          "thumbnailVisibility": "visible",
-          "thumbnailsOrientation": "vertical",
+          "showPaginationDots":false,
+          "displayThumbnailsArrows": false,
+          "thumbnailVisibility": "hidden",
+          "thumbnailsOrientation": "horizontal",
           "zoomMode": "in-place-hover",
           "maxHeight":"400px",
           "zoomFactor": 2

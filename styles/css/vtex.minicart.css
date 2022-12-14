@@ -131,4 +131,12 @@
         font-weight: bold;
         font-size: 12px;
     }
+
+    .minicartProductListContainer{
+        padding: 0 20px;
+    }
+
+    .minicartCheckoutButton :global(.vtex-button){        
+        min-width: 300px;
+    }
 }

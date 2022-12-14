@@ -76,11 +76,13 @@
         "phone": "16:9"
       },
       "showNavigationArrows": false,
+      "showPaginationDots":false,
       "displayThumbnailsArrows": true,
       "thumbnailVisibility": "visible",
       "thumbnailsOrientation": "vertical",
       "zoomMode": "in-place-hover",
       "maxHeight":"400px",
+      "position": "right",
       "zoomFactor": 2
     }
   },

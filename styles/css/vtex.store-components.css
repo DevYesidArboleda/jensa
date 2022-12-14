@@ -99,3 +99,40 @@
         max-height: 100%;
     }
 }
+
+.productImagesThumb--imageProductPDP{
+    border-bottom: 1px solid #BBBBBC;
+}
+
+.productImagesThumb--imageProductPDP:last-child{
+    border-top: 1px solid #BBBBBC;
+}
+
+.productImagesThumbCaret--imageProductPDP .caretIcon--imageProductPDP{
+    background: url("assets/icons/DownSearch.svg");
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+    font-size: 0;
+    color: transparent;
+}
+
+.gradientBaseTop .caretIcon--imageProductPDP{
+    background: url("assets/icons/DownSearch.svg");
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+    font-size: 0;
+    transform: rotate(180deg);
+    color: transparent;
+}

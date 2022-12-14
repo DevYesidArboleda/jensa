@@ -92,7 +92,7 @@
       "slider-layout#shelf-relacionados": {
         "props": {
           "itemsPerPage": {
-            "desktop": 6,
+            "desktop": 5,
             "tablet": 3,
             "phone": 2
           },
