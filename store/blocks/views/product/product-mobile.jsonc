@@ -1,0 +1,95 @@
+{
+    "flex-layout.row#product-main-mobile": {
+        "props": {
+          "colGap": 2,
+          "rowGap": 2,
+          "marginTop": 2,
+          "marginBottom": 2,
+          "paddingTop": 2,
+          "paddingBottom": 2,
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "blockClass":["product-main-mobileOnly","container1280px"]
+        },
+        "children": [
+            "flex-layout.col#stack-mobile",      
+            "flex-layout.col#right-col-mobile"
+        ]
+      },
+      "flex-layout.col#stack-mobile": {
+        "children": [
+          "stack-layout#pdp-mobile"
+        ],
+        "props": {
+          "preventHorizontalStretch": false,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "width": "50%",
+          "rowGap": 0
+        }
+      },
+      "stack-layout#pdp-mobile": {
+        "props": {
+          "blockClass": "product"
+        },
+        "children": [
+          "flex-layout.row#product-image-mobile",
+          "product-specification-badges"
+        ]
+      },
+      "flex-layout.row#product-image-mobile": {
+        "children": ["product-images#pdp"]
+      },
+      "product-images#pdp-mobile": {
+        "props": {
+          "blockClass": "imageProductPDP",
+          "aspectRatio": {
+            "desktop": "auto",
+            "phone": "16:9"
+          },
+          "showNavigationArrows": false,
+          "showPaginationDots":true,
+          "displayThumbnailsArrows": false,
+          "thumbnailVisibility": "visible",
+          "thumbnailsOrientation": "vertical",
+          "zoomMode": "in-place-hover",
+          "maxHeight":"400px",
+          "position": "right",
+          "zoomFactor": 2
+        }
+      },
+      "flex-layout.col#right-col-mobile": {
+        "props": {
+          "blockClass": "info-pdp-mobile",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": false,
+          "width": "50%",
+          "rowGap": 0
+        },
+        "children": [      
+          "flex-layout.row#product-name",
+          "product-identifier.product",
+          "flex-layout.row#MarcaProducto",
+          "flex-layout.row#botonFavoritos",
+          "flex-layout.row#list-price-savings",      
+          //"product-rating-summary",
+          //"product-separator",      
+          //"flex-layout.row#selling-price",
+          "sku-selector",            
+          "flex-layout.row#buy-button"
+          //"flex-layout.row#guiaTalla"
+          /*"product-separator",
+          "shipping-simulator",
+          "share#default"*/
+        ]
+      },
+      "flex-layout.row#busquedaAvanzadaFlotante-mobile": {
+        "children": ["flex-layout.col#whatsapp-menu"],
+        "props": {
+          "blockClass": "searchFlotante",
+          "fulwidth": false
+        }
+      }
+}

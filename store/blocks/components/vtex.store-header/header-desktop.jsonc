@@ -63,7 +63,7 @@
         "children": [
           "flex-layout.col#logo-desktop",
           "flex-layout.col#logo-two"   ,
-          "search-bar",
+          "flex-layout.col#search-menu",
           "flex-layout.col#wishlist-menu",
           "flex-layout.col#order-menu",                    
           "flex-layout.col#whatsapp-menu",          
@@ -129,6 +129,17 @@
             "title": ""
           }
         }
+      },
+      /* Search */
+      "flex-layout.col#search-menu": {
+        "props": {
+          "blockClass": "search",
+          "preventVerticalStretch": true,
+          "width": "30%"
+        },
+        "children": [
+          "search-bar"
+        ]
       },
       /* Wishlist */
       "flex-layout.col#wishlist-menu": {

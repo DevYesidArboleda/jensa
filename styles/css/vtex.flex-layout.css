@@ -370,6 +370,14 @@
     background-color: #000;
 }
 
+.flexCol--search{
+    justify-content: center;
+}
+
+.paragraph--TextoSliderHome2:first-child{
+    margin-top: 0;
+}
+
 @media screen and (max-width: 800px) {
     .flexRowContent--Slider-and-Text{
         flex-direction: column;
@@ -505,5 +513,21 @@
 
     .flexRow--minicart-footer{
         padding: 0 20px;
+    }
+
+    .flexRowContent--buy-button{
+        display: flex;
+    }
+
+    .flexColChild--whatsapp :global(.vtex-menu-2-x-styledLinkContent)::before {
+        width: 27px;
+        height: 27px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .flexRowContent--description,
+    .flexRowContent--product-main-mobileOnly{
+        padding: 0 10px;
     }
 }

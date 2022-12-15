@@ -136,3 +136,16 @@
     transform: rotate(180deg);
     color: transparent;
 }
+
+.productBrandLogo--MarcaProducto{
+    max-width: 70px;
+    padding: 5px 0;
+}
+
+@media screen and (max-width: 500px) {
+    .productBrand {
+        color: #5B5B5F;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}

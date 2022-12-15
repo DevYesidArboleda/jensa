@@ -29,3 +29,13 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--list-price-savings) .listPriceValue .currencyContainer{
     color: #959599;
 }
+
+@media screen and (max-width: 500px) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--list-price-savings) .listPriceValue{        
+        font-size: 14px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--list-price-savings) .sellingPrice .sellingPriceValue .currencyContainer{        
+        font-size: 36px;
+    }
+}

@@ -20,6 +20,7 @@
     text-transform: initial;
     display: flex;
     color: #000;
+    margin-left: 5px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--botonFavoritos) .wishlistIconContainer :global(.vtex-button) {

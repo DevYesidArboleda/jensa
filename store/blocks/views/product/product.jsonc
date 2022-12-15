@@ -4,9 +4,25 @@
       "blockClass": "productDetail"
     },
     "children": [
-      
+      "responsive-layout.desktop#pdp",
+      "responsive-layout.mobile#pdp"      
+    ]
+  },
+
+  "responsive-layout.desktop#pdp": {
+    "children": [
       "flex-layout.row#product-main",
       "flex-layout.row#busquedaAvanzadaFlotante",
+      "flex-layout.row#product",
+      "flex-layout.row#pdpRecomendation"
+    ]
+  },
+  "responsive-layout.mobile#pdp": {
+    "children": [      
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main-mobile",      
+      "flex-layout.row#description",
+      "flex-layout.row#busquedaAvanzadaFlotante-mobile",
       "flex-layout.row#product",
       "flex-layout.row#pdpRecomendation"
     ]
