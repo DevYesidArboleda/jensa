@@ -1,6 +1,8 @@
 {
     "responsive-layout.mobile#home": {
         "children": [
+          "rich-text#tenemos",
+          "rich-text#consulta",
           "flex-layout.row#Slider-Main",
           "flex-layout.row#Slider-brands",
           "flex-layout.row#Slider-and-Text",

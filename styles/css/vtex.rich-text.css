@@ -355,6 +355,7 @@
 
 .container--consulta{
   background-color: #CA6231;
+  margin: 0 28px;
 }
 
 .paragraph--consulta{
@@ -363,6 +364,21 @@
 
 .paragraph--tenemos{
   color: #000;
+}
+
+@media screen and (max-width: 800px) {
+  .headingLevel1--subContact ,
+  .paragraph--subContact{
+    text-align: center;
+  }
+
+  .wrapper--subContact{
+    padding-bottom: 20px;
+  }
+
+  .paragraph--info-text-up{
+    padding: 0 15px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -397,4 +413,9 @@
     display: none;
   }
 
+  .paragraph--phoneContact,
+  .paragraph--tiendasContact,
+  .paragraph--whatsappContact{
+    font-size: 14px;
+  }
 }

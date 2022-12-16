@@ -286,6 +286,10 @@
     background-color: #000;
   }
 
+  .flexRowContent--Top-contacto-colOne{
+    display: flex;
+  }
+
   .flexColChild--error-one :global(.vtex-store-components-3-x-imageElement--notfound){
     background-color: #fff;
     max-width: 326px;
@@ -352,6 +356,7 @@
 .flexRowContent--mainContenedorP :global(.vtex-input-prefix__group){
   margin: 10px 0;
   border-color: #CA6231;
+  border-radius: 0;
 }
 
 
@@ -362,6 +367,7 @@
 
 .flexCol--ContactenosDer :global(.vtex-textarea__input){
     border-color: #CA6231;
+    border-radius: 0;
 }
 
 .flexRowContent--main-header-mobile{
@@ -586,6 +592,28 @@
 
     .flexRowContent--notfound{
         flex-direction: column;
+    }
+
+    .flexRowContent--mainContenedorP .flexCol--textosContactenos{
+        display: none;
+    }
+
+    .flexRowContent--mainContenedorP{
+        padding: 0 20px;
+    }
+
+    .flexRowContent--mainContenedorP :global(.vtex-store-form-0-x-formSubmitButton){
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRowContent--mainContenedorP :global(.vtex-button){
+        border-radius: 0;
+    }
+
+    .flexRowContent--mainContenedorP :global(.vtex-checkbox__inner-container){
+        border-color: #CA6231;
     }
 }
 

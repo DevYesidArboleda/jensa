@@ -219,7 +219,7 @@
             "colJustify": "around",
             "rowGap": 3,
             "paddingTop": 6,
-            "paddingBottom": 6
+            "paddingBottom": 0
           }
         },
         "image#errorMobile": {
@@ -330,6 +330,7 @@
           "props": {
             "src": "assets/img/perritoMain.jpeg",
             "alt": "no encontrado",
+            "height": "284px",
             "width": "226px",
             "blockClass": "errorMobile"          
           }

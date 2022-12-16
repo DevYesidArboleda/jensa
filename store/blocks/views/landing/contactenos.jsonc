@@ -1,7 +1,18 @@
 {
   "store.custom#Contactenos": {
     "blocks": [     
+      "responsive-layout.desktop#Contactenos",
+      "responsive-layout.mobile#Contactenos"
+    ]
+  },
+  "responsive-layout.desktop#Contactenos": {
+    "children": [
       "flex-layout.row#Contactenos"
+    ]
+  },
+  "responsive-layout.mobile#Contactenos": {
+    "children": [
+      "flex-layout.row#Contactenos-mobile"
     ]
   },
 
@@ -251,6 +262,73 @@
       "mobileImage":"/arquivos/BannerContact.png",
       "alt": "",
       "blockClass": "BannerContact"
+    }
+  },
+
+  /* Mobile */
+
+  "flex-layout.row#Contactenos-mobile": {
+    "children": [
+      "flex-layout.col#Contactenos-mobile"     
+    ],
+    "props": {
+      "paddingTop": 0,
+      "blockClass": ["ContenedorP", "container1280px"]
+    }
+  },
+
+  "flex-layout.col#Contactenos-mobile": {
+    "children": [
+      "rich-text#subContact",
+      "flex-layout.row#Top-contacto-mobile",
+      "flex-layout.row#MainContactenos",
+      "flex-layout.row#BannerContact"    
+    ],
+    "props": {
+      "paddingTop": 6,
+      "blockClass": ["ContenedorP", "container1280px"]
+    }
+  },
+  "flex-layout.row#Top-contacto-mobile": {
+    "children": [
+      "flex-layout.col#Top-contacto"
+    ],
+    "props": {
+      "preventHorizontalStrech": true,
+      "preventVerticalStrech": true,
+      "blockClass": "textosContactenosP"
+    }
+  },
+  "flex-layout.col#Top-contacto": {
+    "children": [
+      "flex-layout.row#Top-contacto-colOne",
+      "flex-layout.row#Top-contacto-colTwo"
+    ],
+    "props": {
+      "preventHorizontalStrech": true,
+      "preventVerticalStrech": true,
+      "blockClass": "Top-contacto"
+    }
+  },
+  "flex-layout.row#Top-contacto-colOne": {
+    "children": [
+      "rich-text#whatsappContact",
+      "rich-text#phoneContact"
+    ],
+    "props": {
+      "preventHorizontalStrech": true,
+      "preventVerticalStrech": true,
+      "blockClass": "Top-contacto-colOne"
+    }
+  },
+  "flex-layout.row#Top-contacto-colTwo": {
+    "children": [
+      "rich-text#tiendasContact"
+    ],
+    "props": {
+      "preventHorizontalStrech": true,
+      "preventVerticalStrech": true,
+      "blockClass": "Top-contacto-colTwo"
     }
   }
 }

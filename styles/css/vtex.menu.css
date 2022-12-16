@@ -230,6 +230,38 @@
     border-bottom: 1px solid #444242;
 }
 
+.styledLinkContainer--parent-mobile{
+    background-color: #D8D8DC;
+    margin: 5px 0;
+    padding: 10px 0;
+}
+
+.styledLinkContainer--parent-mobile .accordionIcon--parent-mobile{
+    display: none;
+}
+
+.styledLinkContent--parent-mobile{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.menuItem--parent-mobile--isOpen {
+    border: 1px solid #CA6231;
+}
+
+.menuItem--parent-mobile--isOpen .styledLinkContainer--parent-mobile{
+    background-color: #CA6231;
+    margin-top: 0;
+}
+
+.menuItem--parent-mobile--isOpen .styledLinkContent--parent-mobile{
+    color: #fff;
+}
+
+.submenuAccordion {
+    padding-left: 0;
+}
 
 @media screen and (max-width:400px) {
     :global(.vtex-flex-layout-0-x-flexRow--menu-header-items-mobile) .styledLinkContainer--MenuDesplegable-Opcion{

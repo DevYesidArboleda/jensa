@@ -2,7 +2,19 @@
 
     "store.custom#terminos-condiciones": {
         "children": [
-            "flex-layout.row#main-tabs-terminos"
+          "responsive-layout.desktop#tyc",
+          "responsive-layout.mobile#tyc"
+        ]
+      },
+
+      "responsive-layout.desktop#tyc": {
+        "children": [
+          "flex-layout.row#main-tabs-terminos"
+        ]
+      },
+      "responsive-layout.mobile#tyc": {
+        "children": [
+          "flex-layout.row#main-tabs-terminos-mobile"
         ]
       },
     //inicio de tabs
@@ -110,5 +122,127 @@
     "props": {
       "tabId": "main-tab-5"
     }
+  },
+  "flex-layout.row#main-tabs-terminos-mobile": {
+    "children": ["vtex.menu@2.x:menu#footer-mobile"],
+    "props": {
+      "blockClass": "main-tabs-terminos",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+  /*****Stating Menu Mobile*****/
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#politicas",
+      "menu-item#terminos",
+      "menu-item#entrega",
+      "menu-item#garantia",
+      "menu-item#aviso"
+    ]
+  },
+  /*****Menu TyC Mobile*****/
+  "menu-item#politicas": {
+    "props": {
+      "id": "menu-item-politicas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Política de tratamiento de datos",
+        "text": "Política de tratamiento de datos"
+      },
+      "blockClass": "parent-mobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#politicas"]
+  },
+  "vtex.menu@2.x:submenu.accordion#politicas": {
+    "children": ["flex-layout.row#politicas"]
+  },
+  "menu-item#terminos": {
+    "props": {
+      "id": "menu-item-terminos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      },
+      "blockClass": "parent-mobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#terminos"]
+  },
+  "vtex.menu@2.x:submenu.accordion#terminos": {
+    "children": ["flex-layout.row#terminos"]
+  },
+  "menu-item#entrega": {
+    "props": {
+      "id": "menu-item-entrega",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Instructivo de entrega",
+        "text": "Instructivo de entrega"
+      },
+      "blockClass": "parent-mobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#entrega"]
+  },
+  "vtex.menu@2.x:submenu.accordion#entrega": {
+    "children": ["flex-layout.row#entrega"]
+  },
+  "menu-item#garantia": {
+    "props": {
+      "id": "menu-item-entrega",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Póliza de garantía",
+        "text": "Póliza de garantía"
+      },
+      "blockClass": "parent-mobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#garantia"]
+  },
+  "vtex.menu@2.x:submenu.accordion#garantia": {
+    "children": ["flex-layout.row#garantia"]
+  },
+  "menu-item#aviso": {
+    "props": {
+      "id": "menu-item-aviso",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Aviso de privacidad",
+        "text": "Aviso de privacidad"
+      },
+      "blockClass": "parent-mobile"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#aviso"]
+  },
+  "vtex.menu@2.x:submenu.accordion#aviso": {
+    "children": ["flex-layout.row#aviso"]
   }
 }
