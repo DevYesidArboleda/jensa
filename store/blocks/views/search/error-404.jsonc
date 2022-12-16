@@ -2,8 +2,20 @@
     //Error 404
     "store.not-found#search": {
         "blocks": [
-          "flex-layout.row#errorMain"
+          "responsive-layout.desktop#error",
+          "responsive-layout.mobile#error"     
+          
         ]
+    },
+    "responsive-layout.desktop#error": {
+      "children": [
+        "flex-layout.row#errorMain"
+      ]
+    },
+    "responsive-layout.mobile#error": {
+      "children": [
+        "flex-layout.row#errorMain-mobile"
+      ]
     },
     "flex-layout.row#errorMain": {
         "children": [
@@ -190,5 +202,136 @@
           "width": "134px",
           "blockClass": "notfound"          
         }
-      }
+      },
+      "flex-layout.row#errorMain-mobile": {
+          "children": [
+            "flex-layout.col#error-one-mobile",
+            "flex-layout.col#error-two-mobile"
+          ],
+          "props": {
+            "blockClass": "errorMain-mobile",
+            "fulwidth": true,
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": false,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "colJustify": "around",
+            "rowGap": 3,
+            "paddingTop": 6,
+            "paddingBottom": 6
+          }
+        },
+        "image#errorMobile": {
+          "props": {
+            "src": "/arquivos/error404Mobile.png",
+            "alt": "no encontrado",
+            "width": "226px",
+            "blockClass": "errorMobile"          
+          }
+        },
+        "flex-layout.col#error-one-mobile": {
+          "children": [
+            "image#errorMobile",
+            "image#perritoMobile"
+          ],
+          "props": {
+            "blockClass": "error-one-mobile",
+            "fulwidth": true,
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "colJustify": "around",
+            "rowGap": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0
+          }
+        },
+        "flex-layout.col#error-two-mobile": {
+          "children": [
+            "flex-layout.row#error-two-mobile"
+          ],
+          "props": {
+            "blockClass": "error-two-mobile",
+            "fulwidth": true,
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "colJustify": "around",
+            "rowGap": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0
+          }
+        },
+        "flex-layout.row#error-two-mobile": {
+          "children": [
+            "flex-layout.col#error-two-mobile-colOne",
+            "flex-layout.col#error-two-mobile-colTwo"
+          ],
+          "props": {
+            "blockClass": "error-two-mobile",
+            "fulwidth": true,
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "colJustify": "around",
+            "rowGap": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0
+          }
+        },
+        "flex-layout.col#error-two-mobile-colOne": {
+          "children": [
+            "image#erro1",
+            "image#erro2",
+            "image#erro3"
+          ],
+          "props": {
+            "blockClass": "error-two-mobile-colOne",
+            "fulwidth": true,
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "colJustify": "around",
+            "rowGap": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0
+          }
+        },
+        "flex-layout.col#error-two-mobile-colTwo": {
+          "children": [
+            "image#erro4",
+            "image#erro5",
+            "image#erro6"
+          ],
+          "props": {
+            "blockClass": "error-two-mobile-colTwo",
+            "fulwidth": true,
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "colJustify": "around",
+            "rowGap": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0
+          }
+        },
+        "image#perritoMobile": {
+          "props": {
+            "src": "assets/img/perritoMain.jpeg",
+            "alt": "no encontrado",
+            "width": "226px",
+            "blockClass": "errorMobile"          
+          }
+        }
 }

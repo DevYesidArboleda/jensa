@@ -121,6 +121,17 @@
   margin-top: 0;
 }
 
+.wrapper--pqrs{
+  max-width: 412px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.container--pqrsT{
+  background-color: #ECEDEF;
+  justify-content: center;
+}
+
 .wrapper--titleJardineria .paragraph--titleheader::before{
   content: url("assets/img/jardineria.svg");
   width: 41px;
@@ -380,6 +391,10 @@
     color: #E2261E;
     text-transform: uppercase;
     font-size: 14px;
+  }
+
+  .paragraph--notFoundMain:last-child{
+    display: none;
   }
 
 }

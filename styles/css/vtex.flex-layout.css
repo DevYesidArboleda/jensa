@@ -273,9 +273,15 @@
   .flexRowContent--errorMain,
   .flexRowContent--notfound{
     max-width: 1150px;
-    margin: 0 auto;
+    margin: 0 auto;    
   }
 
+  .flexRowContent--errorMain-mobile{
+    display: flex;
+    gap: 10px;
+  }
+
+  .flexRow--errorMain-mobile,
   .flexRow--errorMain{
     background-color: #000;
   }
@@ -374,9 +380,90 @@
     justify-content: center;
 }
 
-.paragraph--TextoSliderHome2:first-child{
-    margin-top: 0;
+.flexRowContent--ContenedorPpqrs{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    gap: 20px;
 }
+
+.flexColChild--textospqrs :global(.vtex-textarea__label),
+.flexColChild--textospqrs :global(.vtex-input__label){
+    display: none;
+}
+
+.flexRowContent--cajaspqrs{
+    gap: 5px;
+}
+
+.flexRowContent--checkBox-submit :global(.vtex-button){
+    width: 100%;
+    background-color: #70A73B;
+    border: 0;
+    border-radius: 0;
+}
+
+.flexColChild--textospqrs :global(.vtex-textarea__input),
+.flexColChild--textospqrs :global(.vtex-input-prefix__group){
+    border-color: #CA6231;
+    border-radius: 0;
+    margin: 5px 0;
+}
+
+.flexRowContent--adjuntar :global(.vtex-styleguide-9-x-container){
+    background-color: #CA6231;
+    border-color: #CA6231;
+    border-radius: 0;
+  }
+  
+  .flexRowContent--adjuntar :global(.vtex__icon-caret-down){
+    color: #CA6231;
+    width: 100%;
+    display: flex;
+  }
+  
+  .flexRowContent--adjuntar :global(.vtex__icon-caret-down)::before{
+    content: "Adjunta un archivo";
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .flexRowContent--adjuntar :global(.vtex__icon-image){
+    color: #CA6231;
+    width: 100%;
+    display: flex;
+  }
+  
+  .flexRowContent--adjuntar :global(.vtex__icon-image)::before{
+    content: "Adjunta un archivo";
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .flexRowContent--ContenedorPpqrs :global(.vtex-checkbox__inner-container){
+    border-color: #CA6231;
+  }
+
+  .flexRowContent--ContenedorPpqrs :global(.vtex-checkbox__label){
+    font-size: 13px;
+  }
+
+  .flexRowContent--ContenedorPpqrs :global(.vtex-checkbox__line-container){
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .flexRowContent--ContenedorPpqrs :global(.vtex-input){    
+    padding: 10px 0;
+  }
+
+  .flexCol--error-one-mobile{
+    gap: 10px;
+    justify-content: space-between;
+}
+
 
 @media screen and (max-width: 800px) {
     .flexRowContent--Slider-and-Text{
@@ -517,7 +604,7 @@
 
     .flexRowContent--buy-button{
         display: flex;
-    }
+    }  
 
     .flexColChild--whatsapp :global(.vtex-menu-2-x-styledLinkContent)::before {
         width: 27px;
@@ -529,5 +616,10 @@
     .flexRowContent--description,
     .flexRowContent--product-main-mobileOnly{
         padding: 0 10px;
+    }
+
+    .flexRowContent--notfound .stretchChildrenWidth   {
+        width: 100% !important;
+        padding: 0 20px;
     }
 }

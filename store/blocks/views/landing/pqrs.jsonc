@@ -1,0 +1,194 @@
+{
+    "store.custom#pqrs": {
+      "blocks": [    
+        //"flex-layout.row#richpqrs",
+        "flex-layout.row#pqrs"
+      ]
+    },
+  
+    "flex-layout.row#pqrs": {
+      "children": [        
+        "flex-layout.col#pqrsIzqMain",
+        "flex-layout.col#pqrsDer"
+      ],
+      "props": {
+        "paddingTop": 6,
+        "paddingBottom": 6,
+        "blockClass": ["ContenedorPpqrs"]
+      }
+    },
+    "flex-layout.row#richpqrsIzq": {
+        "children": [
+          "rich-text#titulopqrs"
+        ],
+        "props": {
+          "paddingTop": 6,
+          "blockClass": ["ContenedorP", "container1280px"]
+        }
+      },
+      "flex-layout.col#pqrsIzqMain": {
+        "children": [ "rich-text#titulopqrs", "image#pqr"],
+        "props": {
+          "preventHorizontalStrech": false,
+          "preventVerticalStrech": true,
+          "blockClass": "textospqrs"
+        }
+      },
+      "flex-layout.row#pqrsIzqMain": {
+        "children": [
+          "flex-layout.col#pqrsIzq-1",
+          "flex-layout.col#pqrsIzq-2"
+        ],
+        "props": {
+          "preventHorizontalStrech": false,
+          "preventVerticalStrech": true,
+          "blockClass": "textospqrs"
+        }
+      },
+      "image#pqr": {
+          "props": {
+            "src": "/arquivos/ImagePQR.png",
+            "alt": "no encontrado",
+            "height": "76px",
+            "width": "412px",
+            "blockClass": "pqr"          
+          }
+        },
+    "flex-layout.row#richpqrs": {
+      "children": [
+        "rich-text#titulopqrs"
+      ],
+      "props": {
+        "paddingTop": 6,
+        "blockClass": ["ContenedorP", "container1280px"]
+      }
+    },
+    "flex-layout.col#pqrsIzq": {
+      "children": [ "flex-layout.row#pqrsIzqCT"],
+      "props": {
+        "preventHorizontalStrech": false,
+        "preventVerticalStrech": true,
+        "blockClass": "textospqrs"
+      }
+    },
+    "flex-layout.row#pqrsIzqCT": {
+      "children": [
+        "flex-layout.col#pqrsIzq-1",
+        "flex-layout.col#pqrsIzq-2"
+      ],
+      "props": {
+        "preventHorizontalStrech": false,
+        "preventVerticalStrech": true,
+        "blockClass": "cajaspqrs"
+      }
+    },
+    "flex-layout.col#pqrsIzq-1": {
+      "children": [
+        "rich-text#clientepqrs",
+        "form-input.text#name",        
+        "form-input.text#documento",
+        "form-input.text#phone",        
+        "form-input.text#fijo",
+        "form-input.text#email"
+      ],
+      "props": {
+        "preventHorizontalStrech": true,
+        "preventVerticalStrech": true,
+        "blockClass": "textospqrs"
+      }
+    },
+    "flex-layout.col#pqrsIzq-2": {
+      "children": [
+        "rich-text#casopqrs",
+        "form-input.text#factura",
+        "form-input.textarea#comments"
+      ],
+      "props": {
+        "preventHorizontalStrech": true,
+        "preventVerticalStrech": true,
+        "blockClass": "textospqrs"
+      }
+    },
+    "rich-text#titulopqrs": {
+      "props": {
+        "text": "**Formulario de preguntas, quejas,\n reclamos y sugerencias.** \n\n Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "blockClass": "pqrs"
+      }
+    },
+    "flex-layout.col#pqrsDer": {
+      "children": ["form#pqrs"],
+      "props": {
+        "preventHorizontalStrech": true
+      }
+    },
+    "form#pqrs": {
+      "props": {
+        "entity": "PQ",
+        "schema": "pqrs",
+        "blockClass": "formulariopqrs"
+      },
+      "children": [        
+        "flex-layout.row#pqrsIzqCT",            
+        "form-input.checkbox#agreement",
+        "flex-layout.row#adjuntar",     
+        "flex-layout.row#checkBox-submit"
+      ],
+      "blocks": ["form-success"]
+    },
+    
+    "form-input.text#fijo": {
+        "props": {
+          "pointer": "#/properties/fijo",
+          "placeholder":"Teléfono fijo",
+          "label": "fijo"
+        }
+      },
+      "form-input.text#factura": {
+        "props": {
+          "pointer": "#/properties/factura",
+          "placeholder":"Nº de pedido o factura",
+          "label": "Nº de pedido o factura"
+        }
+      },
+      "form-input.text#documento": {
+        "props": {
+          "pointer": "#/properties/documento",
+          "placeholder":"Nº de documento",
+          "label": "Número de documento"
+        }
+      },
+      "form-input.upload#file": {
+        "props": {
+          "pointer": "#/properties/file",
+          "placeholder":"Adjunta un archivo"
+        }
+      },
+      "flex-layout.row#checkBox-submit": {
+        "children": ["form-submit"],
+        "props": {
+          "preventHorizontalStrech": true,
+          "blockClass": ["checkBox-submit"]
+        }
+      },
+      "flex-layout.row#adjuntar": {
+        "children": ["form-input.upload#file"],
+        "props": {
+          "preventHorizontalStrech": true,
+          "paddingBottom": 3,
+          "blockClass": ["adjuntar"]
+        }
+      },
+      "rich-text#clientepqrs": {
+        "props": {
+          "text": "**Datos del cliente**",
+          "blockClass": "pqrsT"
+        }
+      },
+      "rich-text#casopqrs": {
+        "props": {
+          "text": "**Datos del caso**",
+          "blockClass": "pqrsT"
+        }
+      }
+  }
+  

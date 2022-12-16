@@ -15,7 +15,7 @@
             "fullWidth": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/marcas",
+                "href": "/ofertas",
                 "noFollow": false,
                 "tagTitle": "OFERTAS",
                 "text": "OFERTAS"

@@ -214,7 +214,7 @@
   },
   "image#Xtrategik-mobile": {
     "props": {
-      "src": "assets/icons/vtexIcon.svg",
+      "src": "assets/icons/xtrategikIcon.svg",
       "alt": "Xtrategik Agencia Ecommerce",
       "width": "70px",
       "blockClass": "XtrategiK",
@@ -227,7 +227,7 @@
   },
   "image#VTEX-mobile": {
     "props": {
-      "src": "assets/icons/xtrategikIcon.svg",
+      "src": "assets/icons/vtexIcon.svg",
       "alt": "Tecnología VTEX",
       "width": "40px",
       "blockClass": "VTEX",

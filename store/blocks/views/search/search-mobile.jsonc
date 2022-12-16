@@ -1,12 +1,14 @@
 {
     "search-result-layout.mobile": {
         "children": [
+            "flex-layout.row#bannerSearch",
             "flex-layout.row#searchbread",
             //"flex-layout.row#searchtitle",
             "flex-layout.row#searchinfomobile",
             //"flex-layout.row#productCount",
             "flex-layout.row#contentmobile",
-            "flex-layout.row#fetchmore"
+            "flex-layout.row#fetchmore",
+            "flex-layout.row#Slider-and-Text2"
           ],
           "props": {
             "pagination": "show-more",

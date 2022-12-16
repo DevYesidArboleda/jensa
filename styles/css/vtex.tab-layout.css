@@ -81,3 +81,23 @@
         border: none;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .listItem--shelf :global(.vtex-button) :global(.vtex-button__label ){
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .listItem--shelf{
+        padding: 0;
+    }
+
+    .listContainer--tab-list{
+        justify-content: space-between;
+    }
+
+    .contentContainer {
+        padding: 0;
+        border: none;
+    }
+}

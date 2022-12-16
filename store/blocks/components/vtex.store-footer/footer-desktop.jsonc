@@ -162,7 +162,7 @@
     },
     "image#logo-footer-col3": {
       "props": {
-        "src": "assets/icons/logoJensaTwo.svg",
+        "src": "/arquivos/Logo_Discover.png",
         "alt": "jensa footer",
         "width": "115px",
         "blockClass": "logo-footer-medios-pago-col2",
