@@ -1,5 +1,5 @@
 .headerContainer--newsletter{
-    background-color: #FFDF00;
+    background-color: #ffdf00;
     border-radius: 0;
 }
 
@@ -9,4 +9,8 @@
 
 .contentContainer--newsletter{
     padding-left: 60px;
+}
+
+.container--newsletter{
+    background-color: rgba(0, 0, 0, 0.582);
 }

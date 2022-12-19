@@ -330,7 +330,7 @@
           "props": {
             "src": "assets/img/perritoMain.jpeg",
             "alt": "no encontrado",
-            "height": "284px",
+            "height": "168px",
             "width": "226px",
             "blockClass": "errorMobile"          
           }

@@ -180,10 +180,11 @@
         ]
       },
       "flex-layout.row#product-image-normal": {
-        "children": ["product-images"]
+        "children": ["product-summary-image"]
       },
       "product-images": {
         "props": {
+          "showBadge": true,
           "blockClass": "imageProductShelf",
           "aspectRatio": {
             "desktop": "auto",
@@ -197,6 +198,12 @@
           "zoomMode": "in-place-hover",
           "maxHeight":"400px",
           "zoomFactor": 2
+        }
+      },
+      "product-summary-image": {
+        "props": {
+          "showBadge": true,
+          "height": 220
         }
       }
 }

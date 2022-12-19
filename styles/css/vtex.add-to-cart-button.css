@@ -3,6 +3,7 @@
     color: #fff;
     font-size: 13.66px;
     text-transform: initial;
+    font-weight: 600;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--buy-button) :global(.vtex-button){

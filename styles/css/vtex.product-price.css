@@ -36,6 +36,6 @@
     }
 
     :global(.vtex-flex-layout-0-x-flexRowContent--list-price-savings) .sellingPrice .sellingPriceValue .currencyContainer{        
-        font-size: 36px;
+        font-size: 34px;
     }
 }

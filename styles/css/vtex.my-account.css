@@ -1,0 +1,8 @@
+
+.boxContainer{
+    border-color: #CA6231;
+}
+
+:global(.vtex_my-authentication_box_container){
+    border-color: #CA6231;
+}

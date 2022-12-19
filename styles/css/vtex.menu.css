@@ -42,6 +42,7 @@
     border: none;
     box-shadow: 0 10px 10px -6px grey;
     margin-top: 15px;
+    background-color: #F6F6F7;
 }
 .submenu--submenuDpto {
     border-top: 1px solid #fff;

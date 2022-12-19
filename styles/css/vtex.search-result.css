@@ -126,6 +126,21 @@
   display: none;
 }
 
+.buttonShowMore :global(.vtex-button__label){
+  font-size: 0;
+}
+
+.buttonShowMore :global(.vtex-button__label)::after{
+  font-size: 21px;
+  font-weight: 600;
+  content: "Mostrar más productos";
+  text-transform: initial;
+}
+
+.buttonShowMore :global(.vtex-button){
+  border-radius: 0;
+}
+
 @media screen and (max-width: 800px) {
   .orderByDropdown .filterPopupTitle{
     background-color: transparent;

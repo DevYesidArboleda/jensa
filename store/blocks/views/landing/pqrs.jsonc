@@ -86,6 +86,7 @@
       "children": [
         "rich-text#clientepqrs",
         "form-input.text#name",        
+        "form-input.dropdown#documentTypeTrabajo",
         "form-input.text#documento",
         "form-input.text#phone",        
         "form-input.text#fijo",
@@ -100,6 +101,8 @@
     "flex-layout.col#pqrsIzq-2": {
       "children": [
         "rich-text#casopqrs",
+        "form-input.dropdown#documentTypeRadicado",
+        "form-input.dropdown#documentTypeMotivo",
         "form-input.text#factura",
         "form-input.textarea#comments"
       ],
@@ -188,6 +191,39 @@
         "props": {
           "text": "**Datos del caso**",
           "blockClass": "pqrsT"
+        }
+      },
+      "form-input.dropdown#documentTypeTrabajo": {
+        "props": {
+          "pointer": "#/properties/Tipo",
+          "placeholder": "Tipo de documento",
+          "label": "Tipo de documento:",
+          "blockClass": [
+            "CampoFormulario",
+            "CampoFormularioLista"
+          ]
+        }
+      },
+      "form-input.dropdown#documentTypeRadicado": {
+        "props": {
+          "pointer": "#/properties/radicado",
+          "placeholder": "Tipo de radicado",
+          "label": "Tipo de radicado",
+          "blockClass": [
+            "CampoFormulario",
+            "CampoFormularioLista"
+          ]
+        }
+      },
+      "form-input.dropdown#documentTypeMotivo": {
+        "props": {
+          "pointer": "#/properties/motivo",
+          "placeholder": "Motivo",
+          "label": "Motivo",
+          "blockClass": [
+            "CampoFormulario",
+            "CampoFormularioLista"
+          ]
         }
       }
   }

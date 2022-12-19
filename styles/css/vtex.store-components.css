@@ -142,6 +142,10 @@
     padding: 5px 0;
 }
 
+.imageElement--logo-footer-medios-pago-col2{
+    margin-left: -8px;
+}
+
 @media screen and (max-width: 500px) {
     .productBrand {
         color: #5B5B5F;

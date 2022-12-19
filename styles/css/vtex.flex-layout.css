@@ -162,6 +162,7 @@
 
 .flexRow--row-two-header {
     background-color: #20211D;
+    height: 35px;
 }
 
 .flexRowContent--Footer-subText,
@@ -338,6 +339,9 @@
   .flexRowContent--row-two-header{
     max-width: 1200px;
     margin: 0 auto;
+    height: 35px;
+    display: flex;
+    align-items: center;
   }
 
   .flexRow--tienda-terminos-legales{
@@ -394,6 +398,7 @@
     gap: 20px;
 }
 
+.flexColChild--textospqrs :global(.vtex-dropdown__label),
 .flexColChild--textospqrs :global(.vtex-textarea__label),
 .flexColChild--textospqrs :global(.vtex-input__label){
     display: none;
@@ -411,6 +416,7 @@
 }
 
 .flexColChild--textospqrs :global(.vtex-textarea__input),
+.flexColChild--textospqrs :global(.vtex-styleguide-9-x-container),
 .flexColChild--textospqrs :global(.vtex-input-prefix__group){
     border-color: #CA6231;
     border-radius: 0;
@@ -469,6 +475,27 @@
     gap: 10px;
     justify-content: space-between;
 }
+
+.flexCol--image2{
+    margin-right: 5px;
+}
+
+.flexRowContent--menu-header-items{
+    justify-content: space-around;
+    height: 35px;
+}
+
+.flexRowContent--notification .stretchChildrenWidth:first-child :global(.vtex-rich-text-0-x-container--notification){
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.flexRowContent--notification .stretchChildrenWidth:last-child :global(.vtex-rich-text-0-x-container--notification){
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+
 
 
 @media screen and (max-width: 800px) {
@@ -614,6 +641,10 @@
 
     .flexRowContent--mainContenedorP :global(.vtex-checkbox__inner-container){
         border-color: #CA6231;
+    }
+
+    .flexRow--product-breadcrumb :global(.vtex-store-components-3-x-container){
+        padding: 0;
     }
 }
 

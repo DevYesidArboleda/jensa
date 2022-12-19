@@ -1,6 +1,6 @@
 .minicartQuantityBadge{
     background-color: #fff;
-    color: grey;
+    color: #CA6231;
     position: absolute;
     font-size: 10px;
     padding: 0;
@@ -33,6 +33,7 @@
 
 .opened  .drawerContent {
     background-color: #F6F6F7;
+    height: 100%;
 }
 
 .minicartSummary{
@@ -80,7 +81,7 @@
 .minicartTitle {
     background-color: #000;
     margin-top: 0;
-    height: 142px;
+    height: 284px;
     display: flex;
 }
 
@@ -100,6 +101,10 @@
     overflow-x: hidden;
 } 
 
+.drawerContent .childrenContainer {
+   height: 100%;
+} 
+
 .minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer){
     display: none;
 }
@@ -109,7 +114,7 @@
 }
 
 .drawer {
-    max-height: 550px;
+    max-height: 700px;
 }
 
 .minicartSideBarContentWrapper {

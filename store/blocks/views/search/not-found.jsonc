@@ -13,7 +13,7 @@
           "preventVerticalStretch": true,
           "blockClass": "notfound",
           "fullWidth": true,
-          "paddingTop": 4,
+          "paddingTop": 8,
           "paddingBottom": 4
         }
     },

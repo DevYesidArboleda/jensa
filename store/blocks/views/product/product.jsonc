@@ -34,6 +34,11 @@
     },
     "children": ["breadcrumb"]
   },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 2,
@@ -86,6 +91,7 @@
   },
   "product-images#pdp": {
     "props": {
+      "showBadge": true,
       "blockClass": "imageProductPDP",
       "aspectRatio": {
         "desktop": "auto",

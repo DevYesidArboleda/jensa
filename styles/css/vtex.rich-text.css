@@ -52,10 +52,14 @@
   .container--linkCategoria{
     background-color: #CA6231;
     padding: 0 20px;
+    height: 35px;
+    align-items: center;
   }
 
   .container--linkDepartamentos2{
     padding: 0 20px;
+    height: 35px;
+    align-items: center;
   }
 
   .link--linkCategoria2,
@@ -129,6 +133,17 @@
 
 .container--pqrsT{
   background-color: #ECEDEF;
+  justify-content: center;
+  height: 37px;
+}
+
+.strong--pqrsT,
+.paragraph--pqrsT,
+.wrapper--pqrsT{
+  height: 37px;
+  margin: 0;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -364,6 +379,10 @@
 
 .paragraph--tenemos{
   color: #000;
+}
+
+.container--TextoSliderHome2{
+  padding-left: 10px;
 }
 
 @media screen and (max-width: 800px) {

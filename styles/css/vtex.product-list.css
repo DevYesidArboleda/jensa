@@ -62,3 +62,12 @@
 .productImageContainer{
     height: 100%;
 }
+
+.productImage{
+    border: 1px solid #BBBBBC;
+    border-radius: 0;
+}
+
+.quantitySelectorContainer .quantityDropdownContainer {
+    max-width: 65px;
+}
