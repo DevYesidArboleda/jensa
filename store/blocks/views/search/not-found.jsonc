@@ -20,9 +20,8 @@
     },
     "image#notfound": {
         "props": {
-          "src": "/arquivos/notFound.png",
+          "src": "assets/img/notFoundNew.svg",
           "alt": "no encontrado",
-          "height": "98px",
           "width": "549px",
           "blockClass": "notfound"          
         }

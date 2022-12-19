@@ -85,11 +85,14 @@
 .sliderLayoutContainer--shelf-relacionados-slider{
     padding-left: 0 !important;
     padding-right: 0 !important;
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 .slideChildrenContainer--shelf-relacionados-slider :global(.vtex-add-to-cart-button-0-x-buttonText--AgragarVitrina){
     font-size: 11px;
 }
+
 
 @media screen and (max-width: 800px) {
     .infoCardContainer--accesories{
