@@ -24,7 +24,8 @@
       "flex-layout.row#description",
       "flex-layout.row#busquedaAvanzadaFlotante-mobile",
       "flex-layout.row#product",
-      "flex-layout.row#pdpRecomendation"
+      "flex-layout.row#NombreVitrinaRecomendados",
+      "list-context.product-list#shelf-relacionados"
     ]
   },
   "flex-layout.row#product-breadcrumb": {

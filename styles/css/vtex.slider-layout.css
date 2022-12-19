@@ -87,6 +87,10 @@
     padding-right: 0 !important;
 }
 
+.slideChildrenContainer--shelf-relacionados-slider :global(.vtex-add-to-cart-button-0-x-buttonText--AgragarVitrina){
+    font-size: 11px;
+}
+
 @media screen and (max-width: 800px) {
     .infoCardContainer--accesories{
         display: flex;
