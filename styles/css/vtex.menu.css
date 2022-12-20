@@ -385,6 +385,10 @@
     color: transparent;
 }
 
+.styledLinkContainer--CategoriaHeaderMobileItem{
+    border-bottom: 1px solid #444242;
+}
+
 @media screen and (max-width:800px) {
     .submenu--MenuDesplegable-Opcion{
         justify-content: center;
@@ -393,6 +397,14 @@
 
     .submenuAccordion--AcordionCategoriaHeader{
         justify-content: center;
+    }
+
+    .submenuWrapper--MenuDesplegable-Opcion-mobile{
+        width: 92%;
+        margin: 0 20px;
+        margin-top: 12px;
+        padding: 0;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 }
 

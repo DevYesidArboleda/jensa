@@ -416,6 +416,11 @@
 
   .paragraph--notification{
     font-size: 8px;
+    white-space: pre;
+  }
+
+  .container--notification{
+    padding-left: 22px;
   }
 
   .container--titleShelfHome{

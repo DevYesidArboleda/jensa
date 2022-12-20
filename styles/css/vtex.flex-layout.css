@@ -646,6 +646,10 @@
     .flexRow--product-breadcrumb :global(.vtex-store-components-3-x-container){
         padding: 0;
     }
+
+    .flexRowContent--Footer-Xtrategik-CTMobile-row2{
+        gap: 5px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -680,5 +684,10 @@
     .flexRowContent--notfound .stretchChildrenWidth   {
         width: 100% !important;
         padding: 0 20px;
+    }
+
+    .flexRow--menu-header-items-mobile,
+    .flexRowContent--menu-header-items-mobile{
+        height: 45px;
     }
 }
