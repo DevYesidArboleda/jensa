@@ -22,5 +22,39 @@
             }
         },
         "blocks": ["vtex.menu@2.x:submenu#MenuDespl-brands"]
+    },
+    "vtex.menu@2.x:menu#MenuDespl-productos-mobile": {
+        "children": ["menu-item#MenuDespl-productos-mobile"],
+        "props": {
+            "blockClass": "MenuDesplegable"
+        }
+    },
+    "menu-item#MenuDespl-productos-mobile": {
+        "props": {
+            "id": "menu-item-section-1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "MenuDesplegable-Opcion",
+            "fullWidth": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "PRODUCTOS",
+                "text": "PRODUCTOS"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#MenuDespl-brands-mobile"]
+    },
+    "vtex.menu@2.x:submenu#MenuDespl-brands-mobile": {
+        "children": [
+            "flex-layout.row#LinksHeaderMobile"
+        ],
+        "props": {
+            "blockClass": "MenuDesplegable-Opcion-mobile",
+            "fullWidth": false,
+            "width": "100%"
+        }
     }
 }

@@ -1,0 +1,1130 @@
+{
+    "flex-layout.row#LinksHeaderMobile": {
+      "props": {
+        "paddingTop": 4,
+        "paddingBottom": 4,
+        "blockClass": "LinksHeaderMobile"
+      },
+      "children": ["vtex.menu@2.x:menu#LinksHeaderMobile"]
+    },
+  
+    "vtex.menu@2.x:menu#LinksHeaderMobile": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "LinksHeaderMobile"
+      },
+      "children": [
+        "menu-item#LinkHeaderMobile-Jardineria",
+        "menu-item#LinkHeaderMobile-iluminacion",
+        "menu-item#LinkHeaderMobile-Electricos",      
+        "menu-item#LinkHeaderMobile-Seguridad",
+        "menu-item#LinkHeaderMobile-automotriz",
+        "menu-item#LinkHeaderMobile-herramientas",
+        "menu-item#LinkHeaderMobile-equipos",
+        "menu-item#LinkHeaderMobile-almacenadores"
+      ]
+    },
+  
+    "menu-item#LinkHeaderMobile-Jardineria": {
+      "props": {
+        "blockClass": ["CategoriaHeaderMobileItem", "jardineriaMobile"],
+        "id": "menu-item-mobile-dermocosmetica",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "JARDINERÍA",
+          "text": "JARDINERÍA"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-JardineriaDetalle"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-JardineriaDetalle": {
+      "children": ["vtex.menu@2.x:menu#LinkHeaderMobile-JardineriaDetalle"],
+      "props": {
+        "blockClass": "AcordionCategoriaHeader"
+      }
+    },
+    "vtex.menu@2.x:menu#LinkHeaderMobile-JardineriaDetalle": {
+      "props": {
+        "blockClass": "itemHeader",
+        "orientation": "vertical",
+        "items": [
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Guadañadoras",
+                "text": "Guadañadoras"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Tijeras",
+                "text": "Tijeras"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Pistolas de Riego",
+                "text": "Pistolas de Riego"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Aspersores",
+                "text": "Aspersores"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Mangueras",
+                "text": "Mangueras"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Escobas",
+                "text": "Escobas"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Palas palitas y tenedores ",
+                "text": "Palas palitas y tenedores "
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Repuestos",
+                "text": "Repuestos"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "VER TODO",
+                "text": "VER TODO"
+              }
+            }
+        ]
+      }
+    },
+  
+  
+    "menu-item#LinkHeaderMobile-Electricos": {
+      "props": {
+        "blockClass": ["CategoriaHeaderMobileItem", "electricos"],
+        "id": "menu-item-mobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "ELÉCTRICOS",
+          "text": "ELÉCTRICOS"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-ElectricosDetalle"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-ElectricosDetalle": {
+      "children": ["vtex.menu@2.x:menu#LinkHeaderMobile-ElectricosDetalle"],
+      "props": {
+        "blockClass": "AcordionCategoriaHeader"
+      }
+    },
+    "vtex.menu@2.x:menu#LinkHeaderMobile-ElectricosDetalle": {
+      "props": {
+        "blockClass": "itemHeader",
+        "orientation": "vertical",
+        "items": [
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Tomas y multitomas",
+                "text": "Tomas y multitomas"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Cables coaxiales",
+                "text": "Cables coaxiales"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Conectores",
+                "text": "Conectores"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Convertidores e invertidores ",
+                "text": "Convertidores e invertidores "
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Interruptores",
+                "text": "Interruptores"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Probadoress",
+                "text": "Probadoress"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Clavijas ",
+                "text": "Clavijas "
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Extensiones",
+                "text": "Extensiones"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Audio y TV",
+                "text": "Audio y TV"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cargadores",
+                "text": "Cargadores"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "VER TODO",
+                "text": "VER TODO"
+              }
+            }
+        ]
+      }
+    },
+  
+    "menu-item#LinkHeaderMobile-iluminacion": {
+      "props": {
+        "blockClass": ["CategoriaHeaderMobileItem", "iluminacion"],
+        "id": "menu-item-mobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "ILUMINACIÓN",
+          "text": "ILUMINACIÓN"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-iluminacionDetalle"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-iluminacionDetalle": {
+      "children": ["vtex.menu@2.x:menu#LinkHeaderMobile-iluminacionDetalle"],
+      "props": {
+        "blockClass": "AcordionCategoriaHeader"
+      }
+    },
+    "vtex.menu@2.x:menu#LinkHeaderMobile-iluminacionDetalle": {
+      "props": {
+        "blockClass": "itemHeader",
+        "orientation": "vertical",
+        "items": [
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lámparas Y Linternas ",
+                "text": "Lámparas Y Linternas "
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Bombillos",
+                "text": "Bombillos"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ahorradores",
+                "text": "Ahorradores"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "VER TODO",
+                "text": "VER TODO"
+              }
+            }
+        ]
+      }
+    },
+  
+    "menu-item#LinkHeaderMobile-Seguridad": {
+      "props": {
+        "blockClass": ["CategoriaHeaderMobileItem", "seguridad"],
+        "id": "menu-item-mobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "SEGURIDAD",
+          "text": "SEGURIDAD"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-SeguridadDetalle"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-SeguridadDetalle": {
+      "children": ["vtex.menu@2.x:menu#LinkHeaderMobile-SeguridadDetalle"],
+      "props": {
+        "blockClass": "AcordionCategoriaHeader"
+      }
+    },
+    "vtex.menu@2.x:menu#LinkHeaderMobile-SeguridadDetalle": {
+      "props": {
+        "blockClass": "itemHeader",
+        "orientation": "vertical",
+        "items": [
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Juegos De Chazos",
+                "text": "Juegos De Chazos"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Tornillos y tuercas",
+                "text": "Tornillos y tuercas"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Clavos",
+                "text": "Clavos"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Chazos",
+                "text": "Chazos"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Chapas",
+                "text": "Chapas"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Bisagras",
+                "text": "Bisagras"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Ganchos ",
+                "text": "Ganchos "
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Garruchas",
+                "text": "Garruchas"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cierres Y Cerraduras ",
+                "text": "Cierres Y Cerraduras "
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Candados",
+                "text": "Candados"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Modelos Llaves",
+                "text": "Modelos Llaves"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Mirillas",
+                "text": "Mirillas "
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cadenas",
+                "text": "Cadenas"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "VER TODO",
+                "text": "VER TODO"
+              }
+            }
+        ]
+      }
+    },
+
+    "menu-item#LinkHeaderMobile-automotriz": {
+        "props": {
+          "blockClass": ["CategoriaHeaderMobileItem", "automotriz"],
+          "id": "menu-item-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "AUTOMOTRIZ",
+            "text": "AUTOMOTRIZ"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-automotrizDetalle"
+        ]
+      },
+      "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-automotrizDetalle": {
+        "children": ["vtex.menu@2.x:menu#LinkHeaderMobile-automotrizDetalle"],
+        "props": {
+          "blockClass": "AcordionCategoriaHeader"
+        }
+      },
+      "vtex.menu@2.x:menu#LinkHeaderMobile-automotrizDetalle": {
+        "props": {
+          "blockClass": "itemHeader",
+          "orientation": "vertical",
+          "items": [
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Aspiradoras",
+                "text": "Aspiradoras"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Compresores",
+                "text": "Compresores"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Infladores",
+                "text": "Infladores"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Crucetas",
+                "text": "Crucetas"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Pulpo",
+                "text": "Pulpo"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Medidores de aire",
+                "text": "Medidores de aire"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Tapetes ",
+                "text": "Tapetes "
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Microfibras",
+                "text": "Microfibras"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Kits Y Singulares ",
+                "text": "Kits Y Singulares "
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Juegos para latonería",
+                "text": "Juegos para latonería"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Forros Timón",
+                "text": "Forros Timón"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "VER TODO",
+                "text": "VER TODO"
+              }
+            }
+          ]
+        }
+      },
+
+      "menu-item#LinkHeaderMobile-herramientas": {
+        "props": {
+          "blockClass": ["CategoriaHeaderMobileItem", "herramientas"],
+          "id": "menu-item-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "HERRAMIENTAS ",
+            "text": "HERRAMIENTAS "
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-herramientasDetalle"
+        ]
+      },
+      "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-herramientasDetalle": {
+        "children": ["vtex.menu@2.x:menu#LinkHeaderMobile-herramientasDetalle"],
+        "props": {
+          "blockClass": "AcordionCategoriaHeader"
+        }
+      },
+      "vtex.menu@2.x:menu#LinkHeaderMobile-herramientasDetalle": {
+        "props": {
+          "blockClass": "itemHeader",
+          "orientation": "vertical",
+          "items": [
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Abrasivas",
+                "text": "Abrasivas"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "De corte",
+                "text": "De corte"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Eléctricas",
+                "text": "Eléctricas"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Manuales",
+                "text": "Manuales"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "VER TODO",
+                "text": "VER TODO"
+              }
+            }
+          ]
+        }
+      },
+
+      "menu-item#LinkHeaderMobile-equipos": {
+        "props": {
+          "blockClass": ["CategoriaHeaderMobileItem", "equipos"],
+          "id": "menu-item-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "EQUIPOS ",
+            "text": "EQUIPOS "
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-equiposDetalle"
+        ]
+      },
+      "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-equiposDetalle": {
+        "children": ["vtex.menu@2.x:menu#LinkHeaderMobile-equiposDetalle"],
+        "props": {
+          "blockClass": "AcordionCategoriaHeader"
+        }
+      },
+      "vtex.menu@2.x:menu#LinkHeaderMobile-equiposDetalle": {
+        "props": {
+          "blockClass": "itemHeader",
+          "orientation": "vertical",
+          "items": [
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sierras",
+                "text": "Sierras"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Lijadoras",
+                "text": "Lijadoras"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Mototool",
+                "text": "Mototool"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Pulidoras ",
+                "text": "Pulidoras"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Polichadoras y accesorios",
+                "text": "Polichadoras y accesorios"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Esmeriles",
+                "text": "Esmeriles"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Hidrolavadoras ",
+                "text": "Hidrolavadoras "
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ruteadoras",
+                "text": "Ruteadoras"
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Soldadores y accesorios ",
+                "text": "Soldadores y accesorios "
+              }
+            },
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Pistolas soldadoras para silicona ",
+                "text": "Pistolas soldadoras para silicona "
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "VER TODO",
+                "text": "VER TODO"
+              }
+            }
+          ]
+        }
+      },
+
+      "menu-item#LinkHeaderMobile-almacenadores": {
+        "props": {
+          "blockClass": ["CategoriaHeaderMobileItem", "almacenadores"],
+          "id": "menu-item-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "ALMACENADORES ",
+            "text": "ALMACENADORES "
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-almacenadoresDetalle"
+        ]
+      },
+      "vtex.menu@2.x:submenu.accordion#LinkHeaderMobile-almacenadoresDetalle": {
+        "children": ["vtex.menu@2.x:menu#LinkHeaderMobile-herramientasDetalle"],
+        "props": {
+          "blockClass": "AcordionCategoriaHeader"
+        }
+      },
+      "vtex.menu@2.x:menu#LinkHeaderMobile-almacenadoresDetalle": {
+        "props": {
+          "blockClass": "itemHeader",
+          "orientation": "vertical",
+          "items": [
+            {
+              "id": "menu-item-shop",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cajas y organizadores",
+                "text": "Cajas y organizadores"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Muebles",
+                "text": "Muebles"
+              }
+            },
+            {
+              "id": "menu-item-about-us",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "VER TODO",
+                "text": "VER TODO"
+              }
+            }
+          ]
+        }
+      }
+  
+  }
+  

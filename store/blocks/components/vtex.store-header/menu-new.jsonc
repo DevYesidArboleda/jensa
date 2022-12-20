@@ -22,5 +22,29 @@
             }
         },
         "blocks": ["vtex.menu@2.x:submenu#MenuDespl-brands"]
+    },
+    "vtex.menu@2.x:menu#MenuDespl-new-mobile": {
+        "children": ["menu-item#MenuDespl-new-mobile"],
+        "props": {
+            "blockClass": "MenuDesplegable"
+        }
+    },
+    "menu-item#MenuDespl-new-mobile": {
+        "props": {
+            "id": "menu-item-section-1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "MenuDesplegable-Opcion",
+            "fullWidth": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "NUEVO",
+                "text": "NUEVO"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#MenuDespl-brands-mobile"]
     }
 }

@@ -264,6 +264,138 @@
     padding-left: 0;
 }
 
+.styledLinkContent--CategoriaHeaderMobileItem{
+    align-items: center;
+}
+
+.styledLinkContent--jardineriaMobile::before{
+        content: url("assets/img/catMobile1.svg");
+        width: 41px;
+        height: 41px;
+        margin-right: 10px;
+        background-position: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;      
+}
+
+.styledLinkContent--iluminacion::before{
+    content: url("assets/img/catMobile2.svg");
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;      
+}
+
+.styledLinkContent--electricos::before{
+    content: url("assets/img/catMobile3.svg");
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;      
+}
+
+.styledLinkContent--seguridad::before{
+    content: url("assets/img/catMobile4.svg");
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;      
+}
+
+.styledLinkContent--automotriz::before{
+    content: url("assets/img/catMobile5.svg");
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;      
+}
+
+.styledLinkContent--herramientas::before{
+    content: url("assets/img/catMobile6.svg");
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;      
+}
+
+
+.styledLinkContent--equipos::before{
+    content: url("assets/img/catMobile7.svg");
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;      
+}
+
+.styledLinkContent--almacenadores::before{
+    content: url("assets/img/catMobile8.svg");
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;      
+}
+
+.accordionIcon--CategoriaHeaderMobileItem--isClosed{
+    background: url(assets/icons/DownSearch.svg);
+    width: 14px;
+    height: 15px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+    transform: rotate(360deg);
+    color: transparent;
+}
+
+.accordionIcon--CategoriaHeaderMobileItem--isOpen{
+    background: url(assets/icons/DownSearch.svg);
+    width: 14px;
+    height: 15px;
+    content: "";
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+    transform: rotate(180deg);
+    color: transparent;
+}
+
+@media screen and (max-width:800px) {
+    .submenu--MenuDesplegable-Opcion{
+        justify-content: center;
+        padding: 0;
+    }
+
+    .submenuAccordion--AcordionCategoriaHeader{
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width:400px) {
     :global(.vtex-flex-layout-0-x-flexRow--menu-header-items-mobile) .styledLinkContainer--MenuDesplegable-Opcion{
         margin-left: 8px;

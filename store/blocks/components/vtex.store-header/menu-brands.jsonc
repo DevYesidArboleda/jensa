@@ -23,6 +23,30 @@
         },
         "blocks": ["vtex.menu@2.x:submenu#MenuDespl-brands"]
     },
+    "vtex.menu@2.x:menu#MenuDespl-brands-mobile": {
+      "children": ["menu-item#MenuDespl-brands-mobile"],
+      "props": {
+          "blockClass": "MenuDesplegable"
+      }
+  },
+  "menu-item#MenuDespl-brands-mobile": {
+      "props": {
+          "id": "menu-item-section-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "MenuDesplegable-Opcion",
+          "fullWidth": false,
+          "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": false,
+              "tagTitle": "TODAS LAS MARCAS",
+              "text": "TODAS LAS MARCAS"
+          }
+      },
+      "blocks": ["vtex.menu@2.x:submenu#MenuDespl-brands-mobile"]
+  },
     "vtex.menu@2.x:submenu#MenuDespl-brands": {
         "children": [
             "flex-layout.col#desktop-brands-col"
