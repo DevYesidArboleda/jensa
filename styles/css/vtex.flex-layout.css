@@ -495,6 +495,10 @@
     padding-right: 20px;
 }
 
+.flexRowContent--subHeaderMobile{
+    display: flex;
+}
+
 
 
 
@@ -689,5 +693,15 @@
     .flexRow--menu-header-items-mobile,
     .flexRowContent--menu-header-items-mobile{
         height: 45px;
+    }
+
+    .flexRow--LinksHeaderMobile{
+        display: flex;
+        width: 80%;
+    }    
+
+    .flexColChild--orders :global(.vtex-menu-2-x-styledLinkContent)::before,
+    .flexColChild--wishlist :global(.vtex-menu-2-x-styledLinkContent)::before {
+        margin-right: 0;
     }
 }

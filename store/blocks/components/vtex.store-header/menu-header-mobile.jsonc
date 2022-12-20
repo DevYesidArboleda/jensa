@@ -5,8 +5,44 @@
         "paddingBottom": 4,
         "blockClass": "LinksHeaderMobile"
       },
-      "children": ["vtex.menu@2.x:menu#LinksHeaderMobile"]
+      "children": ["flex-layout.col#LinksHeaderMobile"]
     },
+
+    "flex-layout.col#LinksHeaderMobile": {
+      "props": {
+        "paddingTop": 4,
+        "paddingBottom": 4,
+        "blockClass": "LinksHeaderMobile"
+      },
+      "children": ["vtex.menu@2.x:menu#LinksHeaderMobile", "flex-layout.row#subHeaderMobile", "flex-layout.row#backHeaderMobile"]
+    },
+
+    "flex-layout.row#subHeaderMobile": {
+      "props": {
+        "paddingTop": 6,
+        "paddingBottom": 6,
+        "blockClass": "subHeaderMobile"
+      },
+      "children": ["flex-layout.col#wishlist-menu", "flex-layout.col#order-menu"]
+    },
+
+    "flex-layout.row#backHeaderMobile": {
+      "props": {
+        "paddingTop": 0,
+        "paddingBottom": 6,
+        "blockClass": "backHeaderMobile"
+      },
+      "children": ["rich-text#backheadermobile"]
+    },
+
+    "rich-text#backheadermobile": {
+      "props": {
+        "text": "[REGRESAR](/)",
+        "blockClass": "backheadermobile",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      }
+    },    
   
     "vtex.menu@2.x:menu#LinksHeaderMobile": {
       "props": {

@@ -402,10 +402,24 @@
     .submenuWrapper--MenuDesplegable-Opcion-mobile{
         width: 92%;
         margin: 0 20px;
-        margin-top: 12px;
+        margin-top: 10px;
         padding: 0;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--orders) .styledLinkContent,
+    :global(.vtex-flex-layout-0-x-flexCol--wishlist) .styledLinkContent{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+    }
+
+    .flexRowContent--subHeaderMobile{
+        display: flex;
+    }
+
 }
 
 @media screen and (max-width:400px) {
