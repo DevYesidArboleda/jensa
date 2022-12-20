@@ -1,12 +1,12 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart) .buttonText--AgragarVitrina,
-.buttonDataContainer--AgragarVitrina .buttonText--AgragarVitrina{
+.buttonDataContainer--AgragarVitrina .buttonText--AgragarVitrina {
     color: #fff;
     font-size: 13.66px;
     text-transform: initial;
     font-weight: 600;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--buy-button) :global(.vtex-button){
+:global(.vtex-flex-layout-0-x-flexRowContent--buy-button) :global(.vtex-button) {
     color: #fff;
     font-size: 21px;
     text-transform: initial;
@@ -14,4 +14,22 @@
     border: 0;
     border-radius: 0;
     white-space: pre;
+}
+
+@media screen and (max-width: 500px) {
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart) .buttonText--AgragarVitrina,
+    .buttonDataContainer--AgragarVitrina .buttonText--AgragarVitrina {
+        font-size: 12px;
+        white-space: pre;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart) .buttonText--AgragarVitrina,
+    .buttonDataContainer--AgragarVitrina .buttonText--AgragarVitrina {
+        font-size: 10px;
+        white-space: normal;
+    }
 }
