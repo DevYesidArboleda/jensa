@@ -37,5 +37,17 @@
 
     :global(.vtex-flex-layout-0-x-flexRowContent--list-price-savings) .sellingPrice .sellingPriceValue .currencyContainer{        
         font-size: 34px;
+    }    
+}
+
+@media screen and (max-width: 400px) {
+    .sellingPriceValue--VPPrecioVenta,
+    .sellingPriceValue--VPPrecioVenta .currencyContainer--VPPrecioVenta{
+        font-size: 13px;
+    }
+
+    .listPriceValue--VPPrecioLista,
+    .listPriceValue--VPPrecioLista .currencyContainer--VPPrecioLista{
+        font-size: 10px;
     }
 }

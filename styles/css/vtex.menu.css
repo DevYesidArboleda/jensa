@@ -405,6 +405,8 @@
         margin-top: 10px;
         padding: 0;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        max-height: 600px;
+        overflow: auto;
     }
 
     :global(.vtex-flex-layout-0-x-flexColChild--orders) .styledLinkContent,
@@ -415,11 +417,7 @@
         display: flex;
         gap: 10px;
     }
-
-    .flexRowContent--subHeaderMobile{
-        display: flex;
-    }
-
+   
 }
 
 @media screen and (max-width:400px) {
