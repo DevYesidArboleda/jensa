@@ -150,7 +150,29 @@
 @media screen and (max-width: 500px) {
     .productBrand {
         color: #5B5B5F;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 600;
+    }
+
+    .productImagesGallerySwiperContainer--product-image .swiper-pagination{
+        margin-bottom: -12px;
+    }
+
+    .productImagesGallerySwiperContainer--product-image .swiperBullet{
+        background-color: transparent;
+        border-radius: 0;
+        border: 2px solid #C1C2C8;
+    }
+
+    .productImagesGallerySwiperContainer--product-image .swiperBullet--active{
+        background-color: #C1C2C8;
+        border-radius: 0;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    .logoImage{
+        width: 69px;
     }
 }

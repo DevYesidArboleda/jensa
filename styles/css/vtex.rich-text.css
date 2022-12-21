@@ -431,6 +431,14 @@
     justify-content: center;
   }
 
+  .paragraph--TextoSliderHome2:first-child{
+    text-align: start;
+  }
+
+  .strong--TextoSliderHome2{
+    font-size: 21px !important;
+  }
+
   .paragraph--TextoSuscribeteMobile{
     color: #E2261E;
     text-transform: uppercase;

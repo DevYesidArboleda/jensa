@@ -289,6 +289,7 @@
 
   .flexRowContent--Top-contacto-colOne{
     display: flex;
+    padding-left: 20px;
   }
 
   .flexColChild--error-one :global(.vtex-store-components-3-x-imageElement--notfound){
@@ -499,7 +500,9 @@
     display: flex;
 }
 
-
+.flexRowContent--buy-button{
+    gap: 10px;
+}
 
 
 @media screen and (max-width: 800px) {
@@ -703,5 +706,19 @@
     .flexColChild--orders :global(.vtex-menu-2-x-styledLinkContent)::before,
     .flexColChild--wishlist :global(.vtex-menu-2-x-styledLinkContent)::before {
         margin-right: 0;
+    }
+
+    .flexCol--product{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .flexRowContent--Slider-and-Text2{
+        padding-right: 14px;
+    }
+
+    .flexColChild--mainContentMobile:nth-child(4n+2){
+        width: 100%;
     }
 }

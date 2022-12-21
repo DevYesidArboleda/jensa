@@ -26,7 +26,8 @@
           "preventVerticalStretch": true,
           "preserveLayoutOnMobile": true,
           "width": "50%",
-          "rowGap": 0
+          "rowGap": 0,
+          "blockClass": "product"
         }
       },
       "stack-layout#pdp-mobile": {
@@ -39,26 +40,38 @@
         ]
       },
       "flex-layout.row#product-image-mobile": {
-        "children": ["product-images#pdp"]
+        "children": ["product-images#pdp-mobile"]
       },
       "product-images#pdp-mobile": {
         "props": {
-          "blockClass": "imageProductPDP",
+          "blockClass": "product-image",
           "aspectRatio": {
-            "desktop": "auto",
-            "phone": "16:9"
+              "desktop": "auto",
+              "phone": "auto"
           },
+          "maxHeight": 500,
+          "zoomMode": "open-modal",
+          "ModalZoom": "modal-layout#product-zoom",
+          "zoomFactor": 2,
+          "displayThumbnailsArrows": false,
           "showNavigationArrows": false,
           "showPaginationDots":true,
-          "displayThumbnailsArrows": false,
-          "thumbnailVisibility": "visible",
-          "thumbnailsOrientation": "vertical",
-          "zoomMode": "in-place-hover",
-          "maxHeight":"400px",
-          "position": "right",
-          "zoomFactor": 2
+          "arrowSize": 1,
+          "thumbnailAspectRatio": "auto",
+          "thumbnailsOrientation": "vertical"
         }
       },
+      "modal-layout#product-zoom": {
+        "children": [
+            "product-images.high-quality-image"
+        ]
+    },
+    "product-images.high-quality-image": {
+        "props": {
+            "zoomMode": "in-place-click",
+            "zoomFactor": 2
+        }
+    },
       "flex-layout.col#right-col-mobile": {
         "props": {
           "blockClass": "info-pdp-mobile",
