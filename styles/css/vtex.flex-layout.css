@@ -504,6 +504,10 @@
     gap: 10px;
 }
 
+.flexCol--productSpecifitation{
+    border: 1px solid #CA6231;
+}
+
 
 @media screen and (max-width: 800px) {
     .flexRowContent--Slider-and-Text{

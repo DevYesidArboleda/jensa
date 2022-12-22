@@ -389,6 +389,18 @@
   color: #CA6231;
 }
 
+.container--titleSpecification{
+  display: flex;
+  justify-content: center;
+  background-color: #CA6231;
+}
+
+.paragraph--titleSpecification{
+  font-size: 19px;
+  color: #fff;
+  margin: 10px 0;
+}
+
 @media screen and (max-width: 800px) {
   .headingLevel1--subContact ,
   .paragraph--subContact{

@@ -63,8 +63,7 @@
 
 .specificationsTableRow {
     display: flex;
-    flex-direction: column;
-    border: 1px solid #CA6231;
+    flex-direction: row;
 }
 
 .specificationsTitle,
@@ -73,13 +72,20 @@
 }
 
 .specificationsTableRow .specificationItemProperty {
-    width: 100%;
-    background-color: #CA6231;
+    width: 250px;
+    background-color: transparent;
     align-items: center;
-    color: #fff;
+    color: #000;
     font-size: 19px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    padding: 0;
+}
+
+.specificationsTableContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
 .specificationsTableRow .specificationItemSpecifications {

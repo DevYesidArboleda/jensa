@@ -376,7 +376,18 @@
   },
   "flex-layout.row#product": {
     "children": [
-    "product-specifications#product"
+      "flex-layout.col#product"
+    ],
+    "props": {
+      "blockClass": "productSpecifitation",
+      "paddingTop": 4,
+      "fulwidth": false
+    }
+  },
+  "flex-layout.col#product": {
+    "children": [
+      "rich-text#titleSpecification",
+      "product-specifications#product"
     ],
     "props": {
       "blockClass": "productSpecifitation",
@@ -386,7 +397,14 @@
   "product-specifications#product": {
     "props": {
       "shoudCollapseOnTabChange": true,
-      "collapsible": "desktopOnly"
+      "collapsible": "never"
+    }
+  },
+  "rich-text#titleSpecification": {
+    "props": {
+      "text": "Información General",
+      "textColor": "c-auto",
+      "blockClass": "titleSpecification"
     }
   }
 }
